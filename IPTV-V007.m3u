@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Alif IPTV [BD]" tvg-logo="https://i.imgur.com/V35jOaW.png" group-title="Bangladesh",Alif IPTV [BD]
 http://128.199.212.160/alif/1080/index.m3u8?@amarnettv.live
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="AmrBD-BDIX", Anando TV 
-http://stream.amrbd.com:8082/anandotv/tracks-v1a1/mono.m3u8
+http://10.16.100.213:8080/hls/ananda.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="AmrBD-BDIX", ATN Bangla 
 http://stream.amrbd.com:8082/ATN-Bangla/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN Islamic" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/02/atnislamictv.jpg?x91288" group-title="Bangladesh",ATN Islamic
@@ -20,15 +20,13 @@ http://iptvbd.jagobd.com:1931/boishakhi/boishakhitv-org.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bangla TV" tvg-logo="http://www.jagobd.com/wp-content/uploads/2017/05/banglatvhd-1.jpg?x91288" group-title="Bangladesh",Bangla TV
 https://rhridoy136.shortcm.li/banglatv.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Banglavision" tvg-logo="" group-title="Bangladesh",Banglavision
-http://103.205.133.19/hls/banglavision.m3u8
+http://10.16.100.203:8082/bangla/banglaviSion_local.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bijoy TV" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/02/bijoytv.jpg" group-title="Bangladesh",Bijoy TV
 https://rhridoy136.shortcm.li/bijoytv.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 23 IPTV [BD]" tvg-logo="https://i.imgur.com/CU8yXc7.png" group-title="Bangladesh",Channel 23 IPTV [BD]
 http://103.108.140.164:1009/channel23/livestream/chunklist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 9" tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/10/ch9-150x150.jpg?x91288" group-title="Bangladesh",Channel 9
 https://rhridoy136.shortcm.li/channel9.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/fj8nxOw.png" group-title="Ebox-BDIX (সবার চলবে না)", Channel 9
-http://tv2.ebox.live:8080/live/channel9.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CHANNEL 24" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/02/channel24.jpg?x91288" group-title="Bangladesh",CHANNEL 24
 https://rhridoy136.shortcm.li/channel24.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MmhxR5E.png" group-title="Bangladeshi", Channel 24

@@ -60,9 +60,7 @@ http://103.205.133.48/hls/ekushey.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Ekattor TV" tvg-logo="https://s4.gifyu.com/images/imagea02f4314e761661d.png" group-title="Bangladesh",Ekattor TV
 http://stream.amrbd.com:8082/Ekattor-tv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Gaan Bangla" tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/12/gaanbangla.jpg?x91288" group-title="Bangladesh",Gaan Bangla
-https://rhridoy136.shortcm.li/gaanbangla.m3u8
-#EXTINF:-1 ,Gaan Bangla
-http://103.205.133.19/hls/gaanbangla.m3u8
+http://103.205.133.40/hls/gaanbangla.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Gazi TV" tvg-logo="" group-title="Bangladesh",Gazi TV
 https://www.youtube.com/watch?v=LKIRye8W5oE
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Independent" tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/10/inds.png?x91288" group-title="Bangladesh",Independent

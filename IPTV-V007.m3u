@@ -9,32 +9,26 @@ https://rhridoy136.shortcm.li/atnislamic.m3u8
 https://rhridoy136.shortcm.li/atnmusic.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN News" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/08/atn-news.jpg?x91288" group-title="Bangladesh",ATN News
 https://rhridoy136.shortcm.li/atnnews.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Ayna TV" tvg-logo="https://i.ytimg.com/vi/I7FEy13Menc/maxresdefault.jpg" group-title="Bangladesh",Ayna TV
-http://str24.l9574.com/510.stream/tracks-v1a1/index.m3u8
-#EXTINF:-1 ,Asian TV
+#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Asian TV" tvg-logo="https://en.wikipedia.org/wiki/File:Asian_TV_Logo.svg" group-title="Bangladesh",Asian TV
 http://10.16.100.203:8082/bangla/tv_AsiaN.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BOISHAKHI TV HD" tvg-logo="https://i.imgur.com/KXsOj3L.png" group-title="Bangladesh",BOISHAKHI TV HD
 http://iptvbd.jagobd.com:1931/boishakhi/boishakhitv-org.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bangla TV" tvg-logo="http://www.jagobd.com/wp-content/uploads/2017/05/banglatvhd-1.jpg?x91288" group-title="Bangladesh",Bangla TV
 https://rhridoy136.shortcm.li/banglatv.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Banglavision" tvg-logo="" group-title="Bangladesh",Banglavision
-https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/banglav000.stream/chunks.m3u8
+http://10.16.100.203:8082/bangla/banglaviSion_local.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bijoy TV" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/02/bijoytv.jpg" group-title="Bangladesh",Bijoy TV
 https://rhridoy136.shortcm.li/bijoytv.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 23 IPTV [BD]" tvg-logo="https://i.imgur.com/CU8yXc7.png" group-title="Bangladesh",Channel 23 IPTV [BD]
-http://103.108.140.164:1009/channel23/livestream/chunklist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CHANNEL 24" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/02/channel24.jpg?x91288" group-title="Bangladesh",CHANNEL 24
-https://rhridoy136.shortcm.li/channel24.m3u8
+http://10.16.100.205:8082/bangla/Chanel24_local_bD.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 9" tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/10/ch9-150x150.jpg?x91288" group-title="Bangladesh",Channel 9
 https://rhridoy136.shortcm.li/channel9.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel I" tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/10/chi-150x150.jpg?x91288" group-title="Bangladesh",Channel I
 https://rhridoy136.shortcm.li/channeli.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel T1 IPTV [BD]" tvg-logo="https://i.imgur.com/dyoXd9c.png" group-title="Bangladesh",Channel T1 IPTV [BD]
-http://128.199.212.160/channelt1/1080/index.m3u8?@amarnettv.live
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="DBC News" tvg-logo="http://www.jagobd.com/wp-content/uploads/2017/01/dbc-news.jpg?x91288" group-title="Bangladesh",DBC News
-https://rhridoy136.shortcm.li/dbcnews.m3u8
+http://10.16.100.203:8082/bangla/DbcNews_riptv_21.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Desh TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/81/Desh_tv.png" group-title="Bangladesh",Desh TV
-http://103.205.133.40/hls/deshtv.m3u8
+http://10.16.100.205:8082/bangla/dESh_tv_local_BD.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Deshi IPTV [BD]" tvg-logo="https://lh3.googleusercontent.com/proxy/6KsBwmAHtmufM3Yd7voJ7vq-5H_mgdWLcP4BGSnznamzn55wreYqbvCPD7dySpWqr7d-au-L2kuZEgTHm225Ovr58Eh7X892i5jFhUl-xpIPPsVaY96yHy9s" group-title="Bangladesh",Deshi IPTV [BD]
 http://72.139.72.18:1935/live/myStream/chunklist_w1702774192.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Deepto TV" tvg-logo="" group-title="Bangladesh",Deepto TV

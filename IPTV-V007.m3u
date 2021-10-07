@@ -38,13 +38,9 @@ http://103.205.133.40/hls/deshtv.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Deshi IPTV [BD]" tvg-logo="https://lh3.googleusercontent.com/proxy/6KsBwmAHtmufM3Yd7voJ7vq-5H_mgdWLcP4BGSnznamzn55wreYqbvCPD7dySpWqr7d-au-L2kuZEgTHm225Ovr58Eh7X892i5jFhUl-xpIPPsVaY96yHy9s" group-title="Bangladesh",Deshi IPTV [BD]
 http://72.139.72.18:1935/live/myStream/chunklist_w1702774192.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Deepto TV" tvg-logo="" group-title="Bangladesh",Deepto TV
-http://103.205.133.19/hls/deeptotv.m3u8
+http://103.205.133.40/hls/deeptotv.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Duronto Tv" tvg-logo="" group-title="Bangladesh",Duronto Tv
-http://103.205.133.19/hls/durontotv.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Duronto TV" tvg-logo="https://vignette.wikia.nocookie.net/international-entertainment-project/images/0/0a/Duronto.jpg/revision/latest?cb=20190624161303" group-title="Kids",Duronto TV
-http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XICSFeg.png" group-title="Ridoy-BDIX (সবার চলবে না)", Duronto TV
-https://rhridoy136.shortcm.li/durontotv.m3u8
+http://89.187.185.89:3232/ban-duronto/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="EKUSHEY TV HD" tvg-logo="https://i.imgur.com/T38Oiwl.jpg" group-title="Bangladesh",EKUSHEY TV HD
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kFqOMtx.png" group-title="Bangladeshi", Ekusey TV

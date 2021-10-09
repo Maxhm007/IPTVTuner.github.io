@@ -200,7 +200,7 @@ http://tv2.ebox.live:8080/live/star-gold.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AMhvwJB.png" group-title="Hindi", Star Plus HD
 http://tv2.ebox.live:8080/live/star-plus.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HmgQJGS.png" group-title="Hindi", UTV Action
-http://84.17.41.7:80/UTVACTION-Hin/tracks-v1a1/mono.m3u8
+http://rv.flysat.live:80/307211765061/307211765061/83632
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AnkD43r.png" group-title="Hindi Movies", UTV Movies
 https://feed.play.mv/live/1009/h8ICfEsHxv/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RjiBQP2.png" group-title="Hindi", Zee Action
@@ -213,9 +213,10 @@ http://210.210.155.35/session/c2dff430-f786-11ea-8442-ae06b0bdb327/qwr9ew/s/s32/
 http://f8e7y4c6.ssl.hwcdn.net/classic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ldXaLJK.png" group-title="Hindi", Zee Cinema HD
 https://f8e7y4c6.ssl.hwcdn.net/zeecinemame/index.m3u8
-
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Zee Cinema UK" tvg-logo="https://akamaividz.zee5.com/resources/0-9-zeecinema/list/386x386/09zeecinemazeecinema.png" group-title="HINDI",Zee Cinema UK
-https://y5w8j4a9.ssl.hwcdn.net/cinemauk/index.m3u8
+https://f8e7y4c6.ssl.hwcdn.net/cinemauk/index.m3u8
+#EXTINF:-1 tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/2017/12/Zee-CINEMA.png" group-title="Hindi",Zee Cinema (US)
+https://f8e7y4c6.ssl.hwcdn.net/cinemausa/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Zing" tvg-logo="https://i.imgur.com/F4dP6OP.png" group-title="HINDI",Zing
 https://y5w8j4a9.ssl.hwcdn.net/zing/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi", Zee TV HD

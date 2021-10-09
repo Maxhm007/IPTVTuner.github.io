@@ -218,13 +218,11 @@ https://f8e7y4c6.ssl.hwcdn.net/cinemauk/index.m3u8
 #EXTINF:-1 tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/2017/12/Zee-CINEMA.png" group-title="Hindi",Zee Cinema (US)
 https://f8e7y4c6.ssl.hwcdn.net/cinemausa/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Zing" tvg-logo="https://i.imgur.com/F4dP6OP.png" group-title="HINDI",Zing
-https://y5w8j4a9.ssl.hwcdn.net/zing/tracks-v1a1/playlist.m3u8
+https://f8e7y4c6.ssl.hwcdn.net/zing/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi", Zee TV HD
-https://y5w8j4a9.ssl.hwcdn.net/ztvme//tracks-v1a1/playlist.m3u8
+http://221.120.204.4/zee-tv-LOCKLE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="WoW CINEMA" tvg-logo="https://image3.mouthshut.com/images/imagesp/925755500s.jpg" group-title="HINDI",WoW CINEMA
 https://m-c036-j2apps.s.llnwi.net/hls/2940.WOWCinemaOne.in.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/wRc0YAb.png" group-title="Music", Zoom
-http://103.81.104.118/hls/stream8.m3u8
 
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AlFajer MOVIE" tvg-logo="https://i.imgur.com/tW4xfS7.png" group-title="English",AlFajer MOVIE

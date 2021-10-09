@@ -268,54 +268,25 @@ http://tv2.ebox.live:8080/live/star-movies.m3u8
 
 
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ANIMAL PLANET HD [ENGLISH]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/220px-2018_Animal_Planet_logo.svg.png" group-title="Infotainment",ANIMAL PLANET HD [ENGLISH]
-https://livecdn.fptplay.net/qnetlive/animalplanet_hls.smil/chunklist_b2500000.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="English", Animal Planet HD
-https://livecdn.fptplay.net/qnetlive/animalplanet_hls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="English", Animal Planet HD (3)
 http://tv2.ebox.live:8080/live/animale-planet.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="English", Animal Planet HD Hindi
-http://nwbz1u.ecm.tm/806B6CF/89181e/SM_FHD-HINDI-ANIMALPLANET/tracks-v1a1/index.m3u8?token=0558356b27398f74c6bf8c38e901782c5ad3f413434f76feba4126576823fdf44b34911850a0dc345c440cee76ee92138c664006a29d4792957a13ce9f386d0f81e4bad707c643dffddbb332a702f41eb8a4177934010da02cd85807927addfbee3fb015fe7846c156d439bd0f9899a593&mac=00:1A:79:4B:57:A3&ip=27.96.95.31&magic_server=MAIN_MP
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="English", Animal Planet HD Hindi (2)
 https://idvd.multitvsolution.com/idvo/aphdhindi_540p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/220px-Asian_Food_Network.svg.png" group-title="Infotainment",AFC
-https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
+https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Lifestyle HD" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_bbc-lifestyle_148379742953.jpg" group-title="Infotainment",BBC Lifestyle HD
-https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
+https://m3u-editor.com/serve/1f5c2f00-c50a-11eb-a9cf-49fb7da8769f/324745765
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/BBC_Earth_logo.png/200px-BBC_Earth_logo.png" group-title="Infotainment",BBC Earth
-https://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-logo="ext" group-title="*SUMON TV",BBC Earth
-http://84.17.41.7:80/SONYEARTH/HD/HIN/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="ext" group-title="Documentory/শিক্ষামূলক",BBC Earth 
-https://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/T1vgYzE.png" group-title="English", BBC Earth
-https://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/T1vgYzE.png" group-title="English", BBC Earth (2)
-http://103.81.104.118/hls/stream5.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="English", Discovery HD
-http://172.32.1.88:1935/tvprogram/DISCOVERY/playlist.m3u8
+http://vips-livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="English", Discovery HD Hindi
 https://idvd.multitvsolution.com/idvo/discoveryhindi_540p/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="English", Discovery HD Bangla
 http://103.81.104.118/hls/stream9.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="English", Discovery Asia
 https://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Da Vinci HD" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_da-vinci-learning_149759147347.png" group-title="Infotainment",Da Vinci HD
-https://livecdn.fptplay.net/world/davincihd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovry ASIA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/de/Discovery_asia.jpg" group-title="Infotainment",Discovry ASIA HD
-https://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery HD [ENGLISH]" tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Infotainment",Discovery HD [ENGLISH]
-https://streamitv.multitvsolution.in/idvo/discoveryhd.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery [HINDI]" tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Infotainment",Discovery [HINDI]
-https://streamitv.multitvsolution.in/idvo/discoveryhindi.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery HD" tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Infotainment",Discovery HD
-https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery SD HINDI" tvg-logo="https://s6.gifyu.com/images/imagecd8ecb4abf754cde.png" group-title="Infotainment",Discovery SD HINDI
-https://streamitv.multitvsolution.in/idvo/discoveryhindi.m3u8?@IPTVSolution
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery HD ENGLISH" tvg-logo="https://i.imgur.com/ESeGnT2.jpg" group-title="Infotainment",Discovery HD ENGLISH
-https://streamitv.multitvsolution.in/idvo/discoveryhd.m3u8?@IPTVSolution
 #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
-http://streamitv.multitvsolution.in/idvo/discoversciencehindi_360p/index.m3u8
+https://livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-logo="ext" group-title="Documentory/শিক্ষামূলক",Discovery Scince (হিন্দী)★
 https://itvorigin.multitvsolution.com/idvo/discoversciencehindi.m3u8
 

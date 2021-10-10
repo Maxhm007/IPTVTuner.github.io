@@ -265,6 +265,7 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/384.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 
 
+
 #EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="KIDS CHANNELS",Cartoon Network
 http://tv.univisionlive.net:25461/live/rifat89/22216989/382.m3u8
 #EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="KIDS CHANNELS",Nicktoons
@@ -273,6 +274,14 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/388.m3u8
 #EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="KIDS CHANNELS",Disney Jr
 http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
+#EXTINF:-1 tvg-id="disneyxd.us" tvg-name="Disney XD HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="KIDS CHANNELS",Disney XD HD
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1018.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Abbtakk News" tvg-logo="https://play-lh.googleusercontent.com/ss634dTdIuad84l5-xLBlN74yBY87ZHqSWFUogeq_mugo-tnxeWsZ_SXlJdjHYI6j1BE" group-title="PAKISTANI CHANNELS",Abbtakk News
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1019.m3u8
+#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr HD" tvg-logo="" group-title="KIDS CHANNELS",Disney Jr HD
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1028.m3u8
+#EXTINF:-1 tvg-id="nickjr.us" tvg-name="NICK Jr" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/nick_jr_br.jpg" group-title="KIDS CHANNELS",NICK Jr
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1055.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
 https://streamitv.multitvsolution.in/idvo/discoverykidshindi.m3u8

@@ -111,6 +111,8 @@ http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=20
 https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="B4U Plus" tvg-logo="https://b4utv.com/b4uadmin/uploads/news/0_18190800_1531139203.jpg" group-title="HINDI",B4U Plus
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1020.m3u8
+#EXTINF:-1 tvg-id="B4UKadak(src07).in(m3u4u)" tvg-name="B4U Kadak" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/a/ab/B4U_Kadak.jpeg/revision/latest/scale-to-width-down/340?cb=20200320100818" group-title="Movies",B4U Kadak
+http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bflix Movies" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/bflix-movies-logo-300x300.jpg" group-title="HINDI",Bflix Movies
 https://m-c036-j2apps.s.llnwi.net/hls/5045.BFlixMovies.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BOX CINEMA" tvg-logo="https://i.imgur.com/S3lVg3i.jpg?1" group-title="HINDI",BOX CINEMA
@@ -214,7 +216,7 @@ https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Lifestyle HD" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_bbc-lifestyle_148379742953.jpg" group-title="Infotainment",BBC Lifestyle HD
 https://m3u-editor.com/serve/1f5c2f00-c50a-11eb-a9cf-49fb7da8769f/324745765
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/BBC_Earth_logo.png/200px-BBC_Earth_logo.png" group-title="Infotainment",BBC Earth
-http://vips-livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/714.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="English", Discovery HD Hindi
 https://idvd.multitvsolution.com/idvo/discoveryhindi_540p/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="English", Discovery HD Bangla
@@ -222,71 +224,39 @@ http://103.81.104.118/hls/stream9.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="English", Discovery Asia
 https://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
-https://livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-logo="ext" group-title="Documentory/শিক্ষামূলক",Discovery Scince (হিন্দী)★
-https://itvorigin.multitvsolution.com/idvo/discoversciencehindi.m3u8
-
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2455.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Discovery Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Discovery_Turbo.png/200px-Discovery_Turbo.png" group-title="Infotainment",Discovery Turbo
-http://streamitv.multitvsolution.in/idvo/turboeng_540p/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Discovery_Turbo_logo.svg/1280px-Discovery_Turbo_logo.svg.png" group-title="Infotainment",Discovery Turbo
-https://streamitv.multitvsolution.in/idvo/turboeng.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Anik", Discovery turbo
 https://cutt.ly/BnFGGtp
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Docurama" tvg-logo="https://i.imgur.com/wfJJvAO.jpg" group-title="Infotainment",Docurama
 https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-docuramaA/CDN/master.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Fashion TV" tvg-logo="https://i.imgur.com/yvNu4Rm.png" group-title="Infotainment",Fashion TV
 https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Fox Life HD" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_fox-life_152238683897.png" group-title="Infotainment",Fox Life HD
-https://livecdn.fptplay.net/foxlive/foxlifehd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="HD Fashion & LifeStyle" tvg-logo="https://i.imgur.com/5p7CKwi.png" group-title="Infotainment",HD Fashion & LifeStyle
 http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8
 #EXTINF:-1 tvg-logo="ext" group-title="Documentory/শিক্ষামূলক",History Tv HD
-https://www.livedoomovies.com/02_HISTORYHD_720p/chunklist.m3u8?Live-TV™
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2440.m3u8
 #EXTINF:-1 tvg-logo="ext" group-title="Documentory/শিক্ষামূলক",FOOD 52
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-food52/CDN/1280x720_5000000/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Love Nature 4K" tvg-logo="https://cdn6.aptoide.com/imgs/5/1/7/51713cb38f60e82562a65727ce7d5493_icon.png" group-title="Infotainment",Love Nature 4K
 https://bamus-eng-roku.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="NASA TV" tvg-logo="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" group-title="Infotainment",NASA TV
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uQ4iijb.png" group-title="English", NASA TV
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/m7Cl2M9.png" group-title="English", National Geographic HD 
-http://84.17.41.7/Nat_Geo_Hin/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m7Cl2M9.png" group-title="English", National Geographic HD Bangla
-http://103.81.104.118/hls/stream13.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MCyL9wX.png" group-title="English", National Geographic Wild Hindi
-http://84.17.41.7:80/NATGEOWILD/INDI/HIN/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="NHKworld(src01).jp(m3u4u)" tvg-name="NHK World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/250px-NHK_World.svg.png" group-title="Infotainment",NHK World
-https://b-nhkwlive-xjp.akamaized.net/hls/live/2003458-b/nhkwlive-xjp/index_600k.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/393.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-language="Japanese" tvg-logo="https://i.imgur.com/SQISXoD.jpg" group-title="News",NHK World Japan 
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Outdoor Channel HD" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_outdoor-channel_149759145138.png" group-title="Infotainment",Outdoor Channel HD
-https://livecdn.fptplay.net/world/outdoorfhd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/DiHUL9p.png" group-title="English", Outdoor HD
-https://livecdn.fptplay.net/world/outdoorfhd_hls.smil/chunklist_b450000.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Popular Science" tvg-logo="" group-title="Infotainment",Popular Science
-https://a.jsrdn.com/broadcast/447912f76b/+0000/high/c.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="RT Documentary" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/RTD-TV-logo.png/220px-RTD-TV-logo.png" group-title="Infotainment",RT Documentary
-http://rt-doc.secure.footprint.net/1101_2500Kb.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="RT Documentary" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/RTD-TV-logo.png/220px-RTD-TV-logo.png" group-title="Infotainment",RT Documentary
-http://rt-doc.secure.footprint.net:80/1101_2500Kb.m3u8?@amarnettv.live
-#EXTINF:-1 tvg-logo="ext" group-title="Documentory/শিক্ষামূলক",RT Documentary
-https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/rtdocumentary.stream/chunks.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2468.m3u8
+#EXTINF:-1 tvg-logo="ext" group-title="Documentory",RT Documentary
+https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TLC HD" tvg-logo="http://i.imgur.com/TInMfsC.png" group-title="Infotainment",TLC HD
-https://livecdn.fptplay.net/qnetlive/travelliving_hls.smil/chunklist_b2500000.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/384.m3u8
 #EXTINF:-1 tvg-id="TravelXP(src07).in(m3u4u)" tvg-name="Travel XP" tvg-logo="https://image3.mouthshut.com/images/imagesp/925753531s.png" group-title="Infotainment",Travel XP
-http://iptv.kitv.live:1935/live/Shari/MTV-P/23.m3u8
-#EXTINF:-1 tvg-logo="ext" group-title="Documentory/শিক্ষামূলক",Love Nature
-http://bamus-eng-roku.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="ext" group-title="Documentory/শিক্ষামূলক",FOX Life
-https://livecdn.fptplay.net/foxlive/foxlifehd_hls.smil/chunklist.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 
 
 
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="ABZY Movies" tvg-logo="" group-title="Movies",ABZY Movies
-https://m-c01-j2apps.s.llnwi.net/hls/5290.SkystarMovies.in.m3u8
-#EXTINF:-1 tvg-id="B4UKadak(src07).in(m3u4u)" tvg-name="B4U Kadak" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/a/ab/B4U_Kadak.jpeg/revision/latest/scale-to-width-down/340?cb=20200320100818" group-title="Movies",B4U Kadak
-http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
+
 #EXTINF:-1 tvg-id="BoxCinema(src07).in(m3u4u)" tvg-name="Box Cinema" tvg-logo="http://boxcinemedia.com/assets/img/logo.png" group-title="Movies",Box Cinema
 https://m-c01-j2apps.s.llnwi.net/hls/6523.BOXCinema.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="BflixMovies(src07).in(m3u4u)" tvg-name="Bflix Movies" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Bflix_Movies.png" group-title="Movies",Bflix Movies

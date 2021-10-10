@@ -110,7 +110,7 @@ http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=20
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9x Jalwa" tvg-logo="https://i.imgur.com/E4NcxwB.jpg" group-title="HINDI",9x Jalwa
 https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="B4U Plus" tvg-logo="https://b4utv.com/b4uadmin/uploads/news/0_18190800_1531139203.jpg" group-title="HINDI",B4U Plus
-http://14.199.164.20:4001/play/a0wi/index.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1020.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bflix Movies" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/bflix-movies-logo-300x300.jpg" group-title="HINDI",Bflix Movies
 https://m-c036-j2apps.s.llnwi.net/hls/5045.BFlixMovies.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BOX CINEMA" tvg-logo="https://i.imgur.com/S3lVg3i.jpg?1" group-title="HINDI",BOX CINEMA
@@ -128,21 +128,25 @@ https://m-c036-j2apps.s.llnwi.net/hls/2172.ManoranjanMovies.in.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MH1 Prime" tvg-logo="" group-title="HINDI",MH1 Prime
 http://rtmp.smartstream.video:1935/mhonenews/mhonenews/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi", Sony Entertainment HD
-http://tv2.ebox.live:8080/live/sonyhd.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1139.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony SAB FHD" tvg-logo="https://d36mpatsggudpt.cloudfront.net/images/logo-new.png" group-title="HINDI",Sony SAB FHD
 http://5stariptv.ddns.net/SONY-SAB-LOCKLE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="Hindi", Sony Max HD 
 http://221.120.204.4/SONY-MAX-LOCKLE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="sonymaxhd.in" tvg-name="Sony Max 2" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Max_2.png" group-title="HINDI CHANNELS",Sony Max 2
+http://tv.univisionlive.net:25461/live/rifat89/22216989/705.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vGq343l.png" group-title="Hindi", Star Gold HD
 http://tv2.ebox.live:8080/live/star-gold.m3u8
+#EXTINF:-1 tvg-id="stargoldselecthd.in" tvg-name="Star Gold Select 4K" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Gold_Select_HD.png" group-title="HINDI CHANNELS",Star Gold Select 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/706.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AMhvwJB.png" group-title="Hindi", Star Plus HD
-http://tv2.ebox.live:8080/live/star-plus.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1144.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HmgQJGS.png" group-title="Hindi", UTV Action
-http://rv.flysat.live:80/307211765061/307211765061/83632
+http://tv.univisionlive.net:25461/live/rifat89/22216989/588.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AnkD43r.png" group-title="Hindi Movies", UTV Movies
 https://feed.play.mv/live/1009/h8ICfEsHxv/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RjiBQP2.png" group-title="Hindi", Zee Action
-http://93.190.139.35:8278/streams/d/Zeeaction/playlist.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/584.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/iGg6i93.png" group-title="Hindi", Zee Anmol Cinema
 https://f8e7y4c6.ssl.hwcdn.net/zanmolcnm/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ZEE BIOSKOP" tvg-logo="" group-title="HINDI",ZEE BIOSKOP

@@ -401,85 +401,29 @@ https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/hi/c.m3u8
 
 
 
+#EXTINF:-1 tvg-id="sonysix.in" tvg-name="Sony Six " tvg-logo="https://image.winudf.com/v2/image/Y29tLm1tZ3RlY2h2aW5lLmxpdmVzb255c2l4dHZfc2NyZWVuXzBfMTUyOTQyNDE0Nl8wMzk/screen-0.jpg?fakeurl=1&type=.jpg" group-title="SPORTS CHANNELS",Sony Six 
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2641.m3u8
+#EXTINF:-1 tvg-id="sonysix.in" tvg-name="Sony Six HD" tvg-logo="https://image.winudf.com/v2/image/Y29tLm1tZ3RlY2h2aW5lLmxpdmVzb255c2l4dHZfc2NyZWVuXzBfMTUyOTQyNDE0Nl8wMzk/screen-0.jpg?fakeurl=1&type=.jpg" group-title="SPORTS CHANNELS",Sony Six HD
+http://tv.univisionlive.net:25461/live/rifat89/22216989/614.m3u8
+#EXTINF:-1 tvg-id="sonyten1hd.in" tvg-name="Sony Ten 1 4K" tvg-logo="" group-title="SPORTS CHANNELS",Sony Ten 1 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2651.m3u8
+#EXTINF:-1 tvg-id="sonyten2hd.in" tvg-name="Sony Ten 2 4K" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/35/Sony_Ten_2_HD.jpg" group-title="SPORTS CHANNELS",Sony Ten 2 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2434.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sony Ten 3 4K" tvg-logo="https://i.pinimg.com/236x/82/ac/a4/82aca43f83fc8ac14304ac2520c63bd4.jpg" group-title="SPORTS CHANNELS",Sony Ten 3 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2836.m3u8
+#EXTINF:-1 tvg-id="starsports1.in" tvg-name="Star Sports 1 4K" tvg-logo="https://bit.ly/3i0bJdQ" group-title="SPORTS CHANNELS",Star Sports 1 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/668.m3u8
+#EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="Star Sports 2 4K" tvg-logo="https://kccl.tv/sites/default/files/star%20sports%202%20hd.png" group-title="SPORTS CHANNELS",Star Sports 2 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/650.m3u8
+#EXTINF:-1 tvg-id="starsportsselect1hd.in" tvg-name="Star Sports Select 1 4K" tvg-logo="https://tv.bdtype.com/uploads/tv_image/star-sports-select-1.jpg" group-title="SPORTS CHANNELS",Star Sports Select 1 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/651.m3u8
+#EXTINF:-1 tvg-id="starsportsselecthd2.in" tvg-name="Star Sports Select 2 4K" tvg-logo="https://watchindia.net/images/channels/Star_Sports_Select_2_HD.png" group-title="SPORTS CHANNELS",Star Sports Select 2 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/719.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ten Sports " tvg-logo="https://watchindia.net/images/channels/Ten_Sports.png" group-title="SPORTS CHANNELS",Ten Sports 
+http://tv.univisionlive.net:25461/live/rifat89/22216989/720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PTV Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png" group-title="SPORTS CHANNELS",PTV Sports
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1162.m3u8
 
-
-
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="ESPN U" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ESPN_U_logo.svg/100px-ESPN_U_logo.svg.png" group-title="Others",ESPN U
-https://gma2.blab.email/espnu.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MH1 One" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/b/bf/MH_One.jpg/revision/latest/scale-to-width-down/220?cb=20180625063419" group-title="Others",MH1 One
-http://rtmp.smartstream.video:1935/mhonemusic/mhonemusic/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="AR TV Network" tvg-logo="https://www.dropbox.com/s/d2lmkcs762rq6yx/AR%20TV%20Network.png?raw=1" group-title="Others",AR TV Network
-https://m6gdakveln93-hls-live.5centscdn.com/ARTVN/d0dbe915091d400bd8ee7f27f0791303.sdp/ARTVN/d0dbe915091d400bd8ee7f27f0791303.sdp1/chunks.m3u8
-
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BritCom" tvg-logo="https://i.imgur.com/Gr1vLJm.jpg" group-title="WORLD",BritCom
-https://dai.google.com/linear/hls/event/IdHTuehZQPClis-gJaZkFQ/master.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CBBC" tvg-logo="https://i.imgur.com/XNGvRJ6.jpg" group-title="WORLD",CBBC
-http://bozztv.com/36bay2/gin/giniko_bbcthree_900kb_36bay2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="itv" tvg-logo="https://i.imgur.com/zIjiEQa.png" group-title="WORLD",itv
-http://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master_Main1800.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="itv2" tvg-logo="https://i.imgur.com/zIjiEQa.png" group-title="WORLD",itv2
-http://51.52.156.22:8888/http/005
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="itv3" tvg-logo="https://i.imgur.com/zIjiEQa.png" group-title="WORLD",itv3
-http://51.52.156.22:8888/http/006
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="itv4" tvg-logo="https://i.imgur.com/zIjiEQa.png" group-title="WORLD",itv4
-http://51.52.156.22:8888/http/007
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TV Series" tvg-logo="https://seeklogo.com/images/Y/youtube-tv-shows-logo-16EB8B9C93-seeklogo.com.png" group-title="WORLD",TV Series
-http://203.154.243.89:1423
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Ary Family" tvg-logo="https://i.imgur.com/BWbFQMS.jpg" group-title="WORLD",Ary Family
-http://95.211.211.168/live/aryfamily0071/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AVT KHYBER" tvg-logo="https://i.imgur.com/uh8HAPY.jpg" group-title="WORLD",AVT KHYBER
-https://dcunilive38-lh.akamaihd.net/i/dclive_1@692670/index_150_av-p.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Khyber TV" tvg-logo="https://i.imgur.com/mqFWpXX.png" group-title="WORLD",Khyber TV
-https://dcunilive83-lh.akamaihd.net/i/dclive_1@16122/index_150_av-p.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="RED HBO HD" tvg-logo="https://www.doomovie-hd.com/assets/img/ch_logo/hd-screenred.jpg" group-title="WORLD",RED HBO HD
-https://liveorigin01.hbogoasia.com:8443/origin/live/main/RED/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="KIX HD" tvg-logo="http://www.kix-tv.com/assets/favicon.ico" group-title="WORLD",KIX HD
-https://livecdn.fptplay.net/hda/kixhd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Cookie Asia" tvg-logo="https://www.cookie-tv.com/wp-content/uploads/cookie-tv.png" group-title="WORLD",Cookie Asia
-https://d2p9n7qazh0vue.cloudfront.net/lt/ngrp:c2c4c9be-de30-4059-a430-dac9ed238eac_service/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Cookie Rerun" tvg-logo="https://www.cookie-tv.com/wp-content/uploads/cookie-tv.png" group-title="WORLD",Cookie Rerun
-https://d2p9n7qazh0vue.cloudfront.net/lt/ngrp:4984fdb7-86ac-4214-8572-98a4d63aa369_service/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TV5 Monde" tvg-logo="https://static.epg.best/in/TV5MondeAsie.in.png" group-title="WORLD",TV5 Monde
-https://tv5asieen-i.akamaihd.net/hls/live/631617/tv5asieen/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BFM" tvg-logo="http://static.epg.best/fr/BFMTV.fr.png" group-title="WORLD",BFM
-https://bcovlive-a.akamaihd.net/fb3647b53c1a4c278eaecf83230ee4c5/eu-central-1/876450610001/profile_0/chunklist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Das Erste" tvg-logo="http://www.daserste.de/mediasrc/img/tv/ard/ard-daserste-logo.png" group-title="WORLD",Das Erste
-https://mcdn.daserste.de/daserste/int/master.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Tagesschau 24" tvg-logo="http://static.epg.best/de/Tagesschau24.de.png" group-title="WORLD",Tagesschau 24
-http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Rete 4" tvg-logo="https://static.epg.best/it/ReteQuattro.it.png" group-title="WORLD",Rete 4
-https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(R4)/index.m3u8
-#EXTINF:-1 tvg-id="FRB.IT" tvg-name="Frisbee" tvg-logo="https://static.epg.best/it/Frisbee.it.png" group-title="WORLD",Frisbee
-https://sbshdlu5-lh.akamaihd.net/i/sbshdl_4@810998/master.m3u8
-#EXTINF:-1 tvg-id="RS1.RU" tvg-name="Russia 1" tvg-logo="https://static.epg.best/ru/Russia1.ru.png" group-title="WORLD",Russia 1
-http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
-#EXTINF:-1 tvg-id="R24.RU" tvg-name="Russia 24" tvg-logo="http://fanat.tv/images/tv/rossiya-24.png" group-title="WORLD",Russia 24
-http://a3569458063-s26881.cdn.ngenix.net/hls/russia_24/playlist_2.m3u8
-#EXTINF:-1 tvg-id="AN1.GR" tvg-name="ANT 1" tvg-logo="http://www.worldtvpc.com/onlinevideosites/img/ant1.jpg" group-title="WORLD",ANT 1
-https://antennalivesp-lh.akamaihd.net/i/live_1@715138/index_1500_av-p.m3u8
-#EXTINF:-1 tvg-id="24H.ES" tvg-name="24 Horas" tvg-logo="https://static.epg.best/es/24Horas.es.png" group-title="WORLD",24 Horas
-http://hlsliveamdgl8-lh.akamaihd.net/i/hlsdvrlive_1@583030/index_1500_av-b.m3u8
-#EXTINF:-1 tvg-id="TEL.AR" tvg-name="Telefe Rosario" tvg-logo="https://telefe-static2.akamaized.net/media/143174/logo-rosario-368x80.png" group-title="WORLD",Telefe Rosario
-http://telefewhitehls-lh.akamaihd.net/i/whitelist_hls@302302/master.m3u8
-#EXTINF:-1 tvg-id="CV9.DO" tvg-name="Color Visi├│n" tvg-logo="https://colorvision.com.do/wp-content/uploads/2018/10/LOGO-HD-full.png" group-title="WORLD",Color Visi├│n
-https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/COV9.m3u8
-#EXTINF:-1 tvg-id="LA1.ES" tvg-name="LA 1" tvg-logo="https://static.epg.best/es/LA1.es.png" group-title="WORLD",LA 1
-http://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/index_2800_av-b.m3u8
-#EXTINF:-1 tvg-id="LA2.ES" tvg-name="LA 2" tvg-logo="https://static.epg.best/es/LA2.es.png" group-title="WORLD",LA 2
-https://hlsliveamdgl0-lh.akamaihd.net/i/hlsdvrlive_1@60531/master.m3u8
-#EXTINF:-1 tvg-id="RPC.PY" tvg-name="Trece" tvg-logo="http://www.trece.com.py/public/img/Logo-Trece.png" group-title="WORLD",Trece
-http://174.138.118.252/live/trece.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3ibgIMV.png" group-title="Sports", Star Sports 1 HD
-http://103.81.104.118/hls/stream15.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3ibgIMV.png" group-title="Sports", Star Sports 1 HD Hindi
-http://tv2.ebox.live:8080/live/starsports-1.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TL2jAU6.png" group-title="Sports", Star Sports Select 1 HD
-http://103.81.104.118/hls/stream16.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TL2jAU6.png" group-title="Sports", Star Sports Select 1 HD (2)
-http://tv2.ebox.live:8080/live/starsportsselect-1.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TL2jAU6.png" group-title="Sports", Star Sports Select 2 HD
-http://tv2.ebox.live:8080/live/starsportsselect-2.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UEvEaOK.png" group-title="Sports", Super Sports 1
 http://93.157.62.180/Supersport1/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qE3DDKX.png" group-title="Sports", Super Sports 2

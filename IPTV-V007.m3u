@@ -104,11 +104,11 @@ https://f8e7y4c6.ssl.hwcdn.net/zbanglacnm/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="& Picture" tvg-logo="https://akamaividz.zee5.com/resources/0-9-pictures/list/386x386/09picturespictures.png" group-title="HINDI",& Picture
-https://y5w8j4a9.ssl.hwcdn.net/andpicssd/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9x Jalwa" tvg-logo="https://i.imgur.com/E4NcxwB.jpg" group-title="HINDI",9x Jalwa
-https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in_480p/index.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/701.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9XM" tvg-logo="https://s4.gifyu.com/images/image86b5f8b135364512.png" group-title="HINDI",9XM
 http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=208000-video=877600.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9x Jalwa" tvg-logo="https://i.imgur.com/E4NcxwB.jpg" group-title="HINDI",9x Jalwa
+https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="B4U Plus" tvg-logo="https://b4utv.com/b4uadmin/uploads/news/0_18190800_1531139203.jpg" group-title="HINDI",B4U Plus
 http://14.199.164.20:4001/play/a0wi/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bflix Movies" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/bflix-movies-logo-300x300.jpg" group-title="HINDI",Bflix Movies

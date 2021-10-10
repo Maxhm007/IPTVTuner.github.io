@@ -265,6 +265,15 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/384.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 
 
+#EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="KIDS CHANNELS",Cartoon Network
+http://tv.univisionlive.net:25461/live/rifat89/22216989/382.m3u8
+#EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="KIDS CHANNELS",Nicktoons
+http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
+#EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nickelodeon HD" tvg-logo="https://i.imgur.com/QqLoAs7.png" group-title="KIDS CHANNELS",Nickelodeon HD
+http://tv.univisionlive.net:25461/live/rifat89/22216989/388.m3u8
+#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="KIDS CHANNELS",Disney Jr
+http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
+
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
 https://streamitv.multitvsolution.in/idvo/discoverykidshindi.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="EBC Kids" tvg-logo="" group-title="Kids",EBC Kids

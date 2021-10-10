@@ -113,7 +113,9 @@ https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in_480p/index.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1020.m3u8
 #EXTINF:-1 tvg-id="B4UKadak(src07).in(m3u4u)" tvg-name="B4U Kadak" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/a/ab/B4U_Kadak.jpeg/revision/latest/scale-to-width-down/340?cb=20200320100818" group-title="Movies",B4U Kadak
 http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bflix Movies" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/bflix-movies-logo-300x300.jpg" group-title="HINDI",Bflix Movies
+#EXTINF:-1 tvg-id="BoxCinema(src07).in(m3u4u)" tvg-name="Box Cinema" tvg-logo="http://boxcinemedia.com/assets/img/logo.png" group-title="Movies",Box Cinema
+https://m-c01-j2apps.s.llnwi.net/hls/6523.BOXCinema.in_480p/index.m3u8
+#EXTINF:-1 tvg-id="BflixMovies(src07).in(m3u4u)" tvg-name="Bflix Movies" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Bflix_Movies.png" group-title="Movies",Bflix Movies
 https://m-c036-j2apps.s.llnwi.net/hls/5045.BFlixMovies.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BOX CINEMA" tvg-logo="https://i.imgur.com/S3lVg3i.jpg?1" group-title="HINDI",BOX CINEMA
 https://m-c01-j2apps.s.llnwi.net/hls/6523.BOXCinema.in.m3u8
@@ -185,6 +187,8 @@ https://mn-nl.mncdn.com/blutv_foxtv2/live.m3u8
 http://93.157.62.180:80/FoxMovies/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Fox Family Movies HD" tvg-logo="https://foxfamilymovies.foxmoviesasia.com/images/ffm.png" group-title="English",Fox Family Movies HD
 https://livecdn.fptplay.net/hda/foxfamilymovies_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Groovy" tvg-logo="https://i.imgur.com/0iklNh2.png" group-title="Movies",Groovy
+http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/j8Ymta1.png" group-title="English", HBO
 http://tv2.ebox.live:8080/live/hbo.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/HBO_Plus.png" group-title="English Movie",HBO+ Plus
@@ -195,6 +199,8 @@ http://185.180.221.194:8278/streams/d/Hbosignature/playlist.m3u8
 https://raw.githubusercontent.com/amarnettv/amarnettv.github.io/master/channels/hbohits.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="HBO Family" tvg-logo="https://i.imgur.com/p5doERm.png" group-title="English",HBO Family
 https://raw.githubusercontent.com/amarnettv/amarnettv.github.io/master/channels/hbofamily.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Movie Kingdom" tvg-logo="https://i.imgur.com/pIuJqYk.png" group-title="Movies",Movie Kingdom
+https://a.jsrdn.com/broadcast/e9b4093a41/+0000/high/c.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="& Prive HD" tvg-logo="https://i.imgur.com/XlJxZhQ.jpg" group-title="English",& Prive HD
 https://f8e7y4c6.ssl.hwcdn.net/andprivehd/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="& Flix HD" tvg-logo="https://i.imgur.com/gHBvHes.jpg" group-title="English",& Flix HD
@@ -203,6 +209,10 @@ https://f8e7y4c6.ssl.hwcdn.net/andflixhd/index.m3u8
 http://tv2.ebox.live:8080/live/sony-pix.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M0bRPMs.png" group-title="English", Star Movies Hindi
 http://tv2.ebox.live:8080/live/star-movies.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Thrill" tvg-logo="http://console.celestialtiger.com/images/upload/1f6e441382a388940977fd9e165178c42fe0c193.png" group-title="Movies",Thrill
+http://45.126.83.51/qwr9ew/s/s34/index.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Wixlar" tvg-logo="https://i.imgur.com/hfia0wN.png" group-title="Movies",Wixlar
+http://web.onair-radio.eu:1935/wixlar/wixlar/playlist.m3u8
 
 
 
@@ -254,93 +264,6 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/384.m3u8
 #EXTINF:-1 tvg-id="TravelXP(src07).in(m3u4u)" tvg-name="Travel XP" tvg-logo="https://image3.mouthshut.com/images/imagesp/925753531s.png" group-title="Infotainment",Travel XP
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 
-
-
-
-#EXTINF:-1 tvg-id="BoxCinema(src07).in(m3u4u)" tvg-name="Box Cinema" tvg-logo="http://boxcinemedia.com/assets/img/logo.png" group-title="Movies",Box Cinema
-https://m-c01-j2apps.s.llnwi.net/hls/6523.BOXCinema.in_480p/index.m3u8
-#EXTINF:-1 tvg-id="BflixMovies(src07).in(m3u4u)" tvg-name="Bflix Movies" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Bflix_Movies.png" group-title="Movies",Bflix Movies
-https://m-c036-j2apps.s.llnwi.net/hls/5045.BFlixMovies.in_480p/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bollywood Clasic" tvg-logo="https://i.imgur.com/IDLUf7r.png" group-title="Movies",Bollywood Clasic
-http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodClassic/6.m3u8/Level(1677721)?start=LIVE&end=END
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bollywood TV" tvg-logo="https://i.imgur.com/4O7CPFq.png" group-title="Movies",Bollywood TV
-http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodTVFilm/6.m3u8/Level(1677721)?start=LIVE&end=END
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0c/CCTV-6_Logo.png" group-title="Movies",CCTV6
-http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
-#EXTINF:-1 tvg-id="6241" tvg-name="CHCΘ½ÿµ╕àτö╡σ╜▒" tvg-logo="https://i.imgur.com/GjGiNIA.jpg" group-title="Movies",CHCΘ½ÿµ╕àτö╡σ╜▒
-http://ivi.bupt.edu.cn/hls/chchd.m3u8
-#EXTINF:-1 tvg-id="Dubai One ARB" tvg-name="Dubai One ARB" tvg-logo="https://i.imgur.com/WjJ8MHC.png" group-title="Movies",Dubai One ARB
-https://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Groovy" tvg-logo="https://i.imgur.com/0iklNh2.png" group-title="Movies",Groovy
-http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
-#EXTINF:-1 tvg-id="HBO(src07).in(m3u4u)" tvg-name="HBO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/1024px-HBO_logo.svg.png" group-title="Movies",HBO
-http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/45.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="iFILM Arabic" tvg-logo="https://i.imgur.com/RPwKZUD.jpg" group-title="Movies",iFILM Arabic
-https://live.presstv.com/ifilmlive/smil:ifilmar.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="iFILM English" tvg-logo="https://i.imgur.com/GgmXZRU.png" group-title="Movies",iFILM English
-https://live1.presstv.com/live/ifilmen.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="iFILM Persian 1" tvg-logo="https://i.imgur.com/El4Ymh6.png" group-title="Movies",iFILM Persian 1
-https://live.presstv.com/ifilmlive/smil:ifilmtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="iFILM Persian 2" tvg-logo="https://fa2.ifilmtv.com/img/test-final02.png" group-title="Movies",iFILM Persian 2
-https://live1.presstv.com/live/ifilm2.m3u8
-#EXTINF:-1 tvg-id="ManoranjanTV(src07).in(m3u4u)" tvg-name="Manoranjan TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/ManoranjanTVLogo.jpg/220px-ManoranjanTVLogo.jpg" group-title="Movies",Manoranjan TV
-https://streamitv.multitvsolution.in/idvo/manoranjantv.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Manoranjan Movies" tvg-logo="" group-title="Movies",Manoranjan Movies
-https://m-c036-j2apps.s.llnwi.net/hls/2172.ManoranjanMovies.in.m3u8
-#EXTINF:-1 tvg-id="MoviesNow(src07).in(m3u4u)" tvg-name="Movies Now" tvg-logo="https://alltimetrends.com/wp-content/uploads/2020/07/Movies-now.jpg" group-title="Movies",Movies Now
-https://timesnow.airtel.tv/live/MN_pull/master.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MNX" tvg-logo="https://image.airtel.tv/MWTV/MWTV_LIVETVCHANNEL_10000000045360000/PORTRAIT/qELkgspp.png" group-title="Movies",MNX
-https://timesnow.airtel.tv/live/MNX_pull/master.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MBC 2" tvg-logo="" group-title="Movies",MBC 2
-https://shls-mbc2-prod-dub.shahid.net/out/v1/b4befe19798745fe986f5a9bfba62126/index_1.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MBC Max HD" tvg-logo="" group-title="Movies",MBC Max HD
-https://shls-mbcmax-prod-dub.shahid.net/out/v1/13815a7cda864c249a88c38e66a2e653/index_1.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MBC Action HD" tvg-logo="" group-title="Movies",MBC Action HD
-https://shls-mbcaction-prod-dub.shahid.net/out/v1/68dd761538e5460096c42422199d050b/index_1.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Kuriakos Cine" tvg-logo="https://i.imgur.com/GbQuvWG.png" group-title="Movies",Kuriakos Cine
-http://c2.manasat.com:1935/kcine/kcine3/FluxusTV.m3u8
-#EXTINF:-1 tvg-id="MBC" tvg-name="MBC 2 ARB" tvg-logo="https://i.imgur.com/KXuzL1u.png" group-title="Movies",MBC 2 ARB
-https://shls-mbc2-prod-dub.shahid.net/out/v1/b4befe19798745fe986f5a9bfba62126/index.m3u8
-#EXTINF:-1 tvg-id="MBC Action ARB" tvg-name="MBC Action ARB" tvg-logo="https://i.imgur.com/n3TgfP0.png" group-title="Movies",MBC Action ARB
-https://shls-mbcaction-prod-dub.shahid.net/out/v1/68dd761538e5460096c42422199d050b/index.m3u8
-#EXTINF:-1 tvg-id="MBC Drama ARB" tvg-name="MBC Drama ARB" tvg-logo="https://i.imgur.com/F5ER0we.png" group-title="Movies",MBC Drama ARB
-https://shls-mbcdramaksa-prod-dub.shahid.net/out/v1/ce0f0762d89e4394a856c5fd13e43645/index.m3u8
-#EXTINF:-1 tvg-id="MBCDramaPlus.ae" tvg-name="MBC Drama Plus ARB" tvg-logo="https://i.imgur.com/F5ER0we.png" group-title="Movies",MBC Drama Plus ARB
-https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
-#EXTINF:-1 tvg-id="MBC Max ARB" tvg-name="MBC Max ARB" tvg-logo="https://i.imgur.com/X6EliFm.png" group-title="Movies",MBC Max ARB
-https://shls-mbcmax-prod-dub.shahid.net/out/v1/13815a7cda864c249a88c38e66a2e653/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Movie Kingdom" tvg-logo="https://i.imgur.com/pIuJqYk.png" group-title="Movies",Movie Kingdom
-https://a.jsrdn.com/broadcast/e9b4093a41/+0000/high/c.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NewTVµ£¬µ¥Ñτö╡Φºå σè¿Σ╜£τö╡σ╜▒ (Backup)" tvg-logo="http://www.nettv.live/uploads/19/1-191215202451457.jpg" group-title="Movies",NewTVµ£¬µ¥Ñτö╡Φºå σè¿Σ╜£τö╡σ╜▒ (Backup)
-http://121.31.30.90:8085/ysten-business/live/dongzuody/1.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Raj Digital Plus" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/11/raj_digital_plus-1.png" group-title="Movies",Raj Digital Plus
-http://acv.asianetmobiletvplus.com/channels/rajdigital_htfuqchouekpefzxodtbzaojtryxpqkx_hls/rajdigital_htfuqchouekpefzxodtbzaojtryxpqkx_master.m3u8
-#EXTINF:-1 tvg-id="RomedyNow(src07).in(m3u4u)" tvg-name="Romedy Now" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Logo_Romedy_Now.jpg/150px-Logo_Romedy_Now.jpg" group-title="Movies",Romedy Now
-https://timesnow.airtel.tv/live/RN_pull/master.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Sony Movies" tvg-logo="" group-title="Movies",Sony Movies
-http://51.52.156.22:8888/http/009
-#EXTINF:-1 tvg-id="Syria Drama ARB" tvg-name="Syria Drama ARB" tvg-logo="https://i.imgur.com/5EnxvkU.png" group-title="Movies",Syria Drama ARB
-http://82.137.248.16:1935/Drama/stream10112020/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="The Film Detective" tvg-logo="https://i.imgur.com/xDGoG1r.jpg" group-title="Movies",The Film Detective
-https://distro.akamaized.net/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Thrill" tvg-logo="http://console.celestialtiger.com/images/upload/1f6e441382a388940977fd9e165178c42fe0c193.png" group-title="Movies",Thrill
-http://45.126.83.51/qwr9ew/s/s34/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TV BNO" tvg-logo="https://i.imgur.com/ejp65zr.png" group-title="Movies",TV BNO
-http://tv02.logicahost.com.br:1935/bonner/bonner/live.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TV Cinec" tvg-logo="https://i.imgur.com/bEoN2tt.png" group-title="Movies",TV Cinec
-http://tv01.logicahost.com.br:1935/tvcinec/tvcinec/live.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Wow Cinema" tvg-logo="https://image3.mouthshut.com/images/imagesp/925755500s.jpg" group-title="Movies",Wow Cinema
-https://m-c036-j2apps.s.llnwi.net/hls/2940.WOWCinemaOne.in.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Wixlar" tvg-logo="https://i.imgur.com/hfia0wN.png" group-title="Movies",Wixlar
-http://web.onair-radio.eu:1935/wixlar/wixlar/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="╨₧╤ü╤é╤Ç╨╛╤ü╤Ä╨╢╨╡╤é╨╜╨╛╨╡ HD" tvg-logo="" group-title="Movies",╨₧╤ü╤é╤Ç╨╛╤ü╤Ä╨╢╨╡╤é╨╜╨╛╨╡ HD
-http://188.35.9.26:14050/udp/238.0.14.3:69000
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="╨á╨╡╨╜ ╨ó╨Æ International" tvg-logo="" group-title="Movies",╨á╨╡╨╜ ╨ó╨Æ International
-https://sc.id-tv.kz/RenTV.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="╨í╨ó╨á╨Ü HD" tvg-logo="" group-title="Movies",╨í╨ó╨á╨Ü HD
-http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Θ╗æΦÄôτö╡σ╜▒" tvg-logo="http://www.nettv.live/uploads/allimg/19/1-1Z5092006450-L.jpg" group-title="Movies",Θ╗æΦÄôτö╡σ╜▒
-http://121.31.30.90:8085/ysten-business/live/jdianying/1.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
 https://streamitv.multitvsolution.in/idvo/discoverykidshindi.m3u8

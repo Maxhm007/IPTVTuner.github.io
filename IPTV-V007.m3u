@@ -266,59 +266,34 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 
 
 
-#EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="KIDS CHANNELS",Cartoon Network
-http://tv.univisionlive.net:25461/live/rifat89/22216989/382.m3u8
-#EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="KIDS CHANNELS",Nicktoons
-http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
-#EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nickelodeon HD" tvg-logo="https://i.imgur.com/QqLoAs7.png" group-title="KIDS CHANNELS",Nickelodeon HD
-http://tv.univisionlive.net:25461/live/rifat89/22216989/388.m3u8
-#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="KIDS CHANNELS",Disney Jr
-http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
-#EXTINF:-1 tvg-id="disneyxd.us" tvg-name="Disney XD HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="KIDS CHANNELS",Disney XD HD
-http://tv.univisionlive.net:25461/live/rifat89/22216989/1018.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Abbtakk News" tvg-logo="https://play-lh.googleusercontent.com/ss634dTdIuad84l5-xLBlN74yBY87ZHqSWFUogeq_mugo-tnxeWsZ_SXlJdjHYI6j1BE" group-title="PAKISTANI CHANNELS",Abbtakk News
-http://tv.univisionlive.net:25461/live/rifat89/22216989/1019.m3u8
-#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr HD" tvg-logo="" group-title="KIDS CHANNELS",Disney Jr HD
-http://tv.univisionlive.net:25461/live/rifat89/22216989/1028.m3u8
-#EXTINF:-1 tvg-id="nickjr.us" tvg-name="NICK Jr" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/nick_jr_br.jpg" group-title="KIDS CHANNELS",NICK Jr
-http://tv.univisionlive.net:25461/live/rifat89/22216989/1055.m3u8
-
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
-https://streamitv.multitvsolution.in/idvo/discoverykidshindi.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="EBC Kids" tvg-logo="" group-title="Kids",EBC Kids
-http://ebsonair.ebs.co.kr:1935/ebsutablet500k/tablet500k/chunklist_w168363901.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="3ABN Kids" tvg-logo="" group-title="Kids",3ABN Kids
-https://moiptvhls-i.akamaihd.net/hls/live/652318/secure/master.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Kabillion" tvg-logo="" group-title="Kids",Kabillion
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxkabillion/CDN/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Discovery Kids" tvg-logo="" group-title="Kids",Discovery Kids
-https://streamitv.multitvsolution.in/idvo/discoverykidshindi_540p/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Cheebies Asia" tvg-logo="https://i.imgur.com/W4KuSN3.png" group-title="Kids",Cheebies Asia
-http://51.52.156.22:8888/http/003
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
-https://streamitv.multitvsolution.in/idvo/discoverykidshindi.m3u8
-#EXTINF:-1 tvg-id="BOM.Asia" tvg-name="Boomerang" tvg-logo="https://static.epg.best/br/Boomerang.br.png" group-title="Kids",Boomerang
-https://livecdn.fptplay.net/qnetlive/boomerang_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="BF1.Asia" tvg-name="Baby First" tvg-logo="https://static.epg.best/us/BabyFirstTV.us.png" group-title="Kids",Baby First
-https://livecdn.fptplay.net/qnetlive/babyfirst_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Cbeebies" tvg-logo="https://i.imgur.com/4EdpqA7.png" group-title="Kids",BBC Cbeebies
-http://51.52.156.22:8888/http/003
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Akaram Kidz" tvg-logo="https://i.imgur.com/hAgaVPa.jpg" group-title="Kids",Akaram Kidz
 http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ANIPLUS" tvg-logo="https://i.imgur.com/myuUvgO.jpg" group-title="Kids",ANIPLUS
 http://210.210.155.35/session/0d216142-f3f5-11e8-ab67-89df93dc8d44/dr9445/h/h02/index.m3u8
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/c/c8/CCTV-14_Logo.png" group-title="Kids",CCTV14
-http://ivi.bupt.edu.cn/hls/cctv14.m3u8
-#EXTINF:-1 tvg-id="Kan 23-IS" tvg-name="IL: Kan 23" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/2880px-KanHinuchit.svg.png" group-title="Kids",IL: Kan 23
-https://kanlivep2event-i.akamaihd.net/hls/live/747600/747600/source1_2.5k/chunklist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="IBC Kids" tvg-logo="https://assets.zoftcdn.com/branding/ibctv/ibc-kids.png" group-title="Kids",IBC Kids
-https://ibckids-live.ibctamil.com/transcode/ibckids.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="KTV Kids" tvg-logo="http://i5.satexpat.com/cha/kw/ktv-kids-95x77.gif" group-title="Kids",KTV Kids
-https://kwmedia.hibridmedia.com/kwmedia/kwtvkids_dabr/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Kuriakos Kids" tvg-logo="https://i.imgur.com/tfc2BYM.png" group-title="Kids",Kuriakos Kids
-http://c2.manasat.com:1935/kkids/kkids3/FluxusTV.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Lale" tvg-logo="" group-title="Kids",Lale
-http://stream.atr.ua/lale//live/index.m3u8
+#EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="KIDS CHANNELS",Cartoon Network
+http://tv.univisionlive.net:25461/live/rifat89/22216989/382.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Disney Channel" tvg-logo="" group-title="Kids",Disney Channel
+https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2665.m3u8
+#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="KIDS CHANNELS",Disney Jr
+http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
+#EXTINF:-1 tvg-id="disneyxd.us" tvg-name="Disney XD HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="KIDS CHANNELS",Disney XD HD
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1018.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="EBC Kids" tvg-logo="" group-title="Kids",EBC Kids
+http://ebsonair.ebs.co.kr:1935/ebsutablet500k/tablet500k/chunklist_w168363901.m3u8
+#EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="KIDS CHANNELS",Nicktoons
+http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
+#EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nickelodeon HD" tvg-logo="https://i.imgur.com/QqLoAs7.png" group-title="KIDS CHANNELS",Nickelodeon HD
+http://tv.univisionlive.net:25461/live/rifat89/22216989/388.m3u8
+#EXTINF:-1 tvg-id="nickjr.us" tvg-name="NICK Jr" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/nick_jr_br.jpg" group-title="KIDS CHANNELS",NICK Jr
+http://tv.univisionlive.net:25461/live/rifat89/22216989/1055.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Kabillion" tvg-logo="" group-title="Kids",Kabillion
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxkabillion/CDN/playlist.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Spacetoon" tvg-logo="https://i.imgur.com/RzPOwqI.png" group-title="Kids",Spacetoon
 https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Taha TV" tvg-logo="https://i.imgur.com/wOxnItQ.png" group-title="Kids",Taha TV

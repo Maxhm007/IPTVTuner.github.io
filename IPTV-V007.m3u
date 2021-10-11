@@ -71,7 +71,7 @@ https://rhridoy136.shortcm.li/shomoytv.m3u8
 http://10.16.100.207:8082/sports/tSpots_loacal.m3u8
 
 
-#EXTINF:-1 tvg-id="aakashaath.in" tvg-name="Akash Aath" tvg-logo="https://starhd25.com/wp-content/uploads/2021/04/36_HP_Aakash-Aath-300x169-1.png" group-title="INDIAN BANGLA ",Akash Aath
+#EXTINF:-1 tvg-id="aakashaath.in" tvg-name="Akash Aath" tvg-logo="https://starhd25.com/wp-content/uploads/2021/04/36_HP_Aakash-Aath-300x169-1.png" group-title="Indian Bangla",Akash Aath
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1522.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LeIa06D.png" group-title="Indian Bangla", ABP Ananda
 https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master_1564.m3u8
@@ -292,23 +292,23 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ANIPLUS" tvg-logo="https://i.imgur.com/myuUvgO.jpg" group-title="Kids",ANIPLUS
 http://210.210.155.35/session/0d216142-f3f5-11e8-ab67-89df93dc8d44/dr9445/h/h02/index.m3u8
-#EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="KIDS CHANNELS",Cartoon Network
+#EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="Kids",Cartoon Network
 http://tv.univisionlive.net:25461/live/rifat89/22216989/382.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Disney Channel" tvg-logo="" group-title="Kids",Disney Channel
 https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2665.m3u8
-#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="KIDS CHANNELS",Disney Jr
+#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="Kids",Disney Jr
 http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
-#EXTINF:-1 tvg-id="disneyxd.us" tvg-name="Disney XD HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="KIDS CHANNELS",Disney XD HD
+#EXTINF:-1 tvg-id="disneyxd.us" tvg-name="Disney XD HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="Kids",Disney XD HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1018.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="EBC Kids" tvg-logo="" group-title="Kids",EBC Kids
 http://ebsonair.ebs.co.kr:1935/ebsutablet500k/tablet500k/chunklist_w168363901.m3u8
-#EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="KIDS CHANNELS",Nicktoons
+#EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="Kids",Nicktoons
 http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
-#EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nickelodeon HD" tvg-logo="https://i.imgur.com/QqLoAs7.png" group-title="KIDS CHANNELS",Nickelodeon HD
+#EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nickelodeon HD" tvg-logo="https://i.imgur.com/QqLoAs7.png" group-title="Kids",Nickelodeon HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/388.m3u8
-#EXTINF:-1 tvg-id="nickjr.us" tvg-name="NICK Jr" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/nick_jr_br.jpg" group-title="KIDS CHANNELS",NICK Jr
+#EXTINF:-1 tvg-id="nickjr.us" tvg-name="NICK Jr" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/nick_jr_br.jpg" group-title="Kids",NICK Jr
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1055.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Kabillion" tvg-logo="" group-title="Kids",Kabillion
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxkabillion/CDN/playlist.m3u8

@@ -105,6 +105,8 @@ https://f8e7y4c6.ssl.hwcdn.net/zbanglacnm/playlist.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="& Picture" tvg-logo="https://akamaividz.zee5.com/resources/0-9-pictures/list/386x386/09picturespictures.png" group-title="HINDI",& Picture
 http://tv.univisionlive.net:25461/live/rifat89/22216989/701.m3u8
+#EXTINF:-1 tvg-id="andtvhd.in" tvg-name="& Xplor 4K" tvg-logo="https://watchindia.net/images/channels/hindi/And_Xplor_HD.png" group-title="HINDI CHANNELS",& Xplor 4K
+http://tv.univisionlive.net:25461/live/rifat89/22216989/702.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9XM" tvg-logo="https://s4.gifyu.com/images/image86b5f8b135364512.png" group-title="HINDI",9XM
 http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=208000-video=877600.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9x Jalwa" tvg-logo="https://i.imgur.com/E4NcxwB.jpg" group-title="HINDI",9x Jalwa
@@ -143,8 +145,8 @@ http://5stariptv.ddns.net/SONY-SAB-LOCKLE/tracks-v1a1/mono.m3u8
 http://221.120.204.4/SONY-MAX-LOCKLE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="sonymaxhd.in" tvg-name="Sony Max 2" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Max_2.png" group-title="HINDI CHANNELS",Sony Max 2
 http://tv.univisionlive.net:25461/live/rifat89/22216989/705.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vGq343l.png" group-title="Hindi", Star Gold HD
-http://tv2.ebox.live:8080/live/star-gold.m3u8
+#EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://static.epg.best/nl/StarGold.nl.png" group-title="HINDI CHANNELS",Star Gold HD
+http://tv.univisionlive.net:25461/live/rifat89/22216989/604.m3u8
 #EXTINF:-1 tvg-id="stargoldselecthd.in" tvg-name="Star Gold Select 4K" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Gold_Select_HD.png" group-title="HINDI CHANNELS",Star Gold Select 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/706.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AMhvwJB.png" group-title="Hindi", Star Plus HD

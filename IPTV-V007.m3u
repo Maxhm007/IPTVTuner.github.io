@@ -213,6 +213,8 @@ http://185.180.221.194:8278/streams/d/Hbosignature/playlist.m3u8
 https://raw.githubusercontent.com/amarnettv/amarnettv.github.io/master/channels/hbohits.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="HBO Family" tvg-logo="https://i.imgur.com/p5doERm.png" group-title="English",HBO Family
 https://raw.githubusercontent.com/amarnettv/amarnettv.github.io/master/channels/hbofamily.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV English" tvg-logo="https://i.imgur.com/FOiUOeW.png" group-title="ENGLISH MUSIC & FASHION",MTV English
+http://tv.univisionlive.net:25461/live/rifat89/22216989/396.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Movie Kingdom" tvg-logo="https://i.imgur.com/pIuJqYk.png" group-title="Movies",Movie Kingdom
 https://a.jsrdn.com/broadcast/e9b4093a41/+0000/high/c.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3i2U8HH.png" group-title="English", Sony Pix HD

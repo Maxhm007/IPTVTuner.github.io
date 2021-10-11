@@ -329,9 +329,9 @@ https://liveproduseast.global.ssl.fastly.net/us/Channel-USTV-AWS-virginia-1/Sour
 https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JJTT2Pq.png" group-title="English", BBC World News
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
-#EXTINF:-1 tvg-id="bbcamerica.us" tvg-name="BBC America" tvg-logo="https://img.favpng.com/2/1/18/bbc-america-logo-television-image-png-favpng-tZY7NuNPUFRH26thBhW4aZMji.jpg" group-title="NEWS CHANNELS",BBC America
+#EXTINF:-1 tvg-id="bbcamerica.us" tvg-name="BBC America" tvg-logo="https://img.favpng.com/2/1/18/bbc-america-logo-television-image-png-favpng-tZY7NuNPUFRH26thBhW4aZMji.jpg" group-title="News",BBC America
 http://tv.univisionlive.net:25461/live/rifat89/22216989/351.m3u8
-#EXTINF:-1 tvg-id="bbcnews.uk" tvg-name="BBC News" tvg-logo="https://programmes.files.bbci.co.uk/programmes-frontend/images/logos/svg/bbc_world_news/service-5742221a20.svg" group-title="NEWS CHANNELS",BBC News
+#EXTINF:-1 tvg-id="bbcnews.uk" tvg-name="BBC News" tvg-logo="https://programmes.files.bbci.co.uk/programmes-frontend/images/logos/svg/bbc_world_news/service-5742221a20.svg" group-title="News",BBC News
 http://tv.univisionlive.net:25461/live/rifat89/22216989/352.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Jy3Vr9F.png" group-title="English", CNN HD
 https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist_1280x720_3000k.m3u8
@@ -420,27 +420,27 @@ http://contact-lh.akamaihd.net/i/CONTACT_1@321283/index_1200_av-p.m3u8
 https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/hi/c.m3u8
 
 
-#EXTINF:-1 tvg-id="espn.us" tvg-name="ESPN" tvg-logo="https://i.imgur.com/fDJpIpn.png" group-title="SPORTS CHANNELS",ESPN
+#EXTINF:-1 tvg-id="espn.us" tvg-name="ESPN" tvg-logo="https://i.imgur.com/fDJpIpn.png" group-title="Sports",ESPN
 http://tv.univisionlive.net:25461/live/rifat89/22216989/406.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PTV Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png" group-title="SPORTS CHANNELS",PTV Sports
+#EXTINF:-1 tvg-id="" tvg-name="PTV Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png" group-title="Sports",PTV Sports
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1162.m3u8
-#EXTINF:-1 tvg-id="sonysix.in" tvg-name="Sony Six " tvg-logo="https://image.winudf.com/v2/image/Y29tLm1tZ3RlY2h2aW5lLmxpdmVzb255c2l4dHZfc2NyZWVuXzBfMTUyOTQyNDE0Nl8wMzk/screen-0.jpg?fakeurl=1&type=.jpg" group-title="SPORTS CHANNELS",Sony Six 
+#EXTINF:-1 tvg-id="sonysix.in" tvg-name="Sony Six " tvg-logo="https://image.winudf.com/v2/image/Y29tLm1tZ3RlY2h2aW5lLmxpdmVzb255c2l4dHZfc2NyZWVuXzBfMTUyOTQyNDE0Nl8wMzk/screen-0.jpg?fakeurl=1&type=.jpg" group-title="Sports",Sony Six 
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2641.m3u8
-#EXTINF:-1 tvg-id="sonysix.in" tvg-name="Sony Six HD" tvg-logo="https://image.winudf.com/v2/image/Y29tLm1tZ3RlY2h2aW5lLmxpdmVzb255c2l4dHZfc2NyZWVuXzBfMTUyOTQyNDE0Nl8wMzk/screen-0.jpg?fakeurl=1&type=.jpg" group-title="SPORTS CHANNELS",Sony Six HD
+#EXTINF:-1 tvg-id="sonysix.in" tvg-name="Sony Six HD" tvg-logo="https://image.winudf.com/v2/image/Y29tLm1tZ3RlY2h2aW5lLmxpdmVzb255c2l4dHZfc2NyZWVuXzBfMTUyOTQyNDE0Nl8wMzk/screen-0.jpg?fakeurl=1&type=.jpg" group-title="Sports",Sony Six HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/614.m3u8
-#EXTINF:-1 tvg-id="sonyten1hd.in" tvg-name="Sony Ten 1 4K" tvg-logo="" group-title="SPORTS CHANNELS",Sony Ten 1 4K
+#EXTINF:-1 tvg-id="sonyten1hd.in" tvg-name="Sony Ten 1 4K" tvg-logo="" group-title="Sports",Sony Ten 1 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2651.m3u8
-#EXTINF:-1 tvg-id="sonyten2hd.in" tvg-name="Sony Ten 2 4K" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/35/Sony_Ten_2_HD.jpg" group-title="SPORTS CHANNELS",Sony Ten 2 4K
+#EXTINF:-1 tvg-id="sonyten2hd.in" tvg-name="Sony Ten 2 4K" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/35/Sony_Ten_2_HD.jpg" group-title="Sports",Sony Ten 2 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2434.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sony Ten 3 4K" tvg-logo="https://i.pinimg.com/236x/82/ac/a4/82aca43f83fc8ac14304ac2520c63bd4.jpg" group-title="SPORTS CHANNELS",Sony Ten 3 4K
+#EXTINF:-1 tvg-id="" tvg-name="Sony Ten 3 4K" tvg-logo="https://i.pinimg.com/236x/82/ac/a4/82aca43f83fc8ac14304ac2520c63bd4.jpg" group-title="Sports",Sony Ten 3 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2836.m3u8
-#EXTINF:-1 tvg-id="starsports1.in" tvg-name="Star Sports 1 4K" tvg-logo="https://bit.ly/3i0bJdQ" group-title="SPORTS CHANNELS",Star Sports 1 4K
+#EXTINF:-1 tvg-id="starsports1.in" tvg-name="Star Sports 1 4K" tvg-logo="https://bit.ly/3i0bJdQ" group-title="Sports",Star Sports 1 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/668.m3u8
-#EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="Star Sports 2 4K" tvg-logo="https://kccl.tv/sites/default/files/star%20sports%202%20hd.png" group-title="SPORTS CHANNELS",Star Sports 2 4K
+#EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="Star Sports 2 4K" tvg-logo="https://kccl.tv/sites/default/files/star%20sports%202%20hd.png" group-title="Sports",Star Sports 2 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/650.m3u8
-#EXTINF:-1 tvg-id="starsportsselect1hd.in" tvg-name="Star Sports Select 1 4K" tvg-logo="https://tv.bdtype.com/uploads/tv_image/star-sports-select-1.jpg" group-title="SPORTS CHANNELS",Star Sports Select 1 4K
+#EXTINF:-1 tvg-id="starsportsselect1hd.in" tvg-name="Star Sports Select 1 4K" tvg-logo="https://tv.bdtype.com/uploads/tv_image/star-sports-select-1.jpg" group-title="Sports",Star Sports Select 1 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/651.m3u8
-#EXTINF:-1 tvg-id="starsportsselecthd2.in" tvg-name="Star Sports Select 2 4K" tvg-logo="https://watchindia.net/images/channels/Star_Sports_Select_2_HD.png" group-title="SPORTS CHANNELS",Star Sports Select 2 4K
+#EXTINF:-1 tvg-id="starsportsselecthd2.in" tvg-name="Star Sports Select 2 4K" tvg-logo="https://watchindia.net/images/channels/Star_Sports_Select_2_HD.png" group-title="Sports",Star Sports Select 2 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/719.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UEvEaOK.png" group-title="Sports", Super Sports 1
 http://93.157.62.180/Supersport1/index.m3u8
@@ -456,5 +456,5 @@ http://93.157.62.180/Supersport5/index.m3u8
 http://93.157.62.180/Supersport6/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1gyHXhe.png" group-title="Sports", Super Sports 7
 http://93.157.62.180/Supersport7/index.m3u8
-#EXTINF:-1 tvg-id="wwe.us" tvg-name="WWE Network" tvg-logo="https://www.clipartkey.com/mpngs/m/91-911374_wwe-logo-png-wwe-network-logo-png.png" group-title="SPORTS CHANNELS",WWE Network
+#EXTINF:-1 tvg-id="wwe.us" tvg-name="WWE Network" tvg-logo="https://www.clipartkey.com/mpngs/m/91-911374_wwe-logo-png-wwe-network-logo-png.png" group-title="Sports",WWE Network
 http://tv.univisionlive.net:25461/live/rifat89/22216989/408.m3u8

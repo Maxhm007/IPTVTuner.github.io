@@ -439,3 +439,5 @@ http://93.157.62.180/Supersport5/index.m3u8
 http://93.157.62.180/Supersport6/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1gyHXhe.png" group-title="Sports", Super Sports 7
 http://93.157.62.180/Supersport7/index.m3u8
+#EXTINF:-1 tvg-id="wwe.us" tvg-name="WWE Network" tvg-logo="https://www.clipartkey.com/mpngs/m/91-911374_wwe-logo-png-wwe-network-logo-png.png" group-title="SPORTS CHANNELS",WWE Network
+http://tv.univisionlive.net:25461/live/rifat89/22216989/408.m3u8

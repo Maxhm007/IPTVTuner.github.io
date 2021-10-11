@@ -191,7 +191,7 @@ http://221.120.204.4/AXN-LOCKLE/playlist.m3u8
 https://vips-livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Blue Ant Extreme" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Blue_ant_extreme_logo.png/220px-Blue_ant_extreme_logo.png" group-title="English",Blue Ant Extreme
 https://vips-livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="cinemax.us" tvg-name="Cinemax HD" tvg-logo="https://www.pngfind.com/pngs/m/204-2047747_cinemax-logo-hd-png-download.png" group-title="MOVIE CHANNELS",Cinemax HD
+#EXTINF:-1 tvg-id="cinemax.us" tvg-name="Cinemax HD" tvg-logo="https://www.pngfind.com/pngs/m/204-2047747_cinemax-logo-hd-png-download.png" group-title="English",Cinemax HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/708.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f7/Fox_Life_pt_logo.PNG" group-title="English",Fox Life
 http://93.157.62.180:80/FoxLife/playlist.m3u8
@@ -201,7 +201,7 @@ https://mn-nl.mncdn.com/blutv_foxtv2/live.m3u8
 http://93.157.62.180:80/FoxMovies/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Fox Family Movies HD" tvg-logo="https://foxfamilymovies.foxmoviesasia.com/images/ffm.png" group-title="English",Fox Family Movies HD
 https://livecdn.fptplay.net/hda/foxfamilymovies_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Groovy" tvg-logo="https://i.imgur.com/0iklNh2.png" group-title="Movies",Groovy
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Groovy" tvg-logo="https://i.imgur.com/0iklNh2.png" group-title="English",Groovy
 http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/j8Ymta1.png" group-title="English", HBO
 http://tv.univisionlive.net:25461/live/rifat89/22216989/372.m3u8
@@ -215,21 +215,21 @@ https://raw.githubusercontent.com/amarnettv/amarnettv.github.io/master/channels/
 https://raw.githubusercontent.com/amarnettv/amarnettv.github.io/master/channels/hbofamily.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MTV English" tvg-logo="https://i.imgur.com/FOiUOeW.png" group-title="English",MTV English
 http://tv.univisionlive.net:25461/live/rifat89/22216989/396.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Movie Kingdom" tvg-logo="https://i.imgur.com/pIuJqYk.png" group-title="Movies",Movie Kingdom
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Movie Kingdom" tvg-logo="https://i.imgur.com/pIuJqYk.png" group-title="English",Movie Kingdom
 https://a.jsrdn.com/broadcast/e9b4093a41/+0000/high/c.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3i2U8HH.png" group-title="English", Sony Pix HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/715.m3u8
-#EXTINF:-1 tvg-id="starmoviesselecthd.in" tvg-name="Star Movies 4K" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Movies_HD.png" group-title="MOVIE CHANNELS",Star Movies 4K
+#EXTINF:-1 tvg-id="starmoviesselecthd.in" tvg-name="Star Movies 4K" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Movies_HD.png" group-title="English",Star Movies 4K
 http://tv.univisionlive.net:25461/live/rifat89/22216989/707.m3u8
-#EXTINF:-1 tvg-id="showtime.us" tvg-name="Showtime HD" tvg-logo="https://trademarks.justia.com/media/og_image.php?serial=78319568" group-title="MOVIE CHANNELS",Showtime HD
+#EXTINF:-1 tvg-id="showtime.us" tvg-name="Showtime HD" tvg-logo="https://trademarks.justia.com/media/og_image.php?serial=78319568" group-title="English",Showtime HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/373.m3u8
-#EXTINF:-1 tvg-id="syfy.us" tvg-name="SyFy" tvg-logo="https://watchindia.net/images/channels/usa/Syfy.png" group-title="MOVIE CHANNELS",SyFy
+#EXTINF:-1 tvg-id="syfy.us" tvg-name="SyFy" tvg-logo="https://watchindia.net/images/channels/usa/Syfy.png" group-title="English",SyFy
 http://tv.univisionlive.net:25461/live/rifat89/22216989/725.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Thrill" tvg-logo="http://console.celestialtiger.com/images/upload/1f6e441382a388940977fd9e165178c42fe0c193.png" group-title="Movies",Thrill
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Thrill" tvg-logo="http://console.celestialtiger.com/images/upload/1f6e441382a388940977fd9e165178c42fe0c193.png" group-title="English",Thrill
 http://45.126.83.51/qwr9ew/s/s34/index.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Wixlar" tvg-logo="https://i.imgur.com/hfia0wN.png" group-title="Movies",Wixlar
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Wixlar" tvg-logo="https://i.imgur.com/hfia0wN.png" group-title="English",Wixlar
 http://web.onair-radio.eu:1935/wixlar/wixlar/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="WOW!TV" tvg-logo="" group-title="Kids",WOW!TV
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="WOW!TV" tvg-logo="" group-title="English",WOW!TV
 http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
 
 

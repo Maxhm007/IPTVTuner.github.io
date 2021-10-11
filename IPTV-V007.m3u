@@ -236,7 +236,7 @@ http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="English", Animal Planet HD
-http://tv2.ebox.live:8080/live/animale-planet.m3u8
+http://tv.univisionlive.net:25461/live/rifat89/22216989/387.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="English", Animal Planet HD Hindi
 https://idvd.multitvsolution.com/idvo/aphdhindi_540p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/220px-Asian_Food_Network.svg.png" group-title="Infotainment",AFC
@@ -247,9 +247,9 @@ https://m3u-editor.com/serve/1f5c2f00-c50a-11eb-a9cf-49fb7da8769f/324745765
 http://tv.univisionlive.net:25461/live/rifat89/22216989/714.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Earth ( Hindi ) " tvg-logo="https://watchindia.net/images/channels/hindi/Sony_BBC_Earth_HD.png" group-title="HINDI CHANNELS",BBC Earth ( Hindi ) 
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2604.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="English", Discovery HD Hindi
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Hindi", Discovery HD Hindi
 https://idvd.multitvsolution.com/idvo/discoveryhindi_540p/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Discovery India" tvg-logo="https://vignette.wikia.nocookie.net/logosfake/images/d/d3/Discovery_Showcase_HD.png/revision/latest?cb=20141202144613" group-title=" DOCUMENTARIES",Discovery India
+#EXTINF:-1 tvg-id="" tvg-name="Discovery India" tvg-logo="https://vignette.wikia.nocookie.net/logosfake/images/d/d3/Discovery_Showcase_HD.png/revision/latest?cb=20141202144613" group-title="Hindi",Discovery India
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2451.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="English", Discovery HD Bangla
 http://103.81.104.118/hls/stream9.m3u8

@@ -133,6 +133,8 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/710.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1338.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Music India" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEUfSAD9DRRjtjW1MzoFtgmqm-iUMNV7VGgf3ozgV5LdIVTqMy&usqp=CAU" group-title="HINDI",Music India
 https://m-c01-j2apps.s.llnwi.net/hls_hd/0204.MusicIndia.in.m3u8
+#EXTINF:-1 tvg-id="mastiii.in" tvg-name="Mastiii" tvg-logo="https://dl.dropbox.com/s/84fvyl636nv9o20/mastiii.jpg" group-title="HINDI CHANNELS",Mastiii
+http://tv.univisionlive.net:25461/live/rifat89/22216989/602.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MANORANJAN MOVIES" tvg-logo="https://i.imgur.com/fPuBXRz.jpg" group-title="HINDI",MANORANJAN MOVIES
 https://m-c036-j2apps.s.llnwi.net/hls/2172.ManoranjanMovies.in.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="MH1 Prime" tvg-logo="" group-title="HINDI",MH1 Prime

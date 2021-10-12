@@ -292,7 +292,7 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ANIPLUS" tvg-logo="https://i.imgur.com/myuUvgO.jpg" group-title="Kids",ANIPLUS
 http://210.210.155.35/session/0d216142-f3f5-11e8-ab67-89df93dc8d44/dr9445/h/h02/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_cartoonnetwork_small.png" group-title="KIDS", Cartoon Network Asia
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_cartoonnetwork_small.png" group-title="Kids", Cartoon Network Asia
 https://liveanevia.mncnow.id/live/eds/CartoonNetwork/sa_dash_vmx/CartoonNetwork.mpd
 #EXTINF:0 tvg-logo="https://i.imgur.com/M9Z5cfD.png" group-title="Kids",Cartoon Network Hindi
 http://www.luckonline.eu:80/Anil/FrCRlmpWHH/458
@@ -316,7 +316,7 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/388.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1055.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Kabillion" tvg-logo="" group-title="Kids",Kabillion
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxkabillion/CDN/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sony Yay Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Sony_Yay_Logo.jpg" group-title="KIDS CHANNELS",Sony Yay Bangla
+#EXTINF:-1 tvg-id="" tvg-name="Sony Yay Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Sony_Yay_Logo.jpg" group-title="Kids",Sony Yay Bangla
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2759.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lYM7Gik.png" group-title="Kids",Sony Yay Hindi
 http://jo123.biz/jweb/m3u8.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8

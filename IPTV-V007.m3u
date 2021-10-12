@@ -292,6 +292,8 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ANIPLUS" tvg-logo="https://i.imgur.com/myuUvgO.jpg" group-title="Kids",ANIPLUS
 http://210.210.155.35/session/0d216142-f3f5-11e8-ab67-89df93dc8d44/dr9445/h/h02/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_cartoonnetwork_small.png" group-title="KIDS", Cartoon Network Asia
+https://liveanevia.mncnow.id/live/eds/CartoonNetwork/sa_dash_vmx/CartoonNetwork.mpd
 #EXTINF:0 tvg-logo="https://i.imgur.com/M9Z5cfD.png" group-title="Kids",Cartoon Network Hindi
 http://www.luckonline.eu:80/Anil/FrCRlmpWHH/458
 #EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="Kids",Cartoon Network

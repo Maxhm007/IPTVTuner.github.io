@@ -235,9 +235,9 @@ http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="English", Animal Planet HD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="Infotainment", Animal Planet HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/387.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="English", Animal Planet HD Hindi
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XITYSY0.png" group-title="Infotainment", Animal Planet HD Hindi
 https://idvd.multitvsolution.com/idvo/aphdhindi_540p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/220px-Asian_Food_Network.svg.png" group-title="Infotainment",AFC
 https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
@@ -245,11 +245,11 @@ https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
 https://m3u-editor.com/serve/1f5c2f00-c50a-11eb-a9cf-49fb7da8769f/324745765
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/BBC_Earth_logo.png/200px-BBC_Earth_logo.png" group-title="Infotainment",BBC Earth
 http://tv.univisionlive.net:25461/live/rifat89/22216989/714.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BBC Earth ( Hindi ) " tvg-logo="https://watchindia.net/images/channels/hindi/Sony_BBC_Earth_HD.png" group-title="HINDI CHANNELS",BBC Earth ( Hindi ) 
+#EXTINF:-1 tvg-id="" tvg-name="BBC Earth ( Hindi ) " tvg-logo="https://watchindia.net/images/channels/hindi/Sony_BBC_Earth_HD.png" group-title="Infotainment",BBC Earth ( Hindi ) 
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2604.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Hindi", Discovery HD Hindi
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery HD Hindi
 https://idvd.multitvsolution.com/idvo/discoveryhindi_540p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="English", Discovery Asia
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
 https://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2455.m3u8
@@ -314,7 +314,9 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/388.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1055.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Kabillion" tvg-logo="" group-title="Kids",Kabillion
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxkabillion/CDN/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lYM7Gik.png" group-title="Kids",Sony Yay
+#EXTINF:-1 tvg-id="" tvg-name="Sony Yay Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Sony_Yay_Logo.jpg" group-title="KIDS CHANNELS",Sony Yay Bangla
+http://tv.univisionlive.net:25461/live/rifat89/22216989/2759.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lYM7Gik.png" group-title="Kids",Sony Yay Hindi
 http://jo123.biz/jweb/m3u8.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8
 
 

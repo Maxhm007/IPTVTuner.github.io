@@ -247,8 +247,6 @@ https://m3u-editor.com/serve/1f5c2f00-c50a-11eb-a9cf-49fb7da8769f/324745765
 http://tv.univisionlive.net:25461/live/rifat89/22216989/714.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Earth ( Hindi ) " tvg-logo="https://watchindia.net/images/channels/hindi/Sony_BBC_Earth_HD.png" group-title="Infotainment",BBC Earth ( Hindi ) 
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2604.m3u8
-#EXTINF:-1, DISCOVERY CHANNEL tvg-logo="https://logos-download.com/wp-content/uploads/2016/06/Discovery_Channel_logo.png", DISCOVERY CHANNEL
-https://idvd.multitvsolution.com/idvo/discoveryeng_540p/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery HD Hindi
 https://idvd.multitvsolution.com/idvo/discoveryhindi_540p/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia

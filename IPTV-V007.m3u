@@ -90,7 +90,7 @@ https://orangedigital.livebox.co.in:443/Orangebanglahls/Orangebangla.m3u8
 #EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg" group-title="Indian Bangla",Ruposhi Bangla
 http://tv.univisionlive.net:25461/live/rifat89/22216989/567.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Aath" tvg-logo="" group-title="Indian Bangla",Sony Aath
-http://tv.univisionlive.net:25461/live/rifat89/22216989/566.m3u8
+http://173.199.120.51/hls/sony8.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ppJO2Ep.png" group-title="Indian Bangla", Star Jalsha HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/898.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="Indian Bangla", Sangeet Bangla 

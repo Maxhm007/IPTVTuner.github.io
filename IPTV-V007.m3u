@@ -304,6 +304,8 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1018.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="EBC Kids" tvg-logo="" group-title="Kids",EBC Kids
 http://ebsonair.ebs.co.kr:1935/ebsutablet500k/tablet500k/chunklist_w168363901.m3u8
+#EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nick HD" tvg-logo="http://hotflix.stream/uploads/tv_image/sm/nick-hd-plus.png" group-title="Kids",Nick HD
+https://feed.play.mv/live/10005200/s5f1zEMJC1/master.m3u8
 #EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="Kids",Nicktoons
 http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
 #EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nickelodeon HD" tvg-logo="https://i.imgur.com/QqLoAs7.png" group-title="Kids",Nickelodeon HD

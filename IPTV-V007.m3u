@@ -89,6 +89,8 @@ https://orangedigital.livebox.co.in:443/Orangebanglahls/Orangebangla.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/567.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Aath" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sony_Aath_logo.svg/1200px-Sony_Aath_logo.svg.png" group-title="Indian Bangla",Sony Aath
 http://d9af5a60.edmonst.net/iptv/N8RG6LD442U365/6641/index.m3u8
+#EXTINF:0 tvg-logo="https://dl.dropboxusercontent.com/s/wa8wof22bn71puv/sony_aath_in.png" group-title="Indian Bangla",Sony Aath
+http://xtrm.rtload.be:8999/jaykhantest/JVJNDFLJGVNFDSLK/325
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ppJO2Ep.png" group-title="Indian Bangla", Star Jalsha HD
 http://bosstr.net/live/cat54/DpbYpXOhHn/33960.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="Indian Bangla", Sangeet Bangla 

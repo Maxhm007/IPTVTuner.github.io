@@ -72,7 +72,7 @@ http://103.70.140.27:8080/hls/tsports.m3u8
 
 
 #EXTINF:-1 tvg-id="aakashaath.in" tvg-name="Akash Aath" tvg-logo="https://starhd25.com/wp-content/uploads/2021/04/36_HP_Aakash-Aath-300x169-1.png" group-title="Indian Bangla",Akash Aath
-http://tv.ebox.live:8081/thunderbd/32/chunks.m3u8?nimblesessionid=2145612&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTcvMjAyMSAyOjIwOjE0IFBNJmhhc2hfdmFsdWU9M25RMjZZWkxiZlMyZUNyY2taUm5Idz09JnZhbGlkbWludXRlcz02MCZpZD01
+http://tv.ebox.live:8081/thunderbd/32/chunks.m3u8?nimblesessionid=6569930&wmsAuthSign=c2VydmVyX3RpbWU9MTEvNS8yMDIxIDEyOjExOjM1IFBNJmhhc2hfdmFsdWU9RlFUcDdCYmVLZlpLS0dCVU1Xb2E3UT09JnZhbGlkbWludXRlcz02MCZpZD01
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LeIa06D.png" group-title="Indian Bangla", ABP Ananda
 https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master_1564.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla HD

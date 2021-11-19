@@ -250,7 +250,7 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/714.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Earth ( Hindi ) " tvg-logo="https://watchindia.net/images/channels/hindi/Sony_BBC_Earth_HD.png" group-title="Infotainment",BBC Earth ( Hindi ) 
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2604.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery HD Hindi
-https://idvd.multitvsolution.com/idvo/discoveryhindi_540p/index.m3u8
+https://vips-livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
 https://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI

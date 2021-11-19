@@ -10,7 +10,7 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2640.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN News" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/08/atn-news.jpg?x91288" group-title="Bangladesh",ATN News
 https://rhridoy136.shortcm.li/atnnews.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Asian TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Asian_TV_Logo.svg/96px-Asian_TV_Logo.svg.png" group-title="Bangladesh",Asian TV
-https://cdn-sgp.oc.bd-cast.com/jago/0/c2VydmVyX4RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/asian-test-sample-ok-d.stream/chunks.m3u8
+http://10.16.100.203:8082/bangla/tv_AsiaN.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BOISHAKHI TV HD" tvg-logo="https://i.imgur.com/KXsOj3L.png" group-title="Bangladesh",BOISHAKHI TV HD
 http://iptvbd.jagobd.com:1931/boishakhi/boishakhitv-org.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bangla TV" tvg-logo="http://www.jagobd.com/wp-content/uploads/2017/05/banglatvhd-1.jpg?x91288" group-title="Bangladesh",Bangla TV
@@ -72,49 +72,47 @@ http://103.70.140.27:8080/hls/tsports.m3u8
 
 
 #EXTINF:-1 tvg-id="aakashaath.in" tvg-name="Akash Aath" tvg-logo="https://starhd25.com/wp-content/uploads/2021/04/36_HP_Aakash-Aath-300x169-1.png" group-title="Indian Bangla",Akash Aath
-http://tv.ebox.live:8081/thunderbd/32/chunks.m3u8?nimblesessionid=6569930&wmsAuthSign=c2VydmVyX3RpbWU9MTEvNS8yMDIxIDEyOjExOjM1IFBNJmhhc2hfdmFsdWU9RlFUcDdCYmVLZlpLS0dCVU1Xb2E3UT09JnZhbGlkbWludXRlcz02MCZpZD01
+https://last.gcdn.co/IND396/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LeIa06D.png" group-title="Indian Bangla", ABP Ananda
 https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master_1564.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla HD
-http://wagmaott.com:8080/mag00:1A:79:6A:63:7A/fYx9iEO1Lu/7913
+http://basic-iptvesun.com:8080/live/carter/GUV1bMq2VK/3415.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Tp3Kead.png" group-title="Indian Bangla", Enter 10 Bangla
-http://idvd.multitvsolution.com/idvo/enter10bangla_540p/index.m3u8
+https://236s.short.gy/DreamTV/Enter10.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2PQfcOh.png" group-title="Indian Bangla", Jalsha Movies
-http://basic-iptvesun.com:8080/carter/GUV1bMq2VK/3412
+https://last.gcdn.co/IND399/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kXfuCMM.png" group-title="Indian Bangla", News 18 Bangla
 https://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Orange Bangla" tvg-logo="https://i.imgur.com/2BPz1tU.jpg" group-title="Indian Bangla",Orange Bangla
 https://orangedigital.livebox.co.in:443/Orangebanglahls/Orangebangla.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg" group-title="Indian Bangla",Ruposhi Bangla
 http://tv.univisionlive.net:25461/live/rifat89/22216989/567.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Aath" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sony_Aath_logo.svg/1200px-Sony_Aath_logo.svg.png" group-title="Indian Bangla",Sony Aath
-http://d9af5a60.edmonst.net/iptv/N8RG6LD442U365/6641/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Aath"tvg-logo="https://dl.dropboxusercontent.com/s/wa8wof22bn71puv/sony_aath_in.png" group-title="Indian Bangla",Sony Aath
-http://xtrm.rtload.be:8999/jaykhantest/JVJNDFLJGVNFDSLK/325
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Aath" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sony_Aath_logo.svg/1200px-Sony_Aath_logo.svg.png" group-title="Indian Bangla",Sony Aath
-http://iptv.ponnoshare.com:25461/live/Trivedi/Trivedi52/566.m3u8
+http://last.gcdn.co/IND395/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Aath"tvg-logo="https://dl.dropboxusercontent.com/s/wa8wof22bn71puv/sony_aath_in.png" group-title="Indian Bangla",Sony Aath
+http://tv.alphamediazone.com:8089/thunderbd/33/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ppJO2Ep.png" group-title="Indian Bangla", Star Jalsha HD
-http://bosstr.net/live/cat54/DpbYpXOhHn/33960.m3u8
+http://tv.alphamediazone.com:8089/thunderbd/30/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="Indian Bangla", Sangeet Bangla 
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/sangeetbangla-audio_208482_und=208000-video=877600.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PW9hRDa.png" group-title="Indian Bangla", Sun Bangla
-http://tv.univisionlive.net:25461/live/rifat89/22216989/1012.m3u8
+https://last.gcdn.co/IND394/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD
-http://tv2.ebox.live:8080/live/zee-bangla.m3u8
+http://tv.alphamediazone.com:8089/thunderbd/34/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M6GyIvI.png" group-title="Indian Bangla", Zee Bangla Cinema
-http://tv2.ebox.live:8080/live/zee-cinema-bangla.m3u8
+http://tv.alphamediazone.com:8089/thunderbd/29/index.m3u8
 
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="& Picture" tvg-logo="https://akamaividz.zee5.com/resources/0-9-pictures/list/386x386/09picturespictures.png" group-title="Hindi",& Picture
 http://tv.univisionlive.net:25461/live/rifat89/22216989/701.m3u8
 #EXTINF:-1 tvg-id="andtvhd.in" tvg-name="& Xplor 4K" tvg-logo="https://watchindia.net/images/channels/hindi/And_Xplor_HD.png" group-title="Hindi",& Xplor 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/702.m3u8
+http://tv.alphamediazone.com:8089/thunderbd/74/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9XM" tvg-logo="https://s4.gifyu.com/images/image86b5f8b135364512.png" group-title="Hindi",9XM
 http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=208000-video=877600.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9x Jalwa" tvg-logo="https://i.imgur.com/E4NcxwB.jpg" group-title="Hindi",9x Jalwa
 https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="B4U Plus" tvg-logo="https://b4utv.com/b4uadmin/uploads/news/0_18190800_1531139203.jpg" group-title="Hindi",B4U Plus
-http://tv.univisionlive.net:25461/live/rifat89/22216989/1020.m3u8
+http://14.199.164.20:4001/play/a0wi/index.m3u8
 #EXTINF:-1 tvg-id="B4UKadak(src07).in(m3u4u)" tvg-name="B4U Kadak" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/a/ab/B4U_Kadak.jpeg/revision/latest/scale-to-width-down/340?cb=20200320100818" group-title="Movies",B4U Kadak
 http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
 #EXTINF:-1 tvg-id="BoxCinema(src07).in(m3u4u)" tvg-name="Box Cinema" tvg-logo="http://boxcinemedia.com/assets/img/logo.png" group-title="Hindi",Box Cinema

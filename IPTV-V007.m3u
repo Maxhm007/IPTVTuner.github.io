@@ -219,10 +219,14 @@ https://raw.githubusercontent.com/amarnettv/amarnettv.github.io/master/channels/
 http://tv.univisionlive.net:25461/live/rifat89/22216989/396.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Movie Kingdom" tvg-logo="https://i.imgur.com/pIuJqYk.png" group-title="English",Movie Kingdom
 https://a.jsrdn.com/broadcast/e9b4093a41/+0000/high/c.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OVH9Ehe.png" group-title="MOVIES",Movies Now
+http://b1g.one:80/play/0s9_4iSMkEsoaD2War1qsf6Ura2ezmL2VgoMDIZx9JY/ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oe4Woe7.png" group-title="WORLD ENTERTAINMENT",Star World
+http://221.120.204.4/star-world-LOCKLE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AJbFTSr.png" group-title="MOVIES",Star Movies
+http://221.120.204.4/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3i2U8HH.png" group-title="English", Sony Pix HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/715.m3u8
-#EXTINF:-1 tvg-id="starmoviesselecthd.in" tvg-name="Star Movies 4K" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Movies_HD.png" group-title="English",Star Movies 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/707.m3u8
 #EXTINF:-1 tvg-id="showtime.us" tvg-name="Showtime HD" tvg-logo="https://trademarks.justia.com/media/og_image.php?serial=78319568" group-title="English",Showtime HD
 http://tv.univisionlive.net:25461/live/rifat89/22216989/373.m3u8
 #EXTINF:-1 tvg-id="syfy.us" tvg-name="SyFy" tvg-logo="https://watchindia.net/images/channels/usa/Syfy.png" group-title="English",SyFy
@@ -252,7 +256,7 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2604.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery HD Hindi
 https://vips-livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
-https://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
+https://livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2455.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Discovery Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Discovery_Turbo.png/200px-Discovery_Turbo.png" group-title="Infotainment",Discovery Turbo

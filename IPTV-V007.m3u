@@ -164,7 +164,7 @@ http://tv.alphamediazone.com:8089/thunderbd/78/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AlFajer MOVIE" tvg-logo="https://i.imgur.com/tW4xfS7.png" group-title="English",AlFajer MOVIE
 http://two.alfajertv.com:8081/AlfajertvHDTwo_web/web/playlist.m3u8?@amarnettv.live
 #EXTINF:-1 tvg-logo="https://i.imgur.com/69pCK1u.png" group-title="English", AXN
-http://93.190.139.35:8278/streams/d/Axn/playlist.m3u8
+http://wanicelife.com:8880/SFL143456/73U700Y1/71087
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Blue Ant Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Blue_ant_entertainment_logo.png/220px-Blue_ant_entertainment_logo.png" group-title="English",Blue Ant Entertainment
 https://vips-livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Blue Ant Extreme" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Blue_ant_extreme_logo.png/220px-Blue_ant_extreme_logo.png" group-title="English",Blue Ant Extreme
@@ -209,6 +209,8 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/373.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/725.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Thrill" tvg-logo="http://console.celestialtiger.com/images/upload/1f6e441382a388940977fd9e165178c42fe0c193.png" group-title="English",Thrill
 http://45.126.83.51/qwr9ew/s/s34/index.m3u8
+#EXTINF:-1 group-title="English" ,MY122:WARNER TV
+http://wanicelife.com:8880/SFL143456/73U700Y1/71094
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Wixlar" tvg-logo="https://i.imgur.com/hfia0wN.png" group-title="English",Wixlar
 http://web.onair-radio.eu:1935/wixlar/wixlar/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="WOW!TV" tvg-logo="" group-title="English",WOW!TV
@@ -228,19 +230,21 @@ http://wanicelife.com:8880/SFL143456/73U700Y1/71119
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery
 http://wanicelife.com:8880/SFL143456/73U700Y1/71071
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
-https://livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.m3u8
+http://wanicelife.com:8880/SFL143456/73U700Y1/71072
 #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
-http://tv.univisionlive.net:25461/live/rifat89/22216989/2455.m3u8
+http://wanicelife.com:8880/SFL143456/73U700Y1/71073
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Discovery Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Discovery_Turbo.png/200px-Discovery_Turbo.png" group-title="Infotainment",Discovery Turbo
 https://feed.play.mv/live/1009/1UjOk2jBiR/master.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Docurama" tvg-logo="https://i.imgur.com/wfJJvAO.jpg" group-title="Infotainment",Docurama
 https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-docuramaA/CDN/master.m3u8
+#EXTINF:-1 group-title="Infotainment" ,MY119:FOOD NTWK HD
+http://wanicelife.com:8880/SFL143456/73U700Y1/71091
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Fashion TV" tvg-logo="https://i.imgur.com/yvNu4Rm.png" group-title="Infotainment",Fashion TV
 https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="HD Fashion & LifeStyle" tvg-logo="https://i.imgur.com/5p7CKwi.png" group-title="Infotainment",HD Fashion & LifeStyle
 http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8
 #EXTINF:-1 tvg-logo="ext" group-title="Infotainment",History Tv HD
-https://bk7l2w4nlx53-hls-live.5centscdn.com/HISTORY/961ac1c875f5884f31bdd177365ef1e3.sdp/playlist.m3u8
+http://wanicelife.com:8880/SFL143456/73U700Y1/71074
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Love Nature 4K" tvg-logo="https://cdn6.aptoide.com/imgs/5/1/7/51713cb38f60e82562a65727ce7d5493_icon.png" group-title="Infotainment",Love Nature 4K
 https://bamus-eng-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uQ4iijb.png" group-title="Infotainment", NASA TV
@@ -258,7 +262,7 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2468.m3u8
 #EXTINF:-1 tvg-logo="ext" group-title="Infotainment",RT Documentary
 https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TLC HD" tvg-logo="http://i.imgur.com/TInMfsC.png" group-title="Infotainment",TLC HD
-http://tv.univisionlive.net:25461/live/rifat89/22216989/384.m3u8
+http://wanicelife.com:8880/SFL143456/73U700Y1/71090
 #EXTINF:-1 tvg-id="TravelXP(src07).in(m3u4u)" tvg-name="Travel XP" tvg-logo="https://image3.mouthshut.com/images/imagesp/925753531s.png" group-title="Infotainment",Travel XP
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 
@@ -268,10 +272,8 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
 http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ANIPLUS" tvg-logo="https://i.imgur.com/myuUvgO.jpg" group-title="Kids",ANIPLUS
 http://210.210.155.35/session/0d216142-f3f5-11e8-ab67-89df93dc8d44/dr9445/h/h02/index.m3u8
-#EXTINF:0 tvg-logo="https://i.imgur.com/M9Z5cfD.png" group-title="Kids",Cartoon Network Hindi
-http://www.luckonline.eu:80/Anil/FrCRlmpWHH/458
 #EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="Kids",Cartoon Network
-http://latinosiptv.online:8090/live/notocar/xmauc84bx1/2456.m3u8
+http://wanicelife.com:8880/SFL143456/73U700Y1/71084
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Disney Channel" tvg-logo="" group-title="Kids",Disney Channel
 https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
@@ -287,9 +289,9 @@ https://feed.play.mv/live/10005200/s5f1zEMJC1/master.m3u8
 #EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="Kids",Nicktoons
 http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
 #EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nickelodeon HD" tvg-logo="https://i.imgur.com/QqLoAs7.png" group-title="Kids",Nickelodeon HD
-http://tv.univisionlive.net:25461/live/rifat89/22216989/388.m3u8
+http://wanicelife.com:8880/SFL143456/73U700Y1/71085
 #EXTINF:-1 tvg-id="nickjr.us" tvg-name="NICK Jr" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/nick_jr_br.jpg" group-title="Kids",NICK Jr
-http://tv.univisionlive.net:25461/live/rifat89/22216989/1055.m3u8
+http://wanicelife.com:8880/SFL143456/73U700Y1/71086
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Kabillion" tvg-logo="" group-title="Kids",Kabillion
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxkabillion/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sony Yay Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Sony_Yay_Logo.jpg" group-title="Kids",Sony Yay Bangla

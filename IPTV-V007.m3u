@@ -104,7 +104,7 @@ http://103.166.253.222/hls/zee-bangla-cinema.m3u8
 
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="& Picture" tvg-logo="https://akamaividz.zee5.com/resources/0-9-pictures/list/386x386/09picturespictures.png" group-title="Hindi",& Picture
-http://tv.univisionlive.net:25461/live/rifat89/22216989/701.m3u8
+http://103.166.253.222/hls/andpictures.m3u8
 #EXTINF:-1 tvg-id="andtvhd.in" tvg-name="& Xplor 4K" tvg-logo="https://watchindia.net/images/channels/hindi/And_Xplor_HD.png" group-title="Hindi",& Xplor 4K
 http://tv.alphamediazone.com:8089/thunderbd/74/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="9XM" tvg-logo="https://s4.gifyu.com/images/image86b5f8b135364512.png" group-title="Hindi",9XM
@@ -120,7 +120,7 @@ https://m-c01-j2apps.s.llnwi.net/hls/6523.BOXCinema.in_480p/index.m3u8
 #EXTINF:-1 tvg-id="BflixMovies(src07).in(m3u4u)" tvg-name="Bflix Movies" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Bflix_Movies.png" group-title="Hindi",Bflix Movies
 https://m-c036-j2apps.s.llnwi.net/hls/5045.BFlixMovies.in_480p/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4BBrXbC.png" group-title="Hindi", Colors Cineplex HD
-http://wanicelife.com:8880/SFL143456/73U700Y1/71125
+http://103.166.253.222/hls/colorscineplex.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4BBrXbC.png" group-title="Hindi", Color HD
 http://tv.alphamediazone.com:8089/thunderbd/68/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Dabaang" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Dabangg.png" group-title="Hindi",Dabaang
@@ -136,17 +136,17 @@ http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MANORANJAN MOVIES" tvg-logo="https://i.imgur.com/fPuBXRz.jpg" group-title="Hindi",MANORANJAN MOVIES
 https://m-c036-j2apps.s.llnwi.net/hls/2172.ManoranjanMovies.in.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi", Sony Entertainment HD
-http://tv.alphamediazone.com:8089/thunderbd/38/index.m3u8
+http://103.166.253.222/hls/sonyen.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony SAB FHD" tvg-logo="https://d36mpatsggudpt.cloudfront.net/images/logo-new.png" group-title="Hindi",Sony SAB FHD
 https://feed.play.mv/live/1009/LdG80WcrbS/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ro7bedn.png" group-title="Hindi", Sony Max HD 
-https://feed.play.mv/live/10005200/Xe5PWNrbRZ/1.m3u8
+http://103.166.253.222/hls/sony-maxhd.m3u8
 #EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://static.epg.best/nl/StarGold.nl.png" group-title="Hindi",Star Gold HD
-http://tv.univisionlive.net:25461/live/rifat89/22216989/604.m3u8
+http://103.166.253.222/hls/stargold2hd.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AMhvwJB.png" group-title="Hindi", Star Plus HD
-http://tv.alphamediazone.com:8089/thunderbd/67/index.m3u8
+http://103.166.253.222/hls/starplus.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HmgQJGS.png" group-title="Hindi", UTV Action
-https://feed.play.mv/live/1009/h8ICfEsHxv/master.m3u8
+http://103.166.253.222/hls/utvaction.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RjiBQP2.png" group-title="Hindi", Zee Action
 http://tv.alphamediazone.com:8089/thunderbd/90/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ZEE BIOSKOP" tvg-logo="" group-title="Hindi",ZEE BIOSKOP
@@ -154,9 +154,11 @@ http://210.210.155.35/session/c2dff430-f786-11ea-8442-ae06b0bdb327/qwr9ew/s/s32/
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ldXaLJK.png" group-title="Hindi", Zee Cinema HD
 http://tv.alphamediazone.com:8089/thunderbd/76/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi", Zee TV HD
-http://221.120.204.4/zee-tv-LOCKLE/tracks-v1a1/mono.m3u8
+http://103.166.253.222/hls/zeetv.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="WoW CINEMA" tvg-logo="https://image3.mouthshut.com/images/imagesp/925755500s.jpg" group-title="Hindi",WoW CINEMA
 https://m-c036-j2apps.s.llnwi.net/hls/2940.WOWCinemaOne.in.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQgPcyhcJebwJC7_8Tqej_kyuLFLdVfHk9X2IFKjg=s88-c-k-c0x00ffffff-no-rj" group-title="Hindi", Zoom
+http://103.166.253.222/hls/zoom.m3u8
 
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="& Prive HD" tvg-logo="https://i.imgur.com/XlJxZhQ.jpg" group-title="English",& Prive HD
@@ -236,7 +238,7 @@ http://103.166.253.222/hls/discovery.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
 http://wanicelife.com:8880/SFL143456/73U700Y1/71072
 #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
-http://wanicelife.com:8880/SFL143456/73U700Y1/71073
+http://103.166.253.222/hls/dis-science.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Discovery Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Discovery_Turbo.png/200px-Discovery_Turbo.png" group-title="Infotainment",Discovery Turbo
 https://feed.play.mv/live/1009/1UjOk2jBiR/master.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Docurama" tvg-logo="https://i.imgur.com/wfJJvAO.jpg" group-title="Infotainment",Docurama

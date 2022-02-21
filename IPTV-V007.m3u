@@ -6,11 +6,11 @@ https://bd.jagobd.com:444/c2VydmVyX4RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92Y
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN Islamic" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/02/atnislamictv.jpg?x91288" group-title="Bangladesh",ATN Islamic
 https://rhridoy136.shortcm.li/atnislamic.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN Music" tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x91288" group-title="Bangladesh",ATN Music
-http://tv.univisionlive.net:25461/live/rifat89/22216989/2640.m3u8
+https://somoy.appv.jagobd.com:444/somoy/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN News" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/08/atn-news.jpg?x91288" group-title="Bangladesh",ATN News
 https://rhridoy136.shortcm.li/atnnews.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Asian TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Asian_TV_Logo.svg/96px-Asian_TV_Logo.svg.png" group-title="Bangladesh",Asian TV
-http://10.16.100.203:8082/bangla/tv_AsiaN.m3u8
+http://103.159.4.38:5868/BD-BANGLA-22/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BOISHAKHI TV HD" tvg-logo="https://i.imgur.com/KXsOj3L.png" group-title="Bangladesh",BOISHAKHI TV HD
 http://iptvbd.jagobd.com:1931/boishakhi/boishakhitv-org.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Bangla TV" tvg-logo="http://www.jagobd.com/wp-content/uploads/2017/05/banglatvhd-1.jpg?x91288" group-title="Bangladesh",Bangla TV
@@ -277,11 +277,11 @@ http://210.210.155.35/session/0d216142-f3f5-11e8-ab67-89df93dc8d44/dr9445/h/h02/
 #EXTINF:-1 group-title="Kids",MY128:ANIMAX
 http://wanicelife.com:8880/SFL143456/73U700Y1/71100
 #EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="Kids",Cartoon Network
-http://wanicelife.com:8880/SFL143456/73U700Y1/71084
+http://103.166.253.222/hls/cn.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Disney Channel" tvg-logo="" group-title="Kids",Disney Channel
 https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png" group-title="Kids",Discovery Kids
-http://tv.univisionlive.net:25461/live/rifat89/22216989/2665.m3u8
+http://103.166.253.222/hls/dis-kid.m3u8
 #EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="Kids",Disney Jr
 http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
 #EXTINF:-1 tvg-id="disneyxd.us" tvg-name="Disney XD HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="Kids",Disney XD HD
@@ -298,6 +298,8 @@ http://wanicelife.com:8880/SFL143456/73U700Y1/71085
 http://wanicelife.com:8880/SFL143456/73U700Y1/71086
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Kabillion" tvg-logo="" group-title="Kids",Kabillion
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxkabillion/CDN/playlist.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Pogo" tvg-logo="" group-title="Kids",Pogo
+http://103.166.253.222/hls/pogo.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sony Yay Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Sony_Yay_Logo.jpg" group-title="Kids",Sony Yay Bangla
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2759.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lYM7Gik.png" group-title="Kids",Sony Yay Hindi

@@ -222,15 +222,15 @@ http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="animalplanet.us" tvg-name="Animal Planet HD" tvg-logo="https://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Infotainment",Animal Planet HD
-http://wanicelife.com:8880/SFL143456/73U700Y1/71075
+http://103.166.253.222/hls/animalplanent.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/220px-Asian_Food_Network.svg.png" group-title="Infotainment",AFC
 https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Lifestyle HD" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_bbc-lifestyle_148379742953.jpg" group-title="Infotainment",BBC Lifestyle HD
 https://livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/BBC_Earth_logo.png/200px-BBC_Earth_logo.png" group-title="Infotainment",BBC Earth
-http://wanicelife.com:8880/SFL143456/73U700Y1/71119
+http://103.166.253.222/hls/bbcearth.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery
-http://wanicelife.com:8880/SFL143456/73U700Y1/71071
+http://103.166.253.222/hls/discovery.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
 http://wanicelife.com:8880/SFL143456/73U700Y1/71072
 #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
@@ -252,9 +252,9 @@ https://bamus-eng-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uQ4iijb.png" group-title="Infotainment", NASA TV
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 #EXTINF:-1 tvg-id="natgeowild.us" tvg-name="National Geographic" tvg-logo="https://i.imgur.com/bUepAp5.png" group-title="Infotainment",National Geographic
-https://last.gcdn.co/IND414/index.m3u8
+http://103.166.253.222/hls/ngohd.m3u8
 #EXTINF:-1 tvg-id="natgeowildhd.in" tvg-name="Nat Geo Wild (Hindi)" tvg-logo="http://watchindia.net/images/channels/usa/NAT_GEO_Wild.png" group-title="Infotainment",Nat Geo Wild (Hindi)
-https://liveanevia.mncnow.id/live/eds/NatGeoWild/sa_dash_vmx/NatGeoWild.mpd
+http://103.166.253.222/hls/wild.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NatGeo People" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/1200px-New_NatGeo_People_logo.svg.png" group-title="Infotainment",NatGeo People
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2464.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-language="Japanese" tvg-logo="https://i.imgur.com/SQISXoD.jpg" group-title="Infotainment",NHK World Japan 
@@ -264,9 +264,9 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/2468.m3u8
 #EXTINF:-1 tvg-logo="ext" group-title="Infotainment",RT Documentary
 https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TLC HD" tvg-logo="http://i.imgur.com/TInMfsC.png" group-title="Infotainment",TLC HD
-http://wanicelife.com:8880/SFL143456/73U700Y1/71090
+http://103.166.253.222/hls/wild.m3u8
 #EXTINF:-1 tvg-id="TravelXP(src07).in(m3u4u)" tvg-name="Travel XP" tvg-logo="https://image3.mouthshut.com/images/imagesp/925753531s.png" group-title="Infotainment",Travel XP
-http://tv.univisionlive.net:25461/live/rifat89/22216989/2656.m3u8
+http://103.166.253.222/hls/travelxp.m3u8
 
 
 

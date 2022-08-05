@@ -72,35 +72,31 @@ http://103.166.253.222/hls/t-sports.m3u8
 
 
 #EXTINF:-1 tvg-id="aakashaath.in" tvg-name="Akash Aath" tvg-logo="https://starhd25.com/wp-content/uploads/2021/04/36_HP_Aakash-Aath-300x169-1.png" group-title="Indian Bangla",Akash Aath
-https://last.gcdn.co/IND396/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LeIa06D.png" group-title="Indian Bangla", ABP Ananda
-https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master_1564.m3u8
+http://208.86.19.13:81/902.stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla HD
-http://103.166.253.222/hls/colorsbangla.m3u8
+http://208.86.19.13:81/904.stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla Cinema
 http://103.166.253.222/hls/colore-bangla-cinema.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Tp3Kead.png" group-title="Indian Bangla", Enter 10 Bangla
 https://236s.short.gy/DreamTV/Enter10.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2PQfcOh.png" group-title="Indian Bangla", Jalsha Movies
-http://103.166.253.222/hls/jalshamovies.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kXfuCMM.png" group-title="Indian Bangla", News 18 Bangla
-https://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8
+http://103.55.144.46/hls/jalshamovies.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Orange Bangla" tvg-logo="https://i.imgur.com/2BPz1tU.jpg" group-title="Indian Bangla",Orange Bangla
 https://orangedigital.livebox.co.in:443/Orangebanglahls/Orangebangla.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg" group-title="Indian Bangla",Ruposhi Bangla
 http://tv.univisionlive.net:25461/live/rifat89/22216989/567.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Aath"tvg-logo="https://dl.dropboxusercontent.com/s/wa8wof22bn71puv/sony_aath_in.png" group-title="Indian Bangla",Sony Aath
-http://103.166.253.222/hls/Sony_Aath.m3u8
+http://103.55.144.46:80/hls/Sony_Aath.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ppJO2Ep.png" group-title="Indian Bangla", Star Jalsha HD
-http://103.166.253.222/hls/starjalsha.m3u8
+http://stream.serverbd247.com/hls/serverbd247.com_starjalsha.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="Indian Bangla", Sangeet Bangla 
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/sangeetbangla-audio_208482_und=208000-video=877600.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PW9hRDa.png" group-title="Indian Bangla", Sun Bangla
-http://103.166.253.222/hls/sunbangla.m3u8
+http://208.86.19.13:81/903.stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD
-http://103.166.253.222/hls/zeebanglahd.m3u8
+http://103.109.56.116/live/skyfeed1004/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M6GyIvI.png" group-title="Indian Bangla", Zee Bangla Cinema
-http://103.166.253.222/hls/zee-bangla-cinema.m3u8
+http://208.86.19.13:81/708.stream/index.m3u8
 
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="& Picture" tvg-logo="https://akamaividz.zee5.com/resources/0-9-pictures/list/386x386/09picturespictures.png" group-title="Hindi",& Picture

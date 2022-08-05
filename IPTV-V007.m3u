@@ -225,6 +225,7 @@ https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
 https://livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="BBC Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/BBC_Earth_logo.png/200px-BBC_Earth_logo.png" group-title="Infotainment",BBC Earth
 http://103.166.253.222/hls/bbcearth.m3u8
+#http://103.55.144.46/hls/bbcearth.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery
 http://103.166.253.222/hls/discovery.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia

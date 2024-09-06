@@ -22,13 +22,13 @@ http://iptvbd.jagobd.com:1931/live-orgin/bijoy00.stream/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/us-cnn-bangla-tv-9082.jpg" group-title="Bangla", CNN Bangla
 http://d1zuxgm0d4hmth.cloudfront.net/cnnbangla/01.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CHANNEL 24" tvg-logo="http://www.jagobd.com/wp-content/uploads/2016/02/channel24.jpg?x91288" group-title="Bangladesh",CHANNEL 24
-https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/chunks.m3u8
+https://live-api.vimeocdn.com/sessions/de730ddb-c92d-42db-8457-deb0c12b74f0/playlist/hls.m3u8?cdn=akamai&~exp=1725616800&~id=player&~sig=bco8sroQ4OZKkFYvJGQeyeCb61-ta1HyoEoqI8CqRhA
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 9" tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/10/ch9-150x150.jpg?x91288" group-title="Bangladesh",Channel 9
 http://iptvbd.jagobd.com:1931/live-orgin/channel9hd.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel I" tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/10/chi-150x150.jpg?x91288" group-title="Bangladesh",Channel I
-http://iptvbd.jagobd.com:1931/live-orgin/channeli-8-org.stream/chunks.m3u8
+https://live-api.vimeocdn.com/sessions/de730ddb-c92d-42db-8457-deb0c12b74f0/playlist/hls.m3u8?cdn=akamai&~exp=1725616800&~id=player&~sig=bco8sroQ4OZKkFYvJGQeyeCb61-ta1HyoEoqI8CqRhA
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="DBC News" tvg-logo="http://www.jagobd.com/wp-content/uploads/2017/01/dbc-news.jpg?x91288" group-title="Bangladesh",DBC News
-https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/dbcnews.stream/chunks.m3u8
+https://livess.ncare.live:443/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/live-orgin/dbcnews.stream/chunks.m3u8?nimblesessionid=261979244&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjQgOToxNDoyOSBBTSZoYXNoX3ZhbHVlPWVaaGJVaW1ENEVZN0JWQmdEU3RtV0E9PSZ2YWxpZG1pbnV0ZXM9NjAmaWQ9NQ==
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Desh TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/81/Desh_tv.png" group-title="Bangladesh",Desh TV
 https://tv.kotha.im/Desh_TV_SD/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Deepto TV" tvg-logo="" group-title="Bangladesh",Deepto TV

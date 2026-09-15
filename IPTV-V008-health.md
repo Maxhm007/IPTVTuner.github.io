@@ -1,39 +1,73 @@
 # IPTV V008 Health
 
-- Updated: 2026-09-15T12:12:45+00:00
+- Updated: 2026-09-15T12:19:36+00:00
 - Total channels: 139
-- Active: 114
-- Inactive (confirmed dead): 25
-- Active but uncertain from GitHub runner: 76
+- Active: 80
+- Inactive: 59
+- Active but uncertain from GitHub runner: 42
 - Checked this run: 139
-- Inactivated: 1
+- Inactivated: 34
 - Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
 
-- ATN Islamic — reason=http-404, recovery=0/2
-- Channel I — reason=http-404, recovery=0/2
-- Channel S — reason=http-404, recovery=0/2
-- Jamuna TV — reason=http-404, recovery=0/2
-- Mohona TV — reason=http-404, recovery=0/2
-- NASA TV — reason=http-404, recovery=0/2
-- Anando TV — reason=http-404, recovery=0/2
-- Akash Aath — reason=http-404, recovery=0/2
-- Colors Bangla HD — reason=http-404, recovery=0/2
-- Colors Bangla Cinema — reason=http-404, recovery=0/2
-- Enter 10 Bangla — reason=http-404, recovery=0/2
-- Sun Bangla — reason=http-404, recovery=0/2
-- Zee Bangla Cinema — reason=http-404, recovery=0/2
-- Animal Planet HD — reason=http-404, recovery=0/2
-- Discovery — reason=http-404, recovery=0/2
-- Discovery SCI — reason=http-404, recovery=0/2
-- NASA TV — reason=http-404, recovery=0/2
-- National Geographic — reason=http-404, recovery=0/2
-- Nat Geo Wild (Hindi) — reason=http-404, recovery=0/2
-- NHK World Japan — reason=http-404, recovery=0/2
-- Travel XP — reason=http-404, recovery=0/2
-- Cartoon Network — reason=http-404, recovery=0/2
-- Cheddar — reason=http-404, recovery=0/2
-- India TV — reason=http-404, recovery=0/2
-- News 24 — reason=http-404, recovery=0/2
+- ATN Islamic — reason=http-404, policy=actionable
+- Channel I — reason=http-404, policy=actionable
+- Channel S — reason=http-404, policy=actionable
+- Jamuna TV — reason=http-404, policy=actionable
+- Mohona TV — reason=http-404, policy=actionable
+- NASA TV — reason=http-404, policy=actionable
+- Anando TV — reason=http-404, policy=actionable
+- Akash Aath — reason=http-404, policy=actionable
+- Colors Bangla HD — reason=http-404, policy=actionable
+- Colors Bangla Cinema — reason=http-404, policy=actionable
+- Enter 10 Bangla — reason=http-404, policy=actionable
+- Sun Bangla — reason=http-404, policy=actionable
+- Zee Bangla Cinema — reason=http-404, policy=actionable
+- AXN — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Cinemax HD — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Fox Life — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- HBO — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- HBO+ Plus — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- HBO Signature — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- HBO Hits — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Star World — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Star Movies — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Sony Pix HD — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Showtime HD — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- SyFy — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Animal Planet HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
+- Discovery — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
+- Discovery Asia — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Discovery SCI — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
+- NASA TV — reason=http-404, policy=actionable
+- National Geographic — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
+- Nat Geo Wild (Hindi) — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
+- NHK World Japan — reason=http-404, policy=actionable
+- Travel XP — reason=http-404, policy=actionable
+- Cartoon Network — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
+- Disney Jr — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Disney XD HD — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Nicktoons — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- NICK Jr — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Cheddar — reason=http-404, policy=actionable
+- India TV — reason=http-404, policy=actionable
+- News 24 — reason=http-404, policy=actionable
+- ESPN — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Sony Six — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Sony Ten 1 4K — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Sony Ten 2 4K — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Sony Ten 3 4K — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Star Sports 1 4K — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Star Sports 2 4K — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Star Sports Select 1 4K — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Star Sports Select 2 4K — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Super Sports 1 — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Super Sports 2 — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Super Sports 3 — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Super Sports 4 — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Super Sports 5 — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Super Sports 6 — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- Super Sports 7 — reason=premium-default-inactive, policy=premium-awaiting-approved-free
+- WWE Network — reason=premium-default-inactive, policy=premium-awaiting-approved-free

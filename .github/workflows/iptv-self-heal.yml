@@ -17,6 +17,7 @@ permissions:
 jobs:
   heal:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - name: Checkout automation code
         uses: actions/checkout@v4

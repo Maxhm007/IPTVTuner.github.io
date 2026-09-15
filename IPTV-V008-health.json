@@ -3,7 +3,7 @@
     "id:9xjalwa.in": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://mumt03.tangotv.in/Dsly5z3H9XJALWA/index.m3u8",
       "name": "9X Jalwa",
@@ -14,7 +14,7 @@
     "id:9xm.in": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://9xjio.wiseplayout.com/9XM/master.m3u8",
       "name": "9XM",
@@ -25,7 +25,7 @@
     "id:aajtak.in": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
       "name": "Aaj Tak HD",
@@ -34,20 +34,20 @@
       "status": "active"
     },
     "id:aakashaath.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:33+00:00",
-      "last_failure": "2026-09-15T11:49:33+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Akash Aath",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:aastha.in": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8",
       "name": "Aastha",
@@ -58,7 +58,7 @@
     "id:abpnews.in": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
       "name": "ABP News",
@@ -67,19 +67,20 @@
       "status": "active"
     },
     "id:abpnewsindia(src07).in(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "News",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "ABP News",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:aljazeera.qa": {
       "failures": 0,
       "group": "News",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8",
       "name": "Al Jazeera English",
@@ -90,7 +91,7 @@
     "id:anandatv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
       "name": "Ananda TV",
@@ -99,30 +100,31 @@
       "status": "active"
     },
     "id:andtvhd.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "& Xplor 4K",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:animalplanet.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Animal Planet HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:atnbangla.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/atnbangla/index.m3u8",
       "name": "ATN Bangla",
@@ -131,20 +133,20 @@
       "status": "active"
     },
     "id:b4ukadak(src07).in(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "B4U Kadak",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:banglavision.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/banglavision/index.m3u8",
       "name": "Bangla Vision",
@@ -153,19 +155,20 @@
       "status": "active"
     },
     "id:bloomberg.us(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "News",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Bloomberg Asia",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:boishakhitv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
       "name": "Boishakhi TV",
@@ -174,93 +177,98 @@
       "status": "active"
     },
     "id:britasia(src07).in(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "Music",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Brit Asia TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:cartoonnetwork.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Cartoon Network",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:cgtn.uk": {
-      "failures": 0,
+      "failures": 1,
       "group": "News",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
       "name": "CGTN News",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:cgtn.uk(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "News",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "CGTN News",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:channeli.bd": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Channel I",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:channels.bd": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Channel S",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:cheddarnews.us(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "News",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Cheddar",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:cinemax.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:49:48+00:00",
-      "last_failure": "2026-09-15T11:49:48+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Cinemax HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:cna.sg": {
       "failures": 0,
       "group": "News",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
       "name": "CNA HD",
@@ -269,20 +277,20 @@
       "status": "active"
     },
     "id:dbcnews.bd": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "DBC News",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:deshitv.ca": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
       "name": "Deshi TV",
@@ -291,39 +299,42 @@
       "status": "active"
     },
     "id:discoveryscience(src07).in(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Discovery SCI",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:disneyjunior.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Disney Jr",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:disneyxd.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Disney XD HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:durontotv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
       "name": "Duronto TV",
@@ -332,20 +343,20 @@
       "status": "active"
     },
     "id:ekhontv.bd": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Ekhon TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:ekusheytv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://ekusheyserver.com/etvlivesn.m3u8",
       "name": "Ekushey TV",
@@ -354,19 +365,20 @@
       "status": "active"
     },
     "id:espn.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "ESPN",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:gazitv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
       "name": "Gazi TV",
@@ -377,7 +389,7 @@
     "id:greentv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
       "name": "Green TV",
@@ -388,7 +400,7 @@
     "id:indiatoday.in": {
       "failures": 0,
       "group": "News",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
       "name": "India Today",
@@ -397,30 +409,31 @@
       "status": "active"
     },
     "id:indiatv(src07).in(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "News",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "India TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:jamunatv.bd": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Jamuna TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:maasrangatv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
       "name": "Maasranga TV",
@@ -429,42 +442,42 @@
       "status": "active"
     },
     "id:mastiii.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Mastiii",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:mohonatv.bd": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Mohona TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:mtvhdplus.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "MTV India",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:mytv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
       "name": "My TV",
@@ -473,40 +486,42 @@
       "status": "active"
     },
     "id:nasa.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "NASA TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:natgeowild.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "National Geographic",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:natgeowildhd.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Nat Geo Wild (Hindi)",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:ndtv24x7.us(m3u4u)": {
       "failures": 0,
       "group": "News",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_working_url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
       "name": "NDTV 24x7",
       "pending_url": "",
@@ -514,19 +529,20 @@
       "status": "active"
     },
     "id:news24(src07).in(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "News",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "News 24",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:nexustv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
       "name": "Nexus TV",
@@ -537,7 +553,7 @@
     "id:nhkworldjapan.jp": {
       "failures": 0,
       "group": "News",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
       "name": "NHK World Japan",
@@ -546,39 +562,42 @@
       "status": "active"
     },
     "id:nickelodeon.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Nick HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:nickjr.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "NICK Jr",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:nicktoons.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Nicktoons",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:ntv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
       "name": "NTV",
@@ -589,7 +608,7 @@
     "id:pbskidsmountain.us": {
       "failures": 0,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8",
       "name": "PBS Kids Mountain",
@@ -600,7 +619,7 @@
     "id:pbskidspacific.us": {
       "failures": 0,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8",
       "name": "PBS Kids Pacific",
@@ -611,7 +630,7 @@
     "id:rajdhanitv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
       "name": "Rajdhani TV",
@@ -622,7 +641,7 @@
     "id:redbulltv.at": {
       "failures": 0,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8",
       "name": "Red Bull TV",
@@ -633,7 +652,7 @@
     "id:rtv.bd": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
       "name": "RTV",
@@ -642,141 +661,152 @@
       "status": "active"
     },
     "id:rupashibanglatv.bd": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Rupashi Bangla TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:showtime.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Showtime HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:sonysix.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sony Six",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:sonyten1hd.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sony Ten 1 4K",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:sonyten2hd.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sony Ten 2 4K",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:stargoldhd.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:41+00:00",
-      "last_failure": "2026-09-15T11:49:41+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star Gold HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:starsports1.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star Sports 1 4K",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:starsports2hd.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star Sports 2 4K",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:starsportsselect1hd.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star Sports Select 1 4K",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:starsportsselecthd2.in": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star Sports Select 2 4K",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:syfy.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "SyFy",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:timesnow.us(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "News",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Times Now",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:travelxp(src07).in(m3u4u)": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Travel XP",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:tsports.bd": {
       "failures": 0,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
       "name": "T Sports",
@@ -785,152 +815,185 @@
       "status": "active"
     },
     "id:voktatv.bd": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Vokta TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "id:wwe.us": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "WWE Network",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:24": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "CHANNEL 24",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:9": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Channel 9",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:bangladesh:atn bangla": {
+    "name:bangladesh:ananda": {
       "failures": 1,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Anando TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:asian": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Asian TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:atn bangla": {
+      "failures": 2,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "ATN Bangla",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:atn islamic": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:41:26+00:00",
-      "last_failure": "2026-09-15T11:41:26+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "ATN Islamic",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:atn music": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "ATN Music",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:atn news": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "ATN News",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:bangla": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Bangla TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:banglavision": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Banglavision",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:bijoy": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Bijoy TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:boishakhi": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "BOISHAKHI TV HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:cnn bangla": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:49:33+00:00",
-      "last_failure": "2026-09-15T11:49:33+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "CNN Bangla",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:dbc news": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "DBC News",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:deepto": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_working_url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8?stime=20240906092458&etime=20240906093458&encoded=055e145d53b85b50eaf6f",
       "name": "Deepto TV",
       "pending_url": "",
@@ -938,49 +1001,53 @@
       "status": "active"
     },
     "name:bangladesh:desh": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Desh TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:duronto": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Duronto Tv",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:ekattor": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Ekattor TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:ekhon": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Ekhon TV HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:ekushey": {
       "failures": 0,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_working_url": "https://ekusheyserver.com/etvlivesn.m3u8",
       "name": "EKUSHEY TV HD",
       "pending_url": "",
@@ -988,133 +1055,338 @@
       "status": "active"
     },
     "name:bangladesh:gaan bangla": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Gaan Bangla",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:gazi": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Gazi TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:i": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Channel I",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:independent": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Independent",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:itv iptv": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "ITV IPTV [BD]",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:bangladesh:jagonews24": {
-      "failures": 1,
+      "failures": 2,
       "group": "Bangladesh",
-      "last_checked": "2026-09-15T11:49:33+00:00",
-      "last_failure": "2026-09-15T11:49:33+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "JagoNews24 Tv",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
+    },
+    "name:bangladesh:jamuna": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Jamuna TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:ktv bangla": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Ktv bangla HD [BD]",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:maasranga": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Maasranga TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:mohona": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "MOHONA TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:my": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "MY TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:nagorik": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Nagorik TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:news 24": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "News 24",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:ntv": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "NTV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:rtv": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "RTV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:satv": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "SATV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:somoy": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Shomoy TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:bangladesh:t sports": {
+      "failures": 1,
+      "group": "Bangladesh",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "TSports",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
     },
     "name:english:al jazeera": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Al Jazeera HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:english:axn": {
+    "name:english:alfajer movie": {
       "failures": 1,
       "group": "English",
-      "last_checked": "2026-09-15T11:49:48+00:00",
-      "last_failure": "2026-09-15T11:49:48+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "AlFajer MOVIE",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:axn": {
+      "failures": 2,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "AXN",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:english:bbc world news": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "BBC World News",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:english:cnn": {
+    "name:english:blue ant entertainment": {
       "failures": 1,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Blue Ant Entertainment",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:blue ant extreme": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Blue Ant Extreme",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:cnn": {
+      "failures": 2,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "CNN HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:english:fox life": {
+    "name:english:flix": {
       "failures": 1,
       "group": "English",
-      "last_checked": "2026-09-15T11:49:48+00:00",
-      "last_failure": "2026-09-15T11:49:48+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "& Flix HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:fox": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "FOX HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:fox life": {
+      "failures": 2,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Fox Life",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:groovy": {
+      "failures": 0,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8",
+      "name": "Groovy",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
     },
     "name:english:hbo": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:49:48+00:00",
-      "last_failure": "2026-09-15T11:49:48+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "HBO",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:english:hbo hits": {
       "failures": 0,
       "group": "English",
-      "last_checked": "2026-09-15T11:49:48+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:48+00:00",
       "last_replaced": "2026-09-15T11:49:49+00:00",
       "last_working_url": "http://tvsen7.aynascope.net/hbo2/index.m3u8",
@@ -1125,138 +1397,252 @@
       "status": "active"
     },
     "name:english:hbo plus": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:49:48+00:00",
-      "last_failure": "2026-09-15T11:49:48+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "HBO+ Plus",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:english:hbo signature": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:49:48+00:00",
-      "last_failure": "2026-09-15T11:49:48+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "HBO Signature",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:english:movies now": {
+    "name:english:movie kingdom": {
       "failures": 1,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Movie Kingdom",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:movies now": {
+      "failures": 2,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Movies Now",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:english:mtv english": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:49:49+00:00",
-      "last_failure": "2026-09-15T11:49:49+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "MTV English",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:english:sony pix": {
+    "name:english:prive": {
       "failures": 1,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "& Prive HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:sony pix": {
+      "failures": 2,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sony Pix HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:english:star movies": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star Movies",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:english:star world": {
-      "failures": 1,
+      "failures": 2,
       "group": "English",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star World",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
+    },
+    "name:english:thrill": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Thrill",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:english:wow": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "WOW!TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
     },
     "name:entertainment:redbull": {
       "failures": 0,
       "group": "Entertainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_working_url": "http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_928.m3u8",
       "name": "Redbull TV",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
     },
-    "name:hindi:color": {
+    "name:hindi:9x jalwa": {
       "failures": 1,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "9x Jalwa",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:hindi:9xm": {
+      "failures": 1,
+      "group": "Hindi",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "9XM",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:hindi:b4u music": {
+      "failures": 1,
+      "group": "Hindi",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "B4U Music",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:hindi:b4u plus": {
+      "failures": 1,
+      "group": "Hindi",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "B4U Plus",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:hindi:color": {
+      "failures": 2,
+      "group": "Hindi",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Color HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:hindi:colors cineplex": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Colors Cineplex HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:hindi:sony entertainment": {
+    "name:hindi:picture": {
       "failures": 1,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "& Picture",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:hindi:sony entertainment": {
+      "failures": 2,
+      "group": "Hindi",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sony Entertainment HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:hindi:sony max": {
-      "failures": 0,
+      "failures": 1,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_replaced": "2026-09-15T11:49:41+00:00",
       "last_working_url": "https://cloudplay-sonyliv.pages.dev/max.m3u8",
       "name": "Sony Max HD",
       "pending_url": "",
       "recovery_successes": 0,
       "replacement_source": "iptv-org/in",
-      "status": "active"
+      "status": "inactive"
+    },
+    "name:hindi:sony sab": {
+      "failures": 1,
+      "group": "Hindi",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Sony SAB FHD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
     },
     "name:hindi:star gold 2": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:41+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:41+00:00",
       "last_replaced": "2026-09-15T11:49:47+00:00",
       "last_working_url": "http://107.167.16.138/stargold2/index.m3u8?token=test",
@@ -1267,42 +1653,42 @@
       "status": "active"
     },
     "name:hindi:star gold select": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:47+00:00",
-      "last_failure": "2026-09-15T11:49:47+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star Gold Select HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:hindi:star plus": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:47+00:00",
-      "last_failure": "2026-09-15T11:49:47+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Star Plus HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:hindi:utv action": {
-      "failures": 1,
+      "failures": 2,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:47+00:00",
-      "last_failure": "2026-09-15T11:49:47+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "UTV Action",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:hindi:zee": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:47+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:47+00:00",
       "last_replaced": "2026-09-15T11:49:48+00:00",
       "last_working_url": "http://41.205.93.154/ZEE-TV/index.m3u8",
@@ -1315,7 +1701,7 @@
     "name:hindi:zee action": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:47+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:47+00:00",
       "last_replaced": "2026-09-15T11:49:47+00:00",
       "last_working_url": "http://107.167.16.138/zeeaction/index.m3u8?token=test",
@@ -1325,10 +1711,21 @@
       "replacement_source": "iptv-org/in",
       "status": "active"
     },
+    "name:hindi:zee bioskop": {
+      "failures": 1,
+      "group": "Hindi",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "ZEE BIOSKOP",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
     "name:hindi:zee cinema": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:47+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:47+00:00",
       "last_replaced": "2026-09-15T11:49:47+00:00",
       "last_working_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8",
@@ -1341,7 +1738,7 @@
     "name:hindi:zoom": {
       "failures": 0,
       "group": "Hindi",
-      "last_checked": "2026-09-15T11:49:48+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:48+00:00",
       "last_replaced": "2026-09-15T11:49:48+00:00",
       "last_working_url": "https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8",
@@ -1352,64 +1749,75 @@
       "status": "active"
     },
     "name:indian bangla:colors bangla": {
-      "failures": 1,
+      "failures": 2,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:33+00:00",
-      "last_failure": "2026-09-15T11:49:33+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Colors Bangla HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:indian bangla:colors bangla cinema": {
-      "failures": 1,
+      "failures": 2,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:39+00:00",
-      "last_failure": "2026-09-15T11:49:39+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Colors Bangla Cinema",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:indian bangla:enter 10 bangla": {
-      "failures": 1,
+      "failures": 2,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:39+00:00",
-      "last_failure": "2026-09-15T11:49:39+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Enter 10 Bangla",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:indian bangla:jalsha movies": {
-      "failures": 1,
+      "failures": 2,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:39+00:00",
-      "last_failure": "2026-09-15T11:49:39+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Jalsha Movies",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:indian bangla:ruposhi bangla": {
+    "name:indian bangla:orange bangla": {
       "failures": 1,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:39+00:00",
-      "last_failure": "2026-09-15T11:49:39+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Orange Bangla",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:indian bangla:ruposhi bangla": {
+      "failures": 2,
+      "group": "Indian Bangla",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Ruposhi Bangla",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:indian bangla:sangeet bangla": {
       "failures": 0,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:39+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:39+00:00",
       "last_replaced": "2026-09-15T11:49:40+00:00",
       "last_working_url": "https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8",
@@ -1419,10 +1827,21 @@
       "replacement_source": "iptv-org/in",
       "status": "active"
     },
+    "name:indian bangla:sony aath": {
+      "failures": 1,
+      "group": "Indian Bangla",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Sony Aath",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
     "name:indian bangla:star jalsha": {
       "failures": 0,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:39+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:39+00:00",
       "last_replaced": "2026-09-15T11:49:39+00:00",
       "last_working_url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8",
@@ -1433,20 +1852,20 @@
       "status": "active"
     },
     "name:indian bangla:sun bangla": {
-      "failures": 1,
+      "failures": 2,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sun Bangla",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:indian bangla:zee bangla": {
       "failures": 0,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
       "last_failure": "2026-09-15T11:49:40+00:00",
       "last_replaced": "2026-09-15T11:49:40+00:00",
       "last_working_url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8",
@@ -1457,231 +1876,769 @@
       "status": "active"
     },
     "name:indian bangla:zee bangla cinema": {
-      "failures": 1,
+      "failures": 2,
       "group": "Indian Bangla",
-      "last_checked": "2026-09-15T11:49:40+00:00",
-      "last_failure": "2026-09-15T11:49:40+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Zee Bangla Cinema",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:infotainment:discovery": {
+    "name:infotainment:afc": {
       "failures": 1,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "AFC",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:infotainment:bbc earth": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "BBC Earth",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:infotainment:bbc lifestyle": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "BBC Lifestyle HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:infotainment:discovery": {
+      "failures": 2,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Discovery",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:infotainment:discovery asia": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Discovery Asia",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:infotainment:history": {
+    "name:infotainment:docurama": {
       "failures": 1,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Docurama",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:infotainment:fashion": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Fashion TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:infotainment:fashion lifestyle": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "HD Fashion & LifeStyle",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:infotainment:history": {
+      "failures": 2,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "History Tv HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:infotainment:my119 food ntwk": {
+    "name:infotainment:love nature": {
       "failures": 1,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Love Nature 4K",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:infotainment:my119 food ntwk": {
+      "failures": 2,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "MY119:FOOD NTWK HD",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:infotainment:nasa": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "NASA TV",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:infotainment:natgeo people": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "NatGeo People",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:infotainment:nhk world": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "NHK World Japan",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:infotainment:rt documentary": {
-      "failures": 1,
+      "failures": 2,
       "group": "Infotainment",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "RT Documentary",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:kids:my128 animax": {
+    "name:infotainment:tlc": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "TLC HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:kids:akaram kidz": {
       "failures": 1,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Akaram Kidz",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:kids:aniplus": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "ANIPLUS",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:kids:discovery kids": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Discovery Kids",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:kids:ebc kids": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "EBC Kids",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:kids:kabillion": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Kabillion",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:kids:my128 animax": {
+      "failures": 2,
+      "group": "Kids",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "MY128:ANIMAX",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:kids:sony yay bangla": {
+    "name:kids:pogo": {
       "failures": 1,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Pogo",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:kids:sony yay bangla": {
+      "failures": 2,
+      "group": "Kids",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sony Yay Bangla",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:kids:sony yay hindi": {
-      "failures": 1,
+      "failures": 2,
       "group": "Kids",
-      "last_checked": "2026-09-15T11:54:38+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sony Yay Hindi",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
-    "name:music:mtv yo": {
+    "name:music:1hd music": {
       "failures": 1,
       "group": "Music",
-      "last_checked": "2026-09-15T11:49:49+00:00",
-      "last_failure": "2026-09-15T11:49:49+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "1HD Music",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:9x jalwa": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "9x Jalwa",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:9xm": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "9xM",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:afrobeats": {
+      "failures": 0,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "https://stream.ecable.tv/afrobeats/index.m3u8",
+      "name": "Afrobeats",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:music:boogle bollywood": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Boogle Bollywood",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:cko": {
+      "failures": 0,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "http://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_lq.m3u8",
+      "name": "\u251c\u00f4cko",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:music:cko expres": {
+      "failures": 0,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "http://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_lq.m3u8",
+      "name": "\u251c\u00f4cko Expres",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:music:cko gold": {
+      "failures": 0,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko_gold.stream.1.smil/playlist.m3u8",
+      "name": "\u251c\u00f4cko Gold",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:music:cko star": {
+      "failures": 0,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_lq.m3u8",
+      "name": "\u251c\u00f4cko STAR",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:music:dil se": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Dil Se",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:kadak hits": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Kadak Hits",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:m20 musics": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "M20 Musics",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:mtv yo": {
+      "failures": 2,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "MTV YO! HD",
       "pending_url": "",
       "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:music india": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Music India",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:pop": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Pop \u03b1\u00f1\u00ac\u03b1\u00f1\u0192\u03b1\u00f1\u255b\u03b1\u00f1\u00fb\u03b1\u00f1\u255b",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:radio contact": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Radio Contact (BE)",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:retro music": {
+      "failures": 0,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8",
+      "name": "RETRO MUSIC TV",
+      "pending_url": "",
+      "recovery_successes": 0,
       "status": "active"
     },
-    "name:sports:ptv sports": {
+    "name:music:ru": {
       "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "RU.TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:music:vh1 italia": {
+      "failures": 1,
+      "group": "Music",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "VH1 Italia",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:aaj tak": {
+      "failures": 0,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+      "name": "AAJ TAK HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:news:arirang": {
+      "failures": 0,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8?@amarnettv.live",
+      "name": "Arirang",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:news:bloomberg": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Bloomberg",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:cbsn newyork": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "CBSN Newyork",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:cna": {
+      "failures": 0,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?@amarnettv.live",
+      "name": "CNA HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:news:cnbc": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "CNBC TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:cnbc awaaz": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "CNBC AWAAZ",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:dw": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "DW",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:et now": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "ET Now",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:fox news": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Fox News",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:india today": {
+      "failures": 0,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "https://feeds.intoday.in/hltapps/api/master.m3u8?@amarnettv.live",
+      "name": "INDIA TODAY",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:news:khyber news": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Khyber News",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:mirror now": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Mirror Now",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:sky news": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Sky News HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:trt world": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "TRT WORLD HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:news:voice of america": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
+      "last_working_url": "",
+      "name": "Voice of America",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "inactive"
+    },
+    "name:sports:ptv sports": {
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "PTV Sports",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:sports:sony ten 3": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Sony Ten 3 4K",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:sports:super sports 1": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Super Sports 1",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:sports:super sports 2": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Super Sports 2",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:sports:super sports 3": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Super Sports 3",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:sports:super sports 4": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Super Sports 4",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:sports:super sports 5": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Super Sports 5",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:sports:super sports 6": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Super Sports 6",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     },
     "name:sports:super sports 7": {
-      "failures": 1,
+      "failures": 2,
       "group": "Sports",
-      "last_checked": "2026-09-15T11:55:02+00:00",
+      "last_checked": "2026-09-15T12:00:57+00:00",
+      "last_failure": "2026-09-15T12:00:57+00:00",
       "last_working_url": "",
       "name": "Super Sports 7",
       "pending_url": "",
       "recovery_successes": 0,
-      "status": "active"
+      "status": "inactive"
     }
   },
-  "cursor": 160,
-  "last_run": "2026-09-15T11:55:02+00:00",
-  "last_run_checked": 40,
+  "cursor": 0,
+  "last_run": "2026-09-15T12:00:57+00:00",
+  "last_run_checked": 239,
   "total_channels": 239,
   "version": 3
 }

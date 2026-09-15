@@ -5,7 +5,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/1.1)"
+USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/1.2)"
 TIMEOUT = 12
 
 SOURCES = [
@@ -54,7 +54,10 @@ def normalize(s):
 
 
 def base_tvg_id(value):
-    return (value or "").strip().lower().split("@", 1)[0]
+    value = (value or "").strip().lower().split("@", 1)[0]
+    if not value or "no tvg id" in value or value in {"none", "null", "n/a"}:
+        return ""
+    return value
 
 
 def parse_playlist(text):
@@ -83,6 +86,51 @@ def parse_playlist(text):
     return out
 
 
+def catalog_key(entry):
+    tvg = base_tvg_id(entry.get("tvg_id"))
+    if tvg:
+        return ("id", tvg)
+    return (
+        "name",
+        normalize(entry.get("group")),
+        normalize(entry.get("name") or entry.get("display")),
+    )
+
+
+def sync_legacy_catalog(v8_path):
+    """Import any V007 channel missing from V008 without overwriting newer V008 entries."""
+    legacy_path = v8_path.with_name("IPTV-V007.m3u")
+    if not legacy_path.exists():
+        print("warning: IPTV-V007.m3u not found; legacy catalog sync skipped")
+        return 0
+
+    current_text = v8_path.read_text(encoding="utf-8")
+    legacy_text = legacy_path.read_text(encoding="utf-8")
+    current_entries = parse_playlist(current_text)
+    legacy_entries = parse_playlist(legacy_text)
+
+    existing = {catalog_key(e) for e in current_entries}
+    additions = []
+    for entry in legacy_entries:
+        key = catalog_key(entry)
+        if key in existing:
+            continue
+        additions.append(entry)
+        existing.add(key)
+
+    if not additions:
+        print("legacy catalog already fully represented in V008")
+        return 0
+
+    block = ["", "########## V007 LEGACY CATALOG - SELF HEAL ##########", ""]
+    for entry in additions:
+        block.extend([entry["info"], entry["url"], ""])
+
+    v8_path.write_text(current_text.rstrip() + "\n" + "\n".join(block), encoding="utf-8")
+    print(f"imported {len(additions)} missing V007 channel(s) into V008")
+    return len(additions)
+
+
 def load_candidates():
     candidates = []
     for src in SOURCES:
@@ -101,17 +149,14 @@ def same_channel(entry, cand):
     e_id = base_tvg_id(entry.get("tvg_id"))
     c_id = base_tvg_id(cand.get("tvg_id"))
 
-    # Best signal: exact tvg-id (ignoring @SD/@HD suffix).
     if e_id and c_id:
         return e_id == c_id
 
-    # Fallback only when an ID is missing: exact normalized name.
     en = normalize(entry.get("name") or entry.get("display"))
     cn = normalize(cand.get("name") or cand.get("display"))
     if not en or not cn or en != cn:
         return False
 
-    # If both carry group metadata, require it to match too.
     eg = normalize(entry.get("group"))
     cg = normalize(cand.get("group"))
     if eg and cg and eg != cg:
@@ -125,8 +170,6 @@ def find_replacement(entry, candidates):
         c for c in candidates
         if c["url"] != entry["url"] and same_channel(entry, c)
     ]
-
-    # Prefer HTTPS, then test in source order.
     matches.sort(key=lambda c: (not c["url"].startswith("https://")))
 
     for cand in matches[:20]:
@@ -138,6 +181,7 @@ def find_replacement(entry, candidates):
 
 def heal(path):
     p = Path(path)
+    imported = sync_legacy_catalog(p)
     original = p.read_text(encoding="utf-8")
     entries = parse_playlist(original)
     candidates = None
@@ -164,7 +208,9 @@ def heal(path):
 
     if replacements:
         p.write_text(original, encoding="utf-8")
-        print(f"updated {len(replacements)} channel(s)")
+
+    if imported or replacements:
+        print(f"playlist changed: imported={imported}, replaced={len(replacements)}")
         for name, old, new in replacements:
             print(f"- {name}: {old} -> {new}")
     else:

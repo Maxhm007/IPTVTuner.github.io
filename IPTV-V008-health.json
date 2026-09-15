@@ -88,6 +88,16 @@
       "recovery_successes": 0,
       "status": "active"
     },
+    "id:abpnewsindia(src07).in(m3u4u)": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "ABP News",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
     "id:aljazeera.qa": {
       "failures": 0,
       "group": "News",
@@ -117,6 +127,16 @@
       "last_failure": "2026-09-15T11:49:40+00:00",
       "last_working_url": "",
       "name": "& Xplor 4K",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:animalplanet.us": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Animal Planet HD",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
@@ -154,6 +174,16 @@
       "recovery_successes": 0,
       "status": "active"
     },
+    "id:bloomberg.us(m3u4u)": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Bloomberg Asia",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
     "id:boishakhitv.bd": {
       "failures": 0,
       "group": "Bangladesh",
@@ -165,12 +195,32 @@
       "recovery_successes": 0,
       "status": "active"
     },
+    "id:cartoonnetwork.us": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Cartoon Network",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
     "id:cgtn.uk": {
       "failures": 0,
       "group": "News",
       "last_checked": "2026-09-15T11:41:26+00:00",
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
+      "name": "CGTN News",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:cgtn.uk(m3u4u)": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
       "name": "CGTN News",
       "pending_url": "",
       "recovery_successes": 0,
@@ -194,6 +244,16 @@
       "last_failure": "2026-09-15T11:41:26+00:00",
       "last_working_url": "",
       "name": "Channel S",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:cheddarnews.us(m3u4u)": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Cheddar",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
@@ -238,6 +298,36 @@
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
       "name": "Deshi TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:discoveryscience(src07).in(m3u4u)": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Discovery SCI",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:disneyjunior.us": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Disney Jr",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:disneyxd.us": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Disney XD HD",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
@@ -304,6 +394,16 @@
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
       "name": "India Today",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:indiatv(src07).in(m3u4u)": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "India TV",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
@@ -385,6 +485,46 @@
       "recovery_successes": 0,
       "status": "active"
     },
+    "id:natgeowild.us": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "National Geographic",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:natgeowildhd.in": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Nat Geo Wild (Hindi)",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:ndtv24x7.us(m3u4u)": {
+      "failures": 0,
+      "group": "News",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
+      "name": "NDTV 24x7",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:news24(src07).in(m3u4u)": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "News 24",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
     "id:nexustv.bd": {
       "failures": 0,
       "group": "Bangladesh",
@@ -403,6 +543,36 @@
       "last_success": "2026-09-15T11:41:26+00:00",
       "last_working_url": "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
       "name": "NHK World Japan",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:nickelodeon.us": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Nick HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:nickjr.us": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "NICK Jr",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:nicktoons.us": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Nicktoons",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
@@ -484,6 +654,16 @@
       "recovery_successes": 0,
       "status": "active"
     },
+    "id:showtime.us": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Showtime HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
     "id:stargoldhd.in": {
       "failures": 1,
       "group": "Hindi",
@@ -491,6 +671,36 @@
       "last_failure": "2026-09-15T11:49:41+00:00",
       "last_working_url": "",
       "name": "Star Gold HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:syfy.us": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "SyFy",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:timesnow.us(m3u4u)": {
+      "failures": 1,
+      "group": "News",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Times Now",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "id:travelxp(src07).in(m3u4u)": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Travel XP",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
@@ -550,6 +760,16 @@
       "recovery_successes": 0,
       "status": "active"
     },
+    "name:english:al jazeera": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Al Jazeera HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
     "name:english:axn": {
       "failures": 1,
       "group": "English",
@@ -557,6 +777,26 @@
       "last_failure": "2026-09-15T11:49:48+00:00",
       "last_working_url": "",
       "name": "AXN",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:english:bbc world news": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "BBC World News",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:english:cnn": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "CNN HD",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
@@ -618,6 +858,16 @@
       "recovery_successes": 0,
       "status": "active"
     },
+    "name:english:movies now": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Movies Now",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
     "name:english:mtv english": {
       "failures": 1,
       "group": "English",
@@ -625,6 +875,46 @@
       "last_failure": "2026-09-15T11:49:49+00:00",
       "last_working_url": "",
       "name": "MTV English",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:english:sony pix": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Sony Pix HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:english:star movies": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Star Movies",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:english:star world": {
+      "failures": 1,
+      "group": "English",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Star World",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:entertainment:redbull": {
+      "failures": 0,
+      "group": "Entertainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_928.m3u8",
+      "name": "Redbull TV",
       "pending_url": "",
       "recovery_successes": 0,
       "status": "active"
@@ -889,6 +1179,116 @@
       "recovery_successes": 0,
       "status": "active"
     },
+    "name:infotainment:discovery": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Discovery",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:infotainment:discovery asia": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Discovery Asia",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:infotainment:history": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "History Tv HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:infotainment:my119 food ntwk": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "MY119:FOOD NTWK HD",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:infotainment:nasa": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "NASA TV",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:infotainment:natgeo people": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "NatGeo People",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:infotainment:nhk world": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "NHK World Japan",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:infotainment:rt documentary": {
+      "failures": 1,
+      "group": "Infotainment",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "RT Documentary",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:kids:my128 animax": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "MY128:ANIMAX",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:kids:sony yay bangla": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Sony Yay Bangla",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
+    "name:kids:sony yay hindi": {
+      "failures": 1,
+      "group": "Kids",
+      "last_checked": "2026-09-15T11:53:50+00:00",
+      "last_working_url": "",
+      "name": "Sony Yay Hindi",
+      "pending_url": "",
+      "recovery_successes": 0,
+      "status": "active"
+    },
     "name:music:mtv yo": {
       "failures": 1,
       "group": "Music",
@@ -901,9 +1301,9 @@
       "status": "active"
     }
   },
-  "cursor": 80,
-  "last_run": "2026-09-15T11:49:49+00:00",
+  "cursor": 120,
+  "last_run": "2026-09-15T11:53:50+00:00",
   "last_run_checked": 40,
   "total_channels": 139,
-  "version": 2
+  "version": 3
 }

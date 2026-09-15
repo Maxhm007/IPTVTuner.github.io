@@ -3,7 +3,7 @@ name: IPTV Self Heal
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "*/10 * * * *"
   push:
     branches:
       - main

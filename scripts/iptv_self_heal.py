@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
-USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/4.1)"
+USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/4.2)"
 TIMEOUT = 7
 SOURCE_TIMEOUT = 12
 CHECK_WORKERS = 8
@@ -52,6 +52,8 @@ RESTRICTED = (
     "fox life", "syfy",
 )
 
+APPROVED_FREE_PATH = Path(__file__).resolve().parent.parent / "config" / "iptv-approved-free.json"
+
 
 def now_iso():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
@@ -85,6 +87,29 @@ def credential_style(url):
 def is_restricted(entry):
     name = canonical_name(entry.get("name") or entry.get("display"))
     return any(x in name for x in RESTRICTED)
+
+
+def catalog_key(entry):
+    tid = base_tvg_id(entry.get("tvg_id"))
+    if tid:
+        return f"id:{tid}"
+    return f"name:{normalize(entry.get('group'))}:{canonical_name(entry.get('name') or entry.get('display'))}"
+
+
+def load_approved_free():
+    try:
+        data = json.loads(APPROVED_FREE_PATH.read_text(encoding="utf-8")) if APPROVED_FREE_PATH.exists() else {}
+    except Exception:
+        data = {}
+    return data if isinstance(data, dict) else {}
+
+
+def approved_free_url(entry, approved):
+    for key in (catalog_key(entry), f"name:{canonical_name(entry.get('name') or entry.get('display'))}"):
+        value = approved.get(key)
+        if isinstance(value, str) and value.startswith(("http://", "https://")) and not credential_style(value):
+            return value
+    return None
 
 
 def request_bytes(url, max_bytes=512 * 1024, range_request=False, timeout=TIMEOUT):
@@ -187,7 +212,6 @@ def parse_playlist(text):
         else:
             i += 1
             continue
-
         attrs = dict(ATTR_RE.findall(info))
         display = info.split(",", 1)[1].strip() if "," in info else attrs.get("tvg-name", "")
         j = i + 1
@@ -208,40 +232,25 @@ def parse_playlist(text):
                 i += 1
                 continue
             url = lines[j].strip()
-
         out.append({
-            "info": info,
-            "url": url,
-            "name": attrs.get("tvg-name") or display,
-            "display": display,
-            "tvg_id": attrs.get("tvg-id", ""),
-            "group": attrs.get("group-title", ""),
-            "inactive": inactive,
-            "raw_info": raw_info,
-            "raw_url": lines[j],
+            "info": info, "url": url, "name": attrs.get("tvg-name") or display,
+            "display": display, "tvg_id": attrs.get("tvg-id", ""),
+            "group": attrs.get("group-title", ""), "inactive": inactive,
+            "raw_info": raw_info, "raw_url": lines[j],
         })
         i = j + 1
     return out
 
 
-def catalog_key(entry):
-    tid = base_tvg_id(entry.get("tvg_id"))
-    if tid:
-        return f"id:{tid}"
-    return f"name:{normalize(entry.get('group'))}:{canonical_name(entry.get('name') or entry.get('display'))}"
-
-
 def same_channel(a, b):
-    a_id = base_tvg_id(a.get("tvg_id"))
-    b_id = base_tvg_id(b.get("tvg_id"))
+    a_id = base_tvg_id(a.get("tvg_id")); b_id = base_tvg_id(b.get("tvg_id"))
     if a_id and b_id:
         return a_id == b_id
     a_name = canonical_name(a.get("name") or a.get("display"))
     b_name = canonical_name(b.get("name") or b.get("display"))
     if not a_name or a_name != b_name:
         return False
-    a_group = normalize(a.get("group"))
-    b_group = normalize(b.get("group"))
+    a_group = normalize(a.get("group")); b_group = normalize(b.get("group"))
     return not (a_group and b_group and a_group != b_group)
 
 
@@ -252,8 +261,7 @@ def load_candidates():
             text, _ = fetch_text(src, SOURCE_TIMEOUT)
             parsed = parse_playlist(text)
             for item in parsed:
-                item["source"] = source_name
-                item["source_rank"] = rank
+                item["source"] = source_name; item["source_rank"] = rank
             candidates.extend(parsed)
             print(f"loaded {source_name}: {len(parsed)}")
         except Exception as exc:
@@ -262,25 +270,15 @@ def load_candidates():
 
 
 def find_replacement(entry, candidates, used_urls, pending=None):
-    if is_restricted(entry):
-        print("  replacement disabled for restricted/subscription channel")
-        return None, None
     trial = []
     if pending and pending != entry["url"]:
         trial.append({"url": pending, "source": "pending-recovery", "source_rank": 0})
-    matches = [
-        c for c in candidates
-        if c["url"] != entry["url"]
-        and same_channel(entry, c)
-        and not credential_style(c["url"])
-    ]
+    matches = [c for c in candidates if c["url"] != entry["url"] and same_channel(entry, c) and not credential_style(c["url"])]
     matches.sort(key=lambda c: (c.get("source_rank", 99), not c["url"].startswith("https://")))
     seen = {x["url"] for x in trial}
     for candidate in matches:
         if candidate["url"] not in seen:
-            trial.append(candidate)
-            seen.add(candidate["url"])
-
+            trial.append(candidate); seen.add(candidate["url"])
     for candidate in trial[:MAX_REPLACEMENT_CANDIDATES]:
         url = candidate["url"]
         owner = used_urls.get(url)
@@ -294,9 +292,7 @@ def find_replacement(entry, candidates, used_urls, pending=None):
 
 
 def replace_block(text, entry, info_line, url_line):
-    old = entry["raw_info"] + "\n" + entry["raw_url"]
-    new = info_line + "\n" + url_line
-    return text.replace(old, new, 1)
+    return text.replace(entry["raw_info"] + "\n" + entry["raw_url"], info_line + "\n" + url_line, 1)
 
 
 def load_state(path):
@@ -304,51 +300,36 @@ def load_state(path):
         state = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
     except Exception:
         state = {}
-    if not isinstance(state, dict):
-        state = {}
-    state.setdefault("channels", {})
-    state["version"] = 4
+    if not isinstance(state, dict): state = {}
+    state.setdefault("channels", {}); state["version"] = 4
     return state
 
 
 def state_for(state, entry):
     key = catalog_key(entry)
     rec = state["channels"].setdefault(key, {})
-    rec.setdefault("name", entry["display"])
-    rec.setdefault("group", entry.get("group", ""))
+    rec.setdefault("name", entry["display"]); rec.setdefault("group", entry.get("group", ""))
     rec.setdefault("status", "inactive" if entry["inactive"] else "active")
-    rec.setdefault("recovery_successes", 0)
-    rec.setdefault("pending_url", "")
+    rec.setdefault("recovery_successes", 0); rec.setdefault("pending_url", "")
     return key, rec
 
 
 def write_report(path, entries, state, stats):
     active = sum(1 for e in entries if not e["inactive"])
     uncertain = sum(1 for r in state["channels"].values() if r.get("probe_status") in {"uncertain", "reachable"} and r.get("status") == "active")
-    lines = [
-        "# IPTV V008 Health",
-        "",
-        f"- Updated: {now_iso()}",
-        f"- Total channels: {len(entries)}",
-        f"- Active: {active}",
-        f"- Inactive (confirmed dead): {len(entries) - active}",
-        f"- Active but uncertain from GitHub runner: {uncertain}",
-        f"- Checked this run: {stats['checked']}",
-        f"- Inactivated: {stats['inactivated']}",
-        f"- Reactivated: {stats['reactivated']}",
-        f"- Replaced: {stats['replaced']}",
-        "",
-        "## Inactive channels",
-        "",
-    ]
+    lines = ["# IPTV V008 Health", "", f"- Updated: {now_iso()}", f"- Total channels: {len(entries)}",
+             f"- Active: {active}", f"- Inactive: {len(entries)-active}",
+             f"- Active but uncertain from GitHub runner: {uncertain}", f"- Checked this run: {stats['checked']}",
+             f"- Inactivated: {stats['inactivated']}", f"- Reactivated: {stats['reactivated']}",
+             f"- Replaced: {stats['replaced']}", "", "## Inactive channels", ""]
     dead = [e for e in entries if e["inactive"]]
     if not dead:
         lines.append("- None")
     else:
         for e in dead:
             rec = state["channels"].get(catalog_key(e), {})
-            policy = "excluded-autoheal" if is_restricted(e) or credential_style(e.get("url")) else "actionable"
-            lines.append(f"- {e['display']} — reason={rec.get('probe_reason', 'confirmed-dead')}, policy={policy}, recovery={rec.get('recovery_successes', 0)}/{RECOVERY_SUCCESSES_REQUIRED}")
+            policy = "premium-awaiting-approved-free" if is_restricted(e) else "actionable"
+            lines.append(f"- {e['display']} — reason={rec.get('probe_reason','inactive')}, policy={policy}")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -356,29 +337,24 @@ def heal(playlist, state_dir=None):
     playlist_path = Path(playlist)
     root = Path(state_dir) if state_dir else playlist_path.parent
     root.mkdir(parents=True, exist_ok=True)
-    state_path = root / "IPTV-V008-health.json"
-    report_path = root / "IPTV-V008-health.md"
-
+    state_path = root / "IPTV-V008-health.json"; report_path = root / "IPTV-V008-health.md"
     original = playlist_path.read_text(encoding="utf-8")
     entries = parse_playlist(original)
     state = load_state(state_path)
+    approved = load_approved_free()
     valid_keys = {catalog_key(e) for e in entries}
-    state["channels"] = {k: v for k, v in state["channels"].items() if k in valid_keys}
-
+    state["channels"] = {k:v for k,v in state["channels"].items() if k in valid_keys}
     used_urls = {}
-    for e in entries:
-        used_urls.setdefault(e["url"], catalog_key(e))
+    for e in entries: used_urls.setdefault(e["url"], catalog_key(e))
 
-    active_indexes = [i for i, e in enumerate(entries) if not e["inactive"]]
+    active_indexes = [i for i,e in enumerate(entries) if not e["inactive"] and not is_restricted(e)]
     health = {}
     with ThreadPoolExecutor(max_workers=CHECK_WORKERS) as pool:
         futures = {pool.submit(probe_stream, entries[i]["url"], 2): i for i in active_indexes}
         for future in as_completed(futures):
             i = futures[future]
-            try:
-                health[i] = future.result()
-            except Exception as exc:
-                health[i] = ("uncertain", type(exc).__name__)
+            try: health[i] = future.result()
+            except Exception as exc: health[i] = ("uncertain", type(exc).__name__)
 
     candidates = None
     stats = {"checked": len(entries), "inactivated": 0, "reactivated": 0, "replaced": 0}
@@ -386,99 +362,78 @@ def heal(playlist, state_dir=None):
     for idx, entry in enumerate(entries):
         key, rec = state_for(state, entry)
         rec["last_checked"] = now_iso()
-        rec["autoheal_policy"] = "excluded" if is_restricted(entry) or credential_style(entry.get("url")) else "actionable"
+        premium = is_restricted(entry)
+
+        # Simple premium rule: premium/subscription/pay-TV stays inactive unless an explicitly
+        # approved public/free URL is present and passes verification.
+        if premium and not entry["inactive"]:
+            original = replace_block(original, entry, INACTIVE_INFO + entry["info"], INACTIVE_URL + entry["url"])
+            rec.update({"status":"inactive", "probe_status":"policy", "probe_reason":"premium-default-inactive",
+                        "recovery_successes":0, "pending_url":""})
+            stats["inactivated"] += 1
+            print(f"[{idx+1}/{len(entries)}] INACTIVATED premium {entry['display']}")
+            continue
 
         if entry["inactive"]:
-            original_status, original_reason = probe_stream(entry["url"], attempts=2)
-            rec["probe_status"] = original_status
-            rec["probe_reason"] = original_reason
-            recovered_url = None
-            recovered_source = None
-            if original_status == "healthy":
-                recovered_url = entry["url"]
-                recovered_source = "original-url"
-            elif rec["autoheal_policy"] == "actionable":
-                if candidates is None:
-                    candidates = load_candidates()
-                recovered_url, recovered_source = find_replacement(entry, candidates, used_urls, rec.get("pending_url") or None)
+            recovered_url = None; recovered_source = None
+            if premium:
+                candidate = approved_free_url(entry, approved)
+                rec["probe_reason"] = "premium-awaiting-approved-free"
+                if candidate:
+                    status, reason = probe_stream(candidate, attempts=2)
+                    rec["probe_status"] = status; rec["probe_reason"] = reason
+                    if status == "healthy":
+                        recovered_url = candidate; recovered_source = "approved-free"
             else:
-                print(f"[{idx + 1}/{len(entries)}] inactive {entry['display']}: excluded from replacement sourcing")
+                original_status, original_reason = probe_stream(entry["url"], attempts=2)
+                rec["probe_status"] = original_status; rec["probe_reason"] = original_reason
+                if original_status == "healthy":
+                    recovered_url = entry["url"]; recovered_source = "original-url"
+                else:
+                    if candidates is None: candidates = load_candidates()
+                    recovered_url, recovered_source = find_replacement(entry, candidates, used_urls, rec.get("pending_url") or None)
 
             if recovered_url:
                 if rec.get("pending_url") == recovered_url:
-                    rec["recovery_successes"] = int(rec.get("recovery_successes", 0)) + 1
+                    rec["recovery_successes"] = int(rec.get("recovery_successes",0)) + 1
                 else:
-                    rec["pending_url"] = recovered_url
-                    rec["recovery_successes"] = 1
+                    rec["pending_url"] = recovered_url; rec["recovery_successes"] = 1
                 rec["replacement_source"] = recovered_source
                 if rec["recovery_successes"] >= RECOVERY_SUCCESSES_REQUIRED:
                     original = replace_block(original, entry, entry["info"], recovered_url)
-                    rec.update({
-                        "status": "active",
-                        "probe_status": "healthy",
-                        "probe_reason": "recovered",
-                        "recovery_successes": 0,
-                        "pending_url": "",
-                        "last_working_url": recovered_url,
-                        "last_reactivated": now_iso(),
-                    })
-                    used_urls[recovered_url] = key
-                    stats["reactivated"] += 1
-                    if recovered_url != entry["url"]:
-                        stats["replaced"] += 1
-                    print(f"[{idx + 1}/{len(entries)}] REACTIVATED {entry['display']} -> {recovered_url}")
+                    rec.update({"status":"active", "probe_status":"healthy", "probe_reason":"recovered",
+                                "recovery_successes":0, "pending_url":"", "last_working_url":recovered_url,
+                                "last_reactivated":now_iso()})
+                    used_urls[recovered_url] = key; stats["reactivated"] += 1
+                    if recovered_url != entry["url"]: stats["replaced"] += 1
+                    print(f"[{idx+1}/{len(entries)}] REACTIVATED {entry['display']} -> {recovered_url}")
             else:
-                rec["recovery_successes"] = 0
-                rec["pending_url"] = ""
-                if rec["autoheal_policy"] == "actionable":
-                    print(f"[{idx + 1}/{len(entries)}] inactive {entry['display']}: no verified recovery")
+                rec["recovery_successes"] = 0; rec["pending_url"] = ""
+                print(f"[{idx+1}/{len(entries)}] inactive {entry['display']}: no approved/verified recovery")
             continue
 
         status, reason = health.get(idx, ("uncertain", "missing-result"))
-        rec["probe_status"] = status
-        rec["probe_reason"] = reason
+        rec["probe_status"] = status; rec["probe_reason"] = reason
         if status == "healthy":
-            rec.update({"status": "active", "last_working_url": entry["url"], "last_success": now_iso()})
-            print(f"[{idx + 1}/{len(entries)}] OK {entry['display']}")
-            continue
-
-        if status in {"uncertain", "reachable"}:
+            rec.update({"status":"active", "last_working_url":entry["url"], "last_success":now_iso()})
+            print(f"[{idx+1}/{len(entries)}] OK {entry['display']}")
+        elif status in {"uncertain", "reachable"}:
             rec["status"] = "active"
-            print(f"[{idx + 1}/{len(entries)}] UNCERTAIN {entry['display']}: {reason}; kept active")
-            continue
-
-        original = replace_block(original, entry, INACTIVE_INFO + entry["info"], INACTIVE_URL + entry["url"])
-        rec.update({
-            "status": "inactive",
-            "last_failure": now_iso(),
-            "recovery_successes": 0,
-            "pending_url": "",
-        })
-        stats["inactivated"] += 1
-        print(f"[{idx + 1}/{len(entries)}] INACTIVATED {entry['display']}: {reason}")
+            print(f"[{idx+1}/{len(entries)}] UNCERTAIN {entry['display']}: {reason}; kept active")
+        else:
+            original = replace_block(original, entry, INACTIVE_INFO + entry["info"], INACTIVE_URL + entry["url"])
+            rec.update({"status":"inactive", "last_failure":now_iso(), "recovery_successes":0, "pending_url":""})
+            stats["inactivated"] += 1
+            print(f"[{idx+1}/{len(entries)}] INACTIVATED {entry['display']}: {reason}")
 
     latest = parse_playlist(original)
-    state.update({
-        "version": 4,
-        "last_run": now_iso(),
-        "last_run_checked": len(entries),
-        "total_channels": len(entries),
-    })
-    state_path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    state.update({"version":4, "last_run":now_iso(), "last_run_checked":len(entries), "total_channels":len(entries)})
+    state_path.write_text(json.dumps(state, indent=2, sort_keys=True)+"\n", encoding="utf-8")
     write_report(report_path, latest, state, stats)
-
     if original != playlist_path.read_text(encoding="utf-8"):
         playlist_path.write_text(original, encoding="utf-8")
-
-    print(
-        "run summary: "
-        f"checked={stats['checked']}, inactivated={stats['inactivated']}, "
-        f"reactivated={stats['reactivated']}, replaced={stats['replaced']}"
-    )
+    print(f"run summary: checked={stats['checked']}, inactivated={stats['inactivated']}, reactivated={stats['reactivated']}, replaced={stats['replaced']}")
 
 
 if __name__ == "__main__":
-    heal(
-        sys.argv[1] if len(sys.argv) > 1 else "IPTV-V008.m3u",
-        sys.argv[2] if len(sys.argv) > 2 else None,
-    )
+    heal(sys.argv[1] if len(sys.argv)>1 else "IPTV-V008.m3u", sys.argv[2] if len(sys.argv)>2 else None)

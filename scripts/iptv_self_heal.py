@@ -5,8 +5,9 @@ import time
 import urllib.request
 from pathlib import Path
 
-USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/1.3)"
-TIMEOUT = 12
+USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/1.4)"
+TIMEOUT = 6
+MAX_REPLACEMENT_CANDIDATES = 3
 
 SOURCES = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/bd.m3u",
@@ -130,7 +131,6 @@ def catalog_key(entry):
 
 
 def sync_legacy_catalog(v8_path):
-    """Import any V007 channel missing from V008 without overwriting newer V008 entries."""
     legacy_path = v8_path.with_name("IPTV-V007.m3u")
     if not legacy_path.exists():
         print("warning: IPTV-V007.m3u not found; legacy catalog sync skipped")
@@ -167,7 +167,7 @@ def load_candidates():
     candidates = []
     for src in SOURCES:
         try:
-            text, _ = fetch_text(src, timeout=20)
+            text, _ = fetch_text(src, timeout=12)
             parsed = parse_playlist(text)
             candidates.extend(parsed)
             print(f"loaded {src}: {len(parsed)} entries")
@@ -177,7 +177,6 @@ def load_candidates():
 
 
 def same_channel(entry, cand):
-    """Strict channel identity check. No fuzzy/partial matching."""
     e_id = base_tvg_id(entry.get("tvg_id"))
     c_id = base_tvg_id(cand.get("tvg_id"))
 
@@ -204,7 +203,7 @@ def find_replacement(entry, candidates):
     ]
     matches.sort(key=lambda c: (not c["url"].startswith("https://")))
 
-    for cand in matches[:20]:
+    for cand in matches[:MAX_REPLACEMENT_CANDIDATES]:
         print(f"  trying exact channel match: {cand['display']} -> {cand['url']}")
         if is_working_hls(cand["url"]):
             return cand["url"]
@@ -222,14 +221,17 @@ def heal(path):
     imported = sync_legacy_catalog(p)
     original = p.read_text(encoding="utf-8")
     entries = parse_playlist(original)
+    total = len(entries)
     candidates = None
     replacements = []
     inactivated = []
     reactivated = []
 
-    for entry in entries:
+    for idx, entry in enumerate(entries, start=1):
+        prefix = f"[{idx}/{total}]"
+
         if entry["inactive"]:
-            print(f"checking INACTIVE {entry['display']}: searching replacement")
+            print(f"{prefix} checking INACTIVE {entry['display']}: searching replacement")
             if candidates is None:
                 candidates = load_candidates()
             new_url = find_replacement(entry, candidates)
@@ -239,10 +241,9 @@ def heal(path):
                 print(f"  REACTIVATED -> {new_url}")
             else:
                 print("  still inactive; no exact verified replacement")
-            time.sleep(0.2)
             continue
 
-        print(f"checking {entry['display']}: {entry['url']}")
+        print(f"{prefix} checking {entry['display']}: {entry['url']}")
         if is_working_hls(entry["url"]):
             print("  OK")
             continue
@@ -262,7 +263,6 @@ def heal(path):
             original = replace_entry_block(original, entry, inactive_info, inactive_url)
             inactivated.append((entry["display"], entry["url"]))
             print("  INACTIVATED; will retry on future runs")
-        time.sleep(0.2)
 
     if imported or replacements or inactivated or reactivated:
         p.write_text(original, encoding="utf-8")
@@ -279,6 +279,8 @@ def heal(path):
             print(f"- reactivated {name}: {new}")
     else:
         print("no playlist changes required")
+
+    print(f"completed full rotation: {total}/{total}. Next scheduled run starts again at [1/{total}].")
 
 
 if __name__ == "__main__":

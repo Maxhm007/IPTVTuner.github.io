@@ -18,8 +18,6 @@ INACTIVE_INFO = "#SELFHEAL-INACTIVE "
 INACTIVE_URL = "#SELFHEAL-URL "
 CREATE_DELAY = 0.35
 
-# Subscription/pay-TV services are retained as catalog/reference entries when present,
-# but are excluded from automatic replacement sourcing and issue creation.
 RESTRICTED = (
     "hbo", "cinemax", "showtime", "disney channel", "disney jr", "disney xd",
     "espn", "sony six", "sony ten", "star sports", "supersport", "super sports",
@@ -43,7 +41,7 @@ def request(method, path, payload=None):
             "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github+json",
             "X-GitHub-Api-Version": "2022-11-28",
-            "User-Agent": "IPTVTuner-IssueSync/1.3",
+            "User-Agent": "IPTVTuner-IssueSync/1.3.1",
             "Content-Type": "application/json",
         },
     )
@@ -194,33 +192,32 @@ def main():
     existing = list_open_tracking_issues(repo)
     opened = 0
     closed = 0
+    active_tracking_keys = set(inactive.keys())
 
-    # Prevent a second issue for the same logical channel even when legacy entries
-    # use different tvg-id values.
     open_logical = {}
     for key, issue in existing.items():
         title = issue.get("title", "")
         channel_name = title[len(PREFIX):].strip() if title.startswith(PREFIX) else title
         body = issue.get("body") or ""
         group_match = re.search(r"\*\*Group:\*\*\s*([^\n]+)", body)
-        group = (group_match.group(1).strip() if group_match else "")
+        group = group_match.group(1).strip() if group_match else ""
         logical = logical_key(channel_name, group if group != "Unknown" else "")
         open_logical.setdefault(logical, (key, issue))
 
-    for key, channel in inactive.items():
+    for key, channel in list(inactive.items()):
         logical = channel["logical_key"]
         if key in existing:
             print(f"issue already open for {channel['name']}: #{existing[key]['number']}")
             continue
         if logical in open_logical:
             kept_key, issue = open_logical[logical]
+            active_tracking_keys.add(kept_key)
             print(f"logical issue already open for {channel['name']}: #{issue['number']}")
-            # Use the existing issue as the canonical tracker this run.
-            inactive[kept_key] = channel
             continue
         try:
             existing[key] = create_issue(repo, channel)
             open_logical[logical] = (key, existing[key])
+            active_tracking_keys.add(key)
             opened += 1
             time.sleep(CREATE_DELAY)
         except Exception as e:
@@ -230,7 +227,7 @@ def main():
             print(f"warning: could not open issue for {channel['name']}: {e}")
 
     for key, issue in list(existing.items()):
-        if key in inactive:
+        if key in active_tracking_keys:
             continue
         try:
             title = issue.get("title", "")

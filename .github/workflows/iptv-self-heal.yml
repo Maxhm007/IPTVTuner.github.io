@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: iptv-self-heal
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   heal:

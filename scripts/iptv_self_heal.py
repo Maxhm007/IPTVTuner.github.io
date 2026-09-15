@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
-USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/4.0)"
+USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/4.1)"
 TIMEOUT = 7
 SOURCE_TIMEOUT = 12
 CHECK_WORKERS = 8
@@ -45,8 +45,11 @@ ALIASES = {
 
 RESTRICTED = (
     "hbo", "cinemax", "showtime", "disney channel", "disney jr", "disney xd",
-    "espn", "sony six", "sony ten", "star sports", "supersport", "wwe network",
-    "star movies", "sony pix", "fox movies", "fox family movies",
+    "espn", "sony six", "sony ten", "star sports", "supersport", "super sports",
+    "wwe network", "star movies", "sony pix", "fox movies", "fox family movies",
+    "axn", "animal planet", "discovery", "national geographic", "nat geo",
+    "cartoon network", "nickelodeon", "nick jr", "nicktoons", "star world",
+    "fox life", "syfy",
 )
 
 
@@ -344,7 +347,8 @@ def write_report(path, entries, state, stats):
     else:
         for e in dead:
             rec = state["channels"].get(catalog_key(e), {})
-            lines.append(f"- {e['display']} — reason={rec.get('probe_reason', 'confirmed-dead')}, recovery={rec.get('recovery_successes', 0)}/{RECOVERY_SUCCESSES_REQUIRED}")
+            policy = "excluded-autoheal" if is_restricted(e) or credential_style(e.get("url")) else "actionable"
+            lines.append(f"- {e['display']} — reason={rec.get('probe_reason', 'confirmed-dead')}, policy={policy}, recovery={rec.get('recovery_successes', 0)}/{RECOVERY_SUCCESSES_REQUIRED}")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -382,6 +386,7 @@ def heal(playlist, state_dir=None):
     for idx, entry in enumerate(entries):
         key, rec = state_for(state, entry)
         rec["last_checked"] = now_iso()
+        rec["autoheal_policy"] = "excluded" if is_restricted(entry) or credential_style(entry.get("url")) else "actionable"
 
         if entry["inactive"]:
             original_status, original_reason = probe_stream(entry["url"], attempts=2)
@@ -392,10 +397,12 @@ def heal(playlist, state_dir=None):
             if original_status == "healthy":
                 recovered_url = entry["url"]
                 recovered_source = "original-url"
-            else:
+            elif rec["autoheal_policy"] == "actionable":
                 if candidates is None:
                     candidates = load_candidates()
                 recovered_url, recovered_source = find_replacement(entry, candidates, used_urls, rec.get("pending_url") or None)
+            else:
+                print(f"[{idx + 1}/{len(entries)}] inactive {entry['display']}: excluded from replacement sourcing")
 
             if recovered_url:
                 if rec.get("pending_url") == recovered_url:
@@ -423,7 +430,8 @@ def heal(playlist, state_dir=None):
             else:
                 rec["recovery_successes"] = 0
                 rec["pending_url"] = ""
-                print(f"[{idx + 1}/{len(entries)}] inactive {entry['display']}: no verified recovery")
+                if rec["autoheal_policy"] == "actionable":
+                    print(f"[{idx + 1}/{len(entries)}] inactive {entry['display']}: no verified recovery")
             continue
 
         status, reason = health.get(idx, ("uncertain", "missing-result"))

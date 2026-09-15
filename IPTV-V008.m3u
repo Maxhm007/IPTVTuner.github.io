@@ -18,19 +18,19 @@ https://tvsen5.aynaott.com/banglavision/index.m3u8
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
 
 #EXTINF:-1 tvg-id="ChannelI.bd" tvg-logo="https://i.imgur.com/X0JJlOX.png" group-title="Bangladesh",Channel I
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
+https://tvsen6.aynaott.com/channeli/index.m3u8
 
 #EXTINF:-1 tvg-id="ChannelS.bd@SD" group-title="Bangladesh",Channel S
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DBCNews.bd@SD" group-title="Bangladesh",DBC News
-https://prideeast.thelegitpro.in/newslive/newslive/index.m3u8
+http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
 
 #EXTINF:-1 tvg-id="DeshiTV.ca@SD" group-title="Bangladesh",Deshi TV
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="EkhonTV.bd@SD" group-title="Bangladesh",Ekhon TV
-http://23.237.104.106:8080/USA_E/index.m3u8
+https://tplay.live/out/bangladesh/ekhontv.index.m3u8
 
 #EXTINF:-1 tvg-id="EkusheyTV.bd@SD" group-title="Bangladesh",Ekushey TV
 https://ekusheyserver.com/etvlivesn.m3u8
@@ -42,7 +42,7 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="JamunaTV.bd" group-title="Bangladesh",Jamuna TV
-https://jmc-live.ercdn.net/amutv/amutv.m3u8
+https://tvsen6.aynaott.com/jamunatv/index.m3u8
 
 #EXTINF:-1 tvg-id="MaasrangaTV.bd@SD" group-title="Bangladesh",Maasranga TV
 https://tvsen5.aynaott.com/maasrangatv/index.m3u8
@@ -63,7 +63,7 @@ https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 https://tvsen5.aynaott.com/RtvHD/index.m3u8
 
 #EXTINF:-1 tvg-id="RupashiBanglaTV.bd@SD" group-title="Bangladesh",Rupashi Bangla TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NexusTV.bd@SD" group-title="Bangladesh",Nexus TV
 https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
@@ -72,7 +72,7 @@ https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
 https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
 
 #EXTINF:-1 tvg-id="VoktaTV.bd@SD" group-title="Bangladesh",Vokta TV
-https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8
+https://vokta.raytahost.com/live/voktatv/index.m3u8
 
 ########## HINDI / INDIA ##########
 
@@ -127,4 +127,4 @@ https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 ########## INFOTAINMENT ##########
 
 #EXTINF:-1 tvg-id="NASA.us" tvg-logo="https://i.imgur.com/uQ4iijb.png" group-title="Infotainment",NASA TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8

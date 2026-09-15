@@ -10,9 +10,11 @@ on:
     paths:
       - ".github/workflows/iptv-self-heal.yml"
       - "scripts/iptv_self_heal.py"
+      - "scripts/iptv_issue_sync.py"
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: iptv-self-heal
@@ -45,6 +47,11 @@ jobs:
 
       - name: Check streams and update health state
         run: python3 toolrepo/scripts/iptv_self_heal.py site/IPTV-V008.m3u state
+
+      - name: Sync inactive channel issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 toolrepo/scripts/iptv_issue_sync.py site/IPTV-V008.m3u
 
       - name: Commit playlist changes only
         working-directory: site

@@ -12,6 +12,7 @@ on:
       - "scripts/iptv_self_heal.py"
       - "scripts/iptv_self_heal_runner.py"
       - "scripts/iptv_issue_sync.py"
+      - "scripts/iptv_dedupe.py"
       - "config/iptv-approved-free.json"
 
 permissions:
@@ -46,6 +47,9 @@ jobs:
           ref: iptv-state
           path: state
           fetch-depth: 0
+
+      - name: Remove duplicate channels
+        run: python3 toolrepo/scripts/iptv_dedupe.py site/IPTV-V008.m3u
 
       - name: Check streams and update health state
         run: python3 toolrepo/scripts/iptv_self_heal_runner.py site/IPTV-V008.m3u state

@@ -5,7 +5,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/1.2)"
+USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/1.3)"
 TIMEOUT = 12
 
 SOURCES = [
@@ -19,6 +19,8 @@ SOURCES = [
 ]
 
 ATTR_RE = re.compile(r'(tvg-id|tvg-name|group-title)="([^"]*)"')
+INACTIVE_INFO = "#SELFHEAL-INACTIVE "
+INACTIVE_URL = "#SELFHEAL-URL "
 
 
 def fetch_text(url, timeout=TIMEOUT):
@@ -61,28 +63,58 @@ def base_tvg_id(value):
 
 
 def parse_playlist(text):
-    lines = [x.strip() for x in text.splitlines()]
+    lines = text.splitlines()
     out = []
     i = 0
     while i < len(lines):
-        if lines[i].startswith("#EXTINF:"):
-            info = lines[i]
-            attrs = dict(ATTR_RE.findall(info))
-            name = info.split(",", 1)[1].strip() if "," in info else attrs.get("tvg-name", "")
-            j = i + 1
-            while j < len(lines) and (not lines[j] or lines[j].startswith("#")):
+        raw_info = lines[i]
+        stripped = raw_info.strip()
+        inactive = False
+
+        if stripped.startswith(INACTIVE_INFO + "#EXTINF:"):
+            inactive = True
+            info = stripped[len(INACTIVE_INFO):]
+        elif stripped.startswith("#EXTINF:"):
+            info = stripped
+        else:
+            i += 1
+            continue
+
+        attrs = dict(ATTR_RE.findall(info))
+        name = info.split(",", 1)[1].strip() if "," in info else attrs.get("tvg-name", "")
+        j = i + 1
+
+        if inactive:
+            while j < len(lines) and not lines[j].strip().startswith(INACTIVE_URL):
+                if lines[j].strip().startswith("#EXTINF:") or lines[j].strip().startswith(INACTIVE_INFO + "#EXTINF:"):
+                    break
                 j += 1
-            if j < len(lines) and lines[j].startswith(("http://", "https://")):
-                out.append({
-                    "info": info,
-                    "url": lines[j],
-                    "name": attrs.get("tvg-name") or name,
-                    "display": name,
-                    "tvg_id": attrs.get("tvg-id", ""),
-                    "group": attrs.get("group-title", ""),
-                })
-                i = j
-        i += 1
+            if j < len(lines) and lines[j].strip().startswith(INACTIVE_URL):
+                url = lines[j].strip()[len(INACTIVE_URL):].strip()
+            else:
+                i += 1
+                continue
+        else:
+            while j < len(lines) and (not lines[j].strip() or lines[j].strip().startswith("#")):
+                j += 1
+            if j < len(lines) and lines[j].strip().startswith(("http://", "https://")):
+                url = lines[j].strip()
+            else:
+                i += 1
+                continue
+
+        out.append({
+            "info": info,
+            "url": url,
+            "name": attrs.get("tvg-name") or name,
+            "display": name,
+            "tvg_id": attrs.get("tvg-id", ""),
+            "group": attrs.get("group-title", ""),
+            "inactive": inactive,
+            "raw_info": raw_info,
+            "raw_url": lines[j],
+        })
+        i = j + 1
     return out
 
 
@@ -179,6 +211,12 @@ def find_replacement(entry, candidates):
     return None
 
 
+def replace_entry_block(text, entry, new_info_line, new_url_line):
+    old_block = entry["raw_info"] + "\n" + entry["raw_url"]
+    new_block = new_info_line + "\n" + new_url_line
+    return text.replace(old_block, new_block, 1)
+
+
 def heal(path):
     p = Path(path)
     imported = sync_legacy_catalog(p)
@@ -186,8 +224,24 @@ def heal(path):
     entries = parse_playlist(original)
     candidates = None
     replacements = []
+    inactivated = []
+    reactivated = []
 
     for entry in entries:
+        if entry["inactive"]:
+            print(f"checking INACTIVE {entry['display']}: searching replacement")
+            if candidates is None:
+                candidates = load_candidates()
+            new_url = find_replacement(entry, candidates)
+            if new_url:
+                original = replace_entry_block(original, entry, entry["info"], new_url)
+                reactivated.append((entry["display"], new_url))
+                print(f"  REACTIVATED -> {new_url}")
+            else:
+                print("  still inactive; no exact verified replacement")
+            time.sleep(0.2)
+            continue
+
         print(f"checking {entry['display']}: {entry['url']}")
         if is_working_hls(entry["url"]):
             print("  OK")
@@ -199,20 +253,30 @@ def heal(path):
 
         new_url = find_replacement(entry, candidates)
         if new_url:
-            original = original.replace(entry["url"], new_url, 1)
+            original = replace_entry_block(original, entry, entry["info"], new_url)
             replacements.append((entry["display"], entry["url"], new_url))
             print(f"  REPLACED -> {new_url}")
         else:
-            print("  NO EXACT VERIFIED REPLACEMENT; keeping existing URL")
+            inactive_info = INACTIVE_INFO + entry["info"]
+            inactive_url = INACTIVE_URL + entry["url"]
+            original = replace_entry_block(original, entry, inactive_info, inactive_url)
+            inactivated.append((entry["display"], entry["url"]))
+            print("  INACTIVATED; will retry on future runs")
         time.sleep(0.2)
 
-    if replacements:
+    if imported or replacements or inactivated or reactivated:
         p.write_text(original, encoding="utf-8")
-
-    if imported or replacements:
-        print(f"playlist changed: imported={imported}, replaced={len(replacements)}")
+        print(
+            "playlist changed: "
+            f"imported={imported}, replaced={len(replacements)}, "
+            f"inactivated={len(inactivated)}, reactivated={len(reactivated)}"
+        )
         for name, old, new in replacements:
-            print(f"- {name}: {old} -> {new}")
+            print(f"- replaced {name}: {old} -> {new}")
+        for name, old in inactivated:
+            print(f"- inactive {name}: {old}")
+        for name, new in reactivated:
+            print(f"- reactivated {name}: {new}")
     else:
         print("no playlist changes required")
 

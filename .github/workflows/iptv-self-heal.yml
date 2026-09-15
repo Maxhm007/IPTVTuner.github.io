@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: iptv-self-heal
+  cancel-in-progress: false
+
 jobs:
   heal:
     runs-on: ubuntu-latest
@@ -32,18 +36,18 @@ jobs:
           path: site
           fetch-depth: 0
 
-      - name: Check streams and replace failed URLs
+      - name: Check streams and update health state
         run: python3 toolrepo/scripts/iptv_self_heal.py site/IPTV-V008.m3u
 
-      - name: Commit verified replacements
+      - name: Commit playlist and health state
         working-directory: site
         run: |
-          if git diff --quiet -- IPTV-V008.m3u; then
-            echo "No verified replacements found."
+          if git diff --quiet -- IPTV-V008.m3u IPTV-V008-health.json IPTV-V008-health.md; then
+            echo "No IPTV state changes found."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add IPTV-V008.m3u
-          git commit -m "Auto-heal IPTV stream links"
+          git add IPTV-V008.m3u IPTV-V008-health.json IPTV-V008-health.md
+          git commit -m "Update IPTV self-heal state"
           git push origin HEAD:gh-pages

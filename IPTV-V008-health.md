@@ -1,11 +1,11 @@
 # IPTV V008 Health
 
-- Updated: 2026-09-15T12:24:04+00:00
-- Total channels: 139
-- Active: 80
-- Inactive: 59
-- Active but uncertain from GitHub runner: 43
-- Checked this run: 139
+- Updated: 2026-09-15T12:26:37+00:00
+- Total channels: 133
+- Active: 77
+- Inactive: 56
+- Active but uncertain from GitHub runner: 40
+- Checked this run: 133
 - Inactivated: 0
 - Reactivated: 0
 - Replaced: 0
@@ -18,7 +18,6 @@
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
 - NASA TV — reason=http-404, policy=actionable
-- Anando TV — reason=http-404, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable
 - Colors Bangla HD — reason=http-404, policy=actionable
 - Colors Bangla Cinema — reason=http-404, policy=actionable
@@ -41,10 +40,8 @@
 - Discovery — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Discovery Asia — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Discovery SCI — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
-- NASA TV — reason=http-404, policy=actionable
 - National Geographic — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Nat Geo Wild (Hindi) — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
-- NHK World Japan — reason=http-404, policy=actionable
 - Travel XP — reason=http-404, policy=actionable
 - Cartoon Network — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney Jr — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

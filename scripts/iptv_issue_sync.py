@@ -18,6 +18,17 @@ INACTIVE_INFO = "#SELFHEAL-INACTIVE "
 INACTIVE_URL = "#SELFHEAL-URL "
 CREATE_DELAY = 0.35
 
+# Subscription/pay-TV services are retained as catalog/reference entries when present,
+# but are excluded from automatic replacement sourcing and issue creation.
+RESTRICTED = (
+    "hbo", "cinemax", "showtime", "disney channel", "disney jr", "disney xd",
+    "espn", "sony six", "sony ten", "star sports", "supersport", "super sports",
+    "wwe network", "star movies", "sony pix", "fox movies", "fox family movies",
+    "axn", "animal planet", "discovery", "national geographic", "nat geo",
+    "cartoon network", "nickelodeon", "nick jr", "nicktoons", "star world",
+    "fox life", "syfy",
+)
+
 
 def request(method, path, payload=None):
     token = os.environ.get("GITHUB_TOKEN", "")
@@ -32,7 +43,7 @@ def request(method, path, payload=None):
             "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github+json",
             "X-GitHub-Api-Version": "2022-11-28",
-            "User-Agent": "IPTVTuner-IssueSync/1.1",
+            "User-Agent": "IPTVTuner-IssueSync/1.2",
             "Content-Type": "application/json",
         },
     )
@@ -43,6 +54,15 @@ def request(method, path, payload=None):
 
 def normalize(s):
     return " ".join(re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).split())
+
+
+def is_restricted(name):
+    n = normalize(name)
+    return any(term in n for term in RESTRICTED)
+
+
+def credential_style(url):
+    return bool(re.search(r"/live/[^/]+/[^/]+/[^/?]+", url or "", re.I))
 
 
 def inactive_key(name, group, tvg_id):
@@ -78,6 +98,10 @@ def parse_inactive(path):
             if q.startswith("#EXTINF:") or q.startswith(INACTIVE_INFO + "#EXTINF:"):
                 break
             j += 1
+        if is_restricted(name) or credential_style(url):
+            print(f"excluded from auto-repair issues: {display}")
+            i = max(i + 1, j + 1)
+            continue
         key = inactive_key(name, group, tvg_id)
         found[key] = {
             "key": key,
@@ -129,18 +153,19 @@ def create_issue(repo, channel):
     return issue
 
 
-def close_issue(repo, issue):
+def close_issue(repo, issue, reason=None):
     number = issue["number"]
+    comment = reason or "IPTV Self Heal found a verified working stream and reactivated this channel. Closing automatically."
     try:
         request(
             "POST",
             f"/repos/{repo}/issues/{number}/comments",
-            {"body": "IPTV Self Heal found a verified working stream and reactivated this channel. Closing automatically."},
+            {"body": comment},
         )
     except Exception as e:
         print(f"warning: could not comment on issue #{number}: {e}")
     request("PATCH", f"/repos/{repo}/issues/{number}", {"state": "closed", "state_reason": "completed"})
-    print(f"closed issue #{number}: channel active again")
+    print(f"closed issue #{number}")
 
 
 def is_rate_limit_error(exc):
@@ -176,13 +201,19 @@ def main():
         if key in inactive:
             continue
         try:
-            close_issue(repo, issue)
+            title = issue.get("title", "")
+            channel_name = title[len(PREFIX):].strip() if title.startswith(PREFIX) else title
+            if is_restricted(channel_name):
+                reason = "This channel is classified as subscription/pay-TV and is excluded from automatic stream sourcing. Closing the auto-repair issue."
+            else:
+                reason = None
+            close_issue(repo, issue, reason)
             closed += 1
             time.sleep(0.15)
         except Exception as e:
             print(f"warning: could not close issue #{issue.get('number')}: {e}")
 
-    print(f"issue sync complete: inactive={len(inactive)}, opened={opened}, closed={closed}")
+    print(f"issue sync complete: actionable_inactive={len(inactive)}, opened={opened}, closed={closed}")
 
 
 if __name__ == "__main__":

@@ -43,7 +43,7 @@ def request(method, path, payload=None):
             "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github+json",
             "X-GitHub-Api-Version": "2022-11-28",
-            "User-Agent": "IPTVTuner-IssueSync/1.2",
+            "User-Agent": "IPTVTuner-IssueSync/1.3",
             "Content-Type": "application/json",
         },
     )
@@ -73,9 +73,14 @@ def inactive_key(name, group, tvg_id):
     return hashlib.sha256(basis.encode("utf-8")).hexdigest()[:20]
 
 
+def logical_key(name, group):
+    return f"{normalize(group)}|{normalize(name)}"
+
+
 def parse_inactive(path):
     lines = Path(path).read_text(encoding="utf-8").splitlines()
     found = {}
+    seen_logical = set()
     i = 0
     while i < len(lines):
         s = lines[i].strip()
@@ -102,9 +107,16 @@ def parse_inactive(path):
             print(f"excluded from auto-repair issues: {display}")
             i = max(i + 1, j + 1)
             continue
+        logical = logical_key(name, group)
+        if logical in seen_logical:
+            print(f"duplicate inactive catalog entry suppressed: {display} ({group or 'Unknown'})")
+            i = max(i + 1, j + 1)
+            continue
+        seen_logical.add(logical)
         key = inactive_key(name, group, tvg_id)
         found[key] = {
             "key": key,
+            "logical_key": logical,
             "name": display,
             "group": group,
             "tvg_id": tvg_id,
@@ -183,12 +195,32 @@ def main():
     opened = 0
     closed = 0
 
+    # Prevent a second issue for the same logical channel even when legacy entries
+    # use different tvg-id values.
+    open_logical = {}
+    for key, issue in existing.items():
+        title = issue.get("title", "")
+        channel_name = title[len(PREFIX):].strip() if title.startswith(PREFIX) else title
+        body = issue.get("body") or ""
+        group_match = re.search(r"\*\*Group:\*\*\s*([^\n]+)", body)
+        group = (group_match.group(1).strip() if group_match else "")
+        logical = logical_key(channel_name, group if group != "Unknown" else "")
+        open_logical.setdefault(logical, (key, issue))
+
     for key, channel in inactive.items():
+        logical = channel["logical_key"]
         if key in existing:
             print(f"issue already open for {channel['name']}: #{existing[key]['number']}")
             continue
+        if logical in open_logical:
+            kept_key, issue = open_logical[logical]
+            print(f"logical issue already open for {channel['name']}: #{issue['number']}")
+            # Use the existing issue as the canonical tracker this run.
+            inactive[kept_key] = channel
+            continue
         try:
             existing[key] = create_issue(repo, channel)
+            open_logical[logical] = (key, existing[key])
             opened += 1
             time.sleep(CREATE_DELAY)
         except Exception as e:
@@ -206,7 +238,7 @@ def main():
             if is_restricted(channel_name):
                 reason = "This channel is classified as subscription/pay-TV and is excluded from automatic stream sourcing. Closing the auto-repair issue."
             else:
-                reason = None
+                reason = "This issue is no longer the canonical actionable tracker for an inactive channel (recovered, excluded, or duplicate catalog entry). Closing automatically."
             close_issue(repo, issue, reason)
             closed += 1
             time.sleep(0.15)

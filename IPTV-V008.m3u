@@ -230,26 +230,26 @@ http://41.205.93.154/ZEE-TV/index.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQgPcyhcJebwJC7_8Tqej_kyuLFLdVfHk9X2IFKjg=s88-c-k-c0x00ffffff-no-rj" group-title="Hindi", Zoom
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/69pCK1u.png" group-title="English", AXN
-http://wanicelife.com:8880/SFL143456/73U700Y1/71087
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/69pCK1u.png" group-title="English", AXN
+#SELFHEAL-URL http://wanicelife.com:8880/SFL143456/73U700Y1/71087
 
-#EXTINF:-1 tvg-id="cinemax.us" tvg-name="Cinemax HD" tvg-logo="https://www.pngfind.com/pngs/m/204-2047747_cinemax-logo-hd-png-download.png" group-title="English",Cinemax HD
-https://livecdn.fptplay.net/hda1/cinemax_hls.smil/playlist.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="cinemax.us" tvg-name="Cinemax HD" tvg-logo="https://www.pngfind.com/pngs/m/204-2047747_cinemax-logo-hd-png-download.png" group-title="English",Cinemax HD
+#SELFHEAL-URL https://livecdn.fptplay.net/hda1/cinemax_hls.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f7/Fox_Life_pt_logo.PNG" group-title="English",Fox Life
-http://93.157.62.180:80/FoxLife/playlist.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f7/Fox_Life_pt_logo.PNG" group-title="English",Fox Life
+#SELFHEAL-URL http://93.157.62.180:80/FoxLife/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/j8Ymta1.png" group-title="English", HBO
-https://livecdn.fptplay.net/hda1/hbo_hls.smil/chunklist.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/j8Ymta1.png" group-title="English", HBO
+#SELFHEAL-URL https://livecdn.fptplay.net/hda1/hbo_hls.smil/chunklist.m3u8
 
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/HBO_Plus.png" group-title="English",HBO+ Plus
-http://213.151.233.20:8000/dna-6129-tv-pc/hls/4001v102.m3u8
+#SELFHEAL-INACTIVE #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/HBO_Plus.png" group-title="English",HBO+ Plus
+#SELFHEAL-URL http://213.151.233.20:8000/dna-6129-tv-pc/hls/4001v102.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/an5P0s0.png" group-title="English", HBO Signature
-http://185.180.221.194:8278/streams/d/Hbosignature/playlist.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/an5P0s0.png" group-title="English", HBO Signature
+#SELFHEAL-URL http://185.180.221.194:8278/streams/d/Hbosignature/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nOiPsyr.png" group-title="English", HBO Hits
-http://tvsen7.aynascope.net/hbo2/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/nOiPsyr.png" group-title="English", HBO Hits
+#SELFHEAL-URL http://tvsen7.aynascope.net/hbo2/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="MTV English" tvg-logo="https://i.imgur.com/FOiUOeW.png" group-title="English",MTV English
 http://wanicelife.com:8880/SFL143456/73U700Y1/71099
@@ -263,20 +263,20 @@ http://103.179.246.243:8000/play/a01i
 #EXTINF:-1 tvg-logo="https://i.imgur.com/euauPCp.png" group-title="Entertainment", Redbull TV
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_928.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/oe4Woe7.png" group-title="English",Star World
-http://103.179.246.243:8000/play/a00a
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/oe4Woe7.png" group-title="English",Star World
+#SELFHEAL-URL http://103.179.246.243:8000/play/a00a
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/AJbFTSr.png" group-title="English",Star Movies
-http://221.120.204.4/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/AJbFTSr.png" group-title="English",Star Movies
+#SELFHEAL-URL http://221.120.204.4/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3i2U8HH.png" group-title="English", Sony Pix HD
-https://feed.play.mv/live/10005200/jmW41EycvT/1.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/3i2U8HH.png" group-title="English", Sony Pix HD
+#SELFHEAL-URL https://feed.play.mv/live/10005200/jmW41EycvT/1.m3u8
 
-#EXTINF:-1 tvg-id="showtime.us" tvg-name="Showtime HD" tvg-logo="https://trademarks.justia.com/media/og_image.php?serial=78319568" group-title="English",Showtime HD
-http://tv.univisionlive.net:25461/live/rifat89/22216989/373.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="showtime.us" tvg-name="Showtime HD" tvg-logo="https://trademarks.justia.com/media/og_image.php?serial=78319568" group-title="English",Showtime HD
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/373.m3u8
 
-#EXTINF:-1 tvg-id="syfy.us" tvg-name="SyFy" tvg-logo="https://watchindia.net/images/channels/usa/Syfy.png" group-title="English",SyFy
-http://tv.univisionlive.net:25461/live/rifat89/22216989/725.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="syfy.us" tvg-name="SyFy" tvg-logo="https://watchindia.net/images/channels/usa/Syfy.png" group-title="English",SyFy
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/725.m3u8
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="animalplanet.us" tvg-name="Animal Planet HD" tvg-logo="https://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Infotainment",Animal Planet HD
 #SELFHEAL-URL http://103.166.253.222/hls/animalplanent.m3u8
@@ -284,8 +284,8 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/725.m3u8
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery
 #SELFHEAL-URL http://103.166.253.222/hls/discovery.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
-http://wanicelife.com:8880/SFL143456/73U700Y1/71072
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
+#SELFHEAL-URL http://wanicelife.com:8880/SFL143456/73U700Y1/71072
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
 #SELFHEAL-URL http://103.166.253.222/hls/dis-science.m3u8
@@ -323,20 +323,20 @@ http://wanicelife.com:8880/SFL143456/73U700Y1/71100
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="Kids",Cartoon Network
 #SELFHEAL-URL http://103.166.253.222/hls/cn.m3u8
 
-#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="Kids",Disney Jr
-http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="Kids",Disney Jr
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
 
-#EXTINF:-1 tvg-id="disneyxd.us" tvg-name="Disney XD HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="Kids",Disney XD HD
-http://tv.univisionlive.net:25461/live/rifat89/22216989/1018.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="disneyxd.us" tvg-name="Disney XD HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="Kids",Disney XD HD
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/1018.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="Nick HD" tvg-logo="http://hotflix.stream/uploads/tv_image/sm/nick-hd-plus.png" group-title="Kids",Nick HD
 https://feed.play.mv/live/10005200/s5f1zEMJC1/master.m3u8
 
-#EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="Kids",Nicktoons
-http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://cdn.dribbble.com/users/339904/screenshots/2126554/nickjr-logo.png" group-title="Kids",Nicktoons
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/383.m3u8
 
-#EXTINF:-1 tvg-id="nickjr.us" tvg-name="NICK Jr" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/nick_jr_br.jpg" group-title="Kids",NICK Jr
-http://wanicelife.com:8880/SFL143456/73U700Y1/71086
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="nickjr.us" tvg-name="NICK Jr" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/nick_jr_br.jpg" group-title="Kids",NICK Jr
+#SELFHEAL-URL http://wanicelife.com:8880/SFL143456/73U700Y1/71086
 
 #EXTINF:-1 tvg-id="" tvg-name="Sony Yay Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Sony_Yay_Logo.jpg" group-title="Kids",Sony Yay Bangla
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2759.m3u8
@@ -380,56 +380,56 @@ http://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8
 #EXTINF:-1 tvg-id="BritAsia(src07).in(m3u4u)" tvg-name="Brit Asia TV" tvg-logo="https://batv.gloss.agency/site/wp-content/uploads/2017/06/balogo.png" group-title="Music",Brit Asia TV
 https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/hi/c.m3u8
 
-#EXTINF:-1 tvg-id="espn.us" tvg-name="ESPN" tvg-logo="https://i.imgur.com/fDJpIpn.png" group-title="Sports",ESPN
-http://tv.univisionlive.net:25461/live/rifat89/22216989/406.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="espn.us" tvg-name="ESPN" tvg-logo="https://i.imgur.com/fDJpIpn.png" group-title="Sports",ESPN
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/406.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="PTV Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png" group-title="Sports",PTV Sports
 http://tv.univisionlive.net:25461/live/rifat89/22216989/1162.m3u8
 
-#EXTINF:-1 tvg-id="sonysix.in" tvg-name="Sony Six " tvg-logo="https://image.winudf.com/v2/image/Y29tLm1tZ3RlY2h2aW5lLmxpdmVzb255c2l4dHZfc2NyZWVuXzBfMTUyOTQyNDE0Nl8wMzk/screen-0.jpg?fakeurl=1&type=.jpg" group-title="Sports",Sony Six
-http://tv.univisionlive.net:25461/live/rifat89/22216989/2641.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="sonysix.in" tvg-name="Sony Six " tvg-logo="https://image.winudf.com/v2/image/Y29tLm1tZ3RlY2h2aW5lLmxpdmVzb255c2l4dHZfc2NyZWVuXzBfMTUyOTQyNDE0Nl8wMzk/screen-0.jpg?fakeurl=1&type=.jpg" group-title="Sports",Sony Six
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/2641.m3u8
 
-#EXTINF:-1 tvg-id="sonyten1hd.in" tvg-name="Sony Ten 1 4K" tvg-logo="" group-title="Sports",Sony Ten 1 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/2651.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="sonyten1hd.in" tvg-name="Sony Ten 1 4K" tvg-logo="" group-title="Sports",Sony Ten 1 4K
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/2651.m3u8
 
-#EXTINF:-1 tvg-id="sonyten2hd.in" tvg-name="Sony Ten 2 4K" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/35/Sony_Ten_2_HD.jpg" group-title="Sports",Sony Ten 2 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/2434.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="sonyten2hd.in" tvg-name="Sony Ten 2 4K" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/35/Sony_Ten_2_HD.jpg" group-title="Sports",Sony Ten 2 4K
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/2434.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Sony Ten 3 4K" tvg-logo="https://i.pinimg.com/236x/82/ac/a4/82aca43f83fc8ac14304ac2520c63bd4.jpg" group-title="Sports",Sony Ten 3 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/2836.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="" tvg-name="Sony Ten 3 4K" tvg-logo="https://i.pinimg.com/236x/82/ac/a4/82aca43f83fc8ac14304ac2520c63bd4.jpg" group-title="Sports",Sony Ten 3 4K
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/2836.m3u8
 
-#EXTINF:-1 tvg-id="starsports1.in" tvg-name="Star Sports 1 4K" tvg-logo="https://bit.ly/3i0bJdQ" group-title="Sports",Star Sports 1 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/668.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="starsports1.in" tvg-name="Star Sports 1 4K" tvg-logo="https://bit.ly/3i0bJdQ" group-title="Sports",Star Sports 1 4K
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/668.m3u8
 
-#EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="Star Sports 2 4K" tvg-logo="https://kccl.tv/sites/default/files/star%20sports%202%20hd.png" group-title="Sports",Star Sports 2 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/650.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="Star Sports 2 4K" tvg-logo="https://kccl.tv/sites/default/files/star%20sports%202%20hd.png" group-title="Sports",Star Sports 2 4K
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/650.m3u8
 
-#EXTINF:-1 tvg-id="starsportsselect1hd.in" tvg-name="Star Sports Select 1 4K" tvg-logo="https://tv.bdtype.com/uploads/tv_image/star-sports-select-1.jpg" group-title="Sports",Star Sports Select 1 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/651.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="starsportsselect1hd.in" tvg-name="Star Sports Select 1 4K" tvg-logo="https://tv.bdtype.com/uploads/tv_image/star-sports-select-1.jpg" group-title="Sports",Star Sports Select 1 4K
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/651.m3u8
 
-#EXTINF:-1 tvg-id="starsportsselecthd2.in" tvg-name="Star Sports Select 2 4K" tvg-logo="https://watchindia.net/images/channels/Star_Sports_Select_2_HD.png" group-title="Sports",Star Sports Select 2 4K
-http://tv.univisionlive.net:25461/live/rifat89/22216989/719.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="starsportsselecthd2.in" tvg-name="Star Sports Select 2 4K" tvg-logo="https://watchindia.net/images/channels/Star_Sports_Select_2_HD.png" group-title="Sports",Star Sports Select 2 4K
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/719.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/UEvEaOK.png" group-title="Sports", Super Sports 1
-http://93.157.62.180/Supersport1/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/UEvEaOK.png" group-title="Sports", Super Sports 1
+#SELFHEAL-URL http://93.157.62.180/Supersport1/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qE3DDKX.png" group-title="Sports", Super Sports 2
-http://93.157.62.180/Supersport2/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/qE3DDKX.png" group-title="Sports", Super Sports 2
+#SELFHEAL-URL http://93.157.62.180/Supersport2/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sPnZ0d5.png" group-title="Sports", Super Sports 3
-http://93.157.62.180/Supersport3/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/sPnZ0d5.png" group-title="Sports", Super Sports 3
+#SELFHEAL-URL http://93.157.62.180/Supersport3/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/S6eGs4t.png" group-title="Sports", Super Sports 4
-http://93.157.62.180/Supersport4/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/S6eGs4t.png" group-title="Sports", Super Sports 4
+#SELFHEAL-URL http://93.157.62.180/Supersport4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vowBrPg.png" group-title="Sports", Super Sports 5
-http://93.157.62.180/Supersport5/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/vowBrPg.png" group-title="Sports", Super Sports 5
+#SELFHEAL-URL http://93.157.62.180/Supersport5/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/N8CJxDY.png" group-title="Sports", Super Sports 6
-http://93.157.62.180/Supersport6/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/N8CJxDY.png" group-title="Sports", Super Sports 6
+#SELFHEAL-URL http://93.157.62.180/Supersport6/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1gyHXhe.png" group-title="Sports", Super Sports 7
-http://93.157.62.180/Supersport7/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/1gyHXhe.png" group-title="Sports", Super Sports 7
+#SELFHEAL-URL http://93.157.62.180/Supersport7/index.m3u8
 
-#EXTINF:-1 tvg-id="wwe.us" tvg-name="WWE Network" tvg-logo="https://www.clipartkey.com/mpngs/m/91-911374_wwe-logo-png-wwe-network-logo-png.png" group-title="Sports",WWE Network
-http://tv.univisionlive.net:25461/live/rifat89/22216989/408.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="wwe.us" tvg-name="WWE Network" tvg-logo="https://www.clipartkey.com/mpngs/m/91-911374_wwe-logo-png-wwe-network-logo-png.png" group-title="Sports",WWE Network
+#SELFHEAL-URL http://tv.univisionlive.net:25461/live/rifat89/22216989/408.m3u8

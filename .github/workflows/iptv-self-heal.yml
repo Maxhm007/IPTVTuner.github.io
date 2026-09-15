@@ -10,7 +10,9 @@ on:
     paths:
       - ".github/workflows/iptv-self-heal.yml"
       - "scripts/iptv_self_heal.py"
+      - "scripts/iptv_self_heal_runner.py"
       - "scripts/iptv_issue_sync.py"
+      - "config/iptv-approved-free.json"
 
 permissions:
   contents: write
@@ -46,7 +48,7 @@ jobs:
           fetch-depth: 0
 
       - name: Check streams and update health state
-        run: python3 toolrepo/scripts/iptv_self_heal.py site/IPTV-V008.m3u state
+        run: python3 toolrepo/scripts/iptv_self_heal_runner.py site/IPTV-V008.m3u state
 
       - name: Sync inactive channel issues
         env:

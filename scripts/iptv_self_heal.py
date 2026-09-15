@@ -5,7 +5,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/1.0)"
+USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/1.1)"
 TIMEOUT = 12
 
 SOURCES = [
@@ -36,11 +36,10 @@ def fetch_text(url, timeout=TIMEOUT):
 
 def is_working_hls(url):
     try:
-        text, final_url = fetch_text(url)
+        text, _ = fetch_text(url)
         head = text.lstrip()[:2000]
         if "#EXTM3U" not in head:
             return False
-        # Accept master or media playlists.
         return any(tag in text for tag in ("#EXT-X-STREAM-INF", "#EXTINF", "#EXT-X-TARGETDURATION"))
     except Exception:
         return False
@@ -49,9 +48,13 @@ def is_working_hls(url):
 def normalize(s):
     s = (s or "").lower()
     s = re.sub(r"\([^)]*\)|\[[^]]*\]", " ", s)
-    s = re.sub(r"\b(hd|fhd|sd|tv|channel|live|1080p|720p|576p|480p|360p)\b", " ", s)
+    s = re.sub(r"\b(hd|fhd|sd|uhd|4k|1080p|720p|576p|480p|360p)\b", " ", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     return " ".join(s.split())
+
+
+def base_tvg_id(value):
+    return (value or "").strip().lower().split("@", 1)[0]
 
 
 def parse_playlist(text):
@@ -85,50 +88,49 @@ def load_candidates():
     for src in SOURCES:
         try:
             text, _ = fetch_text(src, timeout=20)
-            candidates.extend(parse_playlist(text))
-            print(f"loaded {src}: {len(parse_playlist(text))} entries")
+            parsed = parse_playlist(text)
+            candidates.extend(parsed)
+            print(f"loaded {src}: {len(parsed)} entries")
         except Exception as e:
             print(f"warning: source failed {src}: {e}")
     return candidates
 
 
-def score_match(entry, cand):
-    score = 0
-    e_id = (entry.get("tvg_id") or "").lower().split("@", 1)[0]
-    c_id = (cand.get("tvg_id") or "").lower().split("@", 1)[0]
-    if e_id and c_id and e_id == c_id:
-        score += 100
+def same_channel(entry, cand):
+    """Strict channel identity check. No fuzzy/partial matching."""
+    e_id = base_tvg_id(entry.get("tvg_id"))
+    c_id = base_tvg_id(cand.get("tvg_id"))
 
+    # Best signal: exact tvg-id (ignoring @SD/@HD suffix).
+    if e_id and c_id:
+        return e_id == c_id
+
+    # Fallback only when an ID is missing: exact normalized name.
     en = normalize(entry.get("name") or entry.get("display"))
     cn = normalize(cand.get("name") or cand.get("display"))
-    if en and cn:
-        if en == cn:
-            score += 80
-        elif en in cn or cn in en:
-            score += 45
-        else:
-            ewords, cwords = set(en.split()), set(cn.split())
-            if ewords and cwords:
-                overlap = len(ewords & cwords) / max(len(ewords), len(cwords))
-                score += int(overlap * 40)
+    if not en or not cn or en != cn:
+        return False
 
+    # If both carry group metadata, require it to match too.
     eg = normalize(entry.get("group"))
     cg = normalize(cand.get("group"))
-    if eg and cg and eg == cg:
-        score += 10
-    return score
+    if eg and cg and eg != cg:
+        return False
+
+    return True
 
 
 def find_replacement(entry, candidates):
-    ranked = sorted(
-        ((score_match(entry, c), c) for c in candidates if c["url"] != entry["url"]),
-        key=lambda x: x[0],
-        reverse=True,
-    )
-    for score, cand in ranked[:12]:
-        if score < 45:
-            break
-        print(f"  trying candidate score={score}: {cand['display']} -> {cand['url']}")
+    matches = [
+        c for c in candidates
+        if c["url"] != entry["url"] and same_channel(entry, c)
+    ]
+
+    # Prefer HTTPS, then test in source order.
+    matches.sort(key=lambda c: (not c["url"].startswith("https://")))
+
+    for cand in matches[:20]:
+        print(f"  trying exact channel match: {cand['display']} -> {cand['url']}")
         if is_working_hls(cand["url"]):
             return cand["url"]
     return None
@@ -147,7 +149,7 @@ def heal(path):
             print("  OK")
             continue
 
-        print("  FAILED; searching replacement")
+        print("  FAILED; searching exact replacement")
         if candidates is None:
             candidates = load_candidates()
 
@@ -157,7 +159,7 @@ def heal(path):
             replacements.append((entry["display"], entry["url"], new_url))
             print(f"  REPLACED -> {new_url}")
         else:
-            print("  NO VERIFIED REPLACEMENT; keeping existing URL")
+            print("  NO EXACT VERIFIED REPLACEMENT; keeping existing URL")
         time.sleep(0.2)
 
     if replacements:

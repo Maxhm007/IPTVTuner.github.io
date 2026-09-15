@@ -11,8 +11,8 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 #EXTINF:-1 tvg-id="ATNBangla.bd@SD" group-title="Bangladesh",ATN Bangla
 https://tvsen5.aynaott.com/atnbangla/index.m3u8
 
-#EXTINF:-1 tvg-name="ATN Islamic" group-title="Bangladesh",ATN Islamic
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnislamictv.stream/playlist.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-name="ATN Islamic" group-title="Bangladesh",ATN Islamic
+#SELFHEAL-URL https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnislamictv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="BanglaVision.bd@SD" group-title="Bangladesh",Bangla Vision
 https://tvsen5.aynaott.com/banglavision/index.m3u8
@@ -20,8 +20,8 @@ https://tvsen5.aynaott.com/banglavision/index.m3u8
 #EXTINF:-1 tvg-id="BoishakhiTV.bd@SD" group-title="Bangladesh",Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
 
-#EXTINF:-1 tvg-id="ChannelI.bd" tvg-logo="https://i.imgur.com/X0JJlOX.png" group-title="Bangladesh",Channel I
-https://tvsen6.aynaott.com/channeli/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="ChannelI.bd" tvg-logo="https://i.imgur.com/X0JJlOX.png" group-title="Bangladesh",Channel I
+#SELFHEAL-URL https://tvsen6.aynaott.com/channeli/index.m3u8
 
 #EXTINF:-1 tvg-id="ChannelS.bd@SD" group-title="Bangladesh",Channel S
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
@@ -44,14 +44,14 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 #EXTINF:-1 tvg-id="GreenTV.bd@SD" group-title="Bangladesh",Green TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="JamunaTV.bd" group-title="Bangladesh",Jamuna TV
-https://tvsen6.aynaott.com/jamunatv/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="JamunaTV.bd" group-title="Bangladesh",Jamuna TV
+#SELFHEAL-URL https://tvsen6.aynaott.com/jamunatv/index.m3u8
 
 #EXTINF:-1 tvg-id="MaasrangaTV.bd@SD" group-title="Bangladesh",Maasranga TV
 https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 
-#EXTINF:-1 tvg-id="MohonaTV.bd" group-title="Bangladesh",Mohona TV
-https://tvsen6.aynaott.com/mohonatv/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="MohonaTV.bd" group-title="Bangladesh",Mohona TV
+#SELFHEAL-URL https://tvsen6.aynaott.com/mohonatv/index.m3u8
 
 #EXTINF:-1 tvg-id="MyTV.bd@SD" group-title="Bangladesh",My TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
@@ -129,13 +129,13 @@ https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 
 ########## INFOTAINMENT ##########
 
-#EXTINF:-1 tvg-id="NASA.us" tvg-logo="https://i.imgur.com/uQ4iijb.png" group-title="Infotainment",NASA TV
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="NASA.us" tvg-logo="https://i.imgur.com/uQ4iijb.png" group-title="Infotainment",NASA TV
+#SELFHEAL-URL https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 
 ########## V007 LEGACY CATALOG - SELF HEAL ##########
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Anando TV" tvg-logo="https://i.imgur.com/WpMA9kC.png" group-title="Bangladesh", Anando TV
-https://livess.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjQgNToyODoyNiBQTSZoYXNoX3ZhbHVlPWFpZlJIaE51VStUSnZXd1d6cEJJRWc9PSZ2YWxpZG1pbnV0ZXM9NjAmaWQ9NQ==
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Anando TV" tvg-logo="https://i.imgur.com/WpMA9kC.png" group-title="Bangladesh", Anando TV
+#SELFHEAL-URL https://livess.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjQgNToyODoyNiBQTSZoYXNoX3ZhbHVlPWFpZlJIaE51VStUSnZXd1d6cEJJRWc9PSZ2YWxpZG1pbnV0ZXM9NjAmaWQ9NQ==
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Asian TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Asian_TV_Logo.svg/96px-Asian_TV_Logo.svg.png" group-title="Bangladesh",Asian TV
 https://mtlivestream.com/asian/ytlive/index.m3u8
@@ -146,17 +146,17 @@ http://d1zuxgm0d4hmth.cloudfront.net/cnnbangla/01.m3u8
 #EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.imgur.com/sekOPL6.png", JagoNews24 Tv
 http://iptvbd.jagobd.com:1931/live-orgin/jagonews24.stream/chunks.m3u8
 
-#EXTINF:-1 tvg-id="aakashaath.in" tvg-name="Akash Aath" tvg-logo="https://starhd25.com/wp-content/uploads/2021/04/36_HP_Aakash-Aath-300x169-1.png" group-title="Indian Bangla",Akash Aath
-http://208.86.19.13:81/902.stream/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="aakashaath.in" tvg-name="Akash Aath" tvg-logo="https://starhd25.com/wp-content/uploads/2021/04/36_HP_Aakash-Aath-300x169-1.png" group-title="Indian Bangla",Akash Aath
+#SELFHEAL-URL http://208.86.19.13:81/902.stream/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla HD
-http://208.86.19.13:81/904.stream/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla HD
+#SELFHEAL-URL http://208.86.19.13:81/904.stream/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla Cinema
-http://103.166.253.222/hls/colore-bangla-cinema.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla Cinema
+#SELFHEAL-URL http://103.166.253.222/hls/colore-bangla-cinema.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Tp3Kead.png" group-title="Indian Bangla", Enter 10 Bangla
-https://236s.short.gy/DreamTV/Enter10.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/Tp3Kead.png" group-title="Indian Bangla", Enter 10 Bangla
+#SELFHEAL-URL https://236s.short.gy/DreamTV/Enter10.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2PQfcOh.png" group-title="Indian Bangla", Jalsha Movies
 http://103.55.144.46/hls/jalshamovies.m3u8
@@ -170,14 +170,14 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b19
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="Indian Bangla", Sangeet Bangla
 https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PW9hRDa.png" group-title="Indian Bangla", Sun Bangla
-http://208.86.19.13:81/903.stream/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/PW9hRDa.png" group-title="Indian Bangla", Sun Bangla
+#SELFHEAL-URL http://208.86.19.13:81/903.stream/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/M6GyIvI.png" group-title="Indian Bangla", Zee Bangla Cinema
-http://208.86.19.13:81/708.stream/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/M6GyIvI.png" group-title="Indian Bangla", Zee Bangla Cinema
+#SELFHEAL-URL http://208.86.19.13:81/708.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="andtvhd.in" tvg-name="& Xplor 4K" tvg-logo="https://watchindia.net/images/channels/hindi/And_Xplor_HD.png" group-title="Hindi",& Xplor 4K
 http://tv.alphamediazone.com:8089/thunderbd/74/index.m3u8
@@ -278,17 +278,17 @@ http://tv.univisionlive.net:25461/live/rifat89/22216989/373.m3u8
 #EXTINF:-1 tvg-id="syfy.us" tvg-name="SyFy" tvg-logo="https://watchindia.net/images/channels/usa/Syfy.png" group-title="English",SyFy
 http://tv.univisionlive.net:25461/live/rifat89/22216989/725.m3u8
 
-#EXTINF:-1 tvg-id="animalplanet.us" tvg-name="Animal Planet HD" tvg-logo="https://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Infotainment",Animal Planet HD
-http://103.166.253.222/hls/animalplanent.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="animalplanet.us" tvg-name="Animal Planet HD" tvg-logo="https://static.epg.best/cz/AnimalPlanet.cz.png" group-title="Infotainment",Animal Planet HD
+#SELFHEAL-URL http://103.166.253.222/hls/animalplanent.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery
-http://103.166.253.222/hls/discovery.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/vsBKeDw.png" group-title="Infotainment", Discovery
+#SELFHEAL-URL http://103.166.253.222/hls/discovery.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rv4dtJo.png" group-title="Infotainment", Discovery Asia
 http://wanicelife.com:8880/SFL143456/73U700Y1/71072
 
-#EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
-http://103.166.253.222/hls/dis-science.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="DiscoveryScience(src07).in(m3u4u)" tvg-name="Discovery SCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/DiscoveryChannel%28India%29Logo.png/220px-DiscoveryChannel%28India%29Logo.png" group-title="Infotainment",Discovery SCI
+#SELFHEAL-URL http://103.166.253.222/hls/dis-science.m3u8
 
 #EXTINF:-1 group-title="Infotainment" ,MY119:FOOD NTWK HD
 http://wanicelife.com:8880/SFL143456/73U700Y1/71091
@@ -296,32 +296,32 @@ http://wanicelife.com:8880/SFL143456/73U700Y1/71091
 #EXTINF:-1 tvg-logo="ext" group-title="Infotainment",History Tv HD
 http://wanicelife.com:8880/SFL143456/73U700Y1/71074
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/uQ4iijb.png" group-title="Infotainment", NASA TV
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/uQ4iijb.png" group-title="Infotainment", NASA TV
+#SELFHEAL-URL https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 
-#EXTINF:-1 tvg-id="natgeowild.us" tvg-name="National Geographic" tvg-logo="https://i.imgur.com/bUepAp5.png" group-title="Infotainment",National Geographic
-http://103.166.253.222/hls/ngohd.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="natgeowild.us" tvg-name="National Geographic" tvg-logo="https://i.imgur.com/bUepAp5.png" group-title="Infotainment",National Geographic
+#SELFHEAL-URL http://103.166.253.222/hls/ngohd.m3u8
 
-#EXTINF:-1 tvg-id="natgeowildhd.in" tvg-name="Nat Geo Wild (Hindi)" tvg-logo="http://watchindia.net/images/channels/usa/NAT_GEO_Wild.png" group-title="Infotainment",Nat Geo Wild (Hindi)
-http://103.166.253.222/hls/wild.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="natgeowildhd.in" tvg-name="Nat Geo Wild (Hindi)" tvg-logo="http://watchindia.net/images/channels/usa/NAT_GEO_Wild.png" group-title="Infotainment",Nat Geo Wild (Hindi)
+#SELFHEAL-URL http://103.166.253.222/hls/wild.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="NatGeo People" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/1200px-New_NatGeo_People_logo.svg.png" group-title="Infotainment",NatGeo People
 http://tv.univisionlive.net:25461/live/rifat89/22216989/2464.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-language="Japanese" tvg-logo="https://i.imgur.com/SQISXoD.jpg" group-title="Infotainment",NHK World Japan
-https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-language="Japanese" tvg-logo="https://i.imgur.com/SQISXoD.jpg" group-title="Infotainment",NHK World Japan
+#SELFHEAL-URL https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
 
 #EXTINF:-1 tvg-logo="ext" group-title="Infotainment",RT Documentary
 https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TravelXP(src07).in(m3u4u)" tvg-name="Travel XP" tvg-logo="https://image3.mouthshut.com/images/imagesp/925753531s.png" group-title="Infotainment",Travel XP
-http://103.166.253.222/hls/travelxp.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="TravelXP(src07).in(m3u4u)" tvg-name="Travel XP" tvg-logo="https://image3.mouthshut.com/images/imagesp/925753531s.png" group-title="Infotainment",Travel XP
+#SELFHEAL-URL http://103.166.253.222/hls/travelxp.m3u8
 
 #EXTINF:-1 group-title="Kids",MY128:ANIMAX
 http://wanicelife.com:8880/SFL143456/73U700Y1/71100
 
-#EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="Kids",Cartoon Network
-http://103.166.253.222/hls/cn.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="Kids",Cartoon Network
+#SELFHEAL-URL http://103.166.253.222/hls/cn.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="Disney Jr" tvg-logo="https://watchindia.net/images/channels/kids/Disney_Junior.png" group-title="Kids",Disney Jr
 http://tv.univisionlive.net:25461/live/rifat89/22216989/391.m3u8
@@ -362,17 +362,17 @@ https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist_1280x720_30
 #EXTINF:-1 tvg-id="CGTN.uk(m3u4u)" tvg-name="CGTN News" tvg-logo="http://schedulesdirect-api20141201.s3.us-east-1.amazonaws.com/assets/stationLogos/s104529_dark_360w_270h.png" group-title="News",CGTN News
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 
-#EXTINF:-1 tvg-id="CheddarNews.us(m3u4u)" tvg-name="Cheddar" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Cheddar_2019.png/220px-Cheddar_2019.png" group-title="News",Cheddar
-https://live.chdrstatic.com/cheddar/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="CheddarNews.us(m3u4u)" tvg-name="Cheddar" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Cheddar_2019.png/220px-Cheddar_2019.png" group-title="News",Cheddar
+#SELFHEAL-URL https://live.chdrstatic.com/cheddar/index.m3u8
 
-#EXTINF:-1 tvg-id="IndiaTV(src07).in(m3u4u)" tvg-name="India TV" tvg-logo="https://yt3.ggpht.com/a/AATXAJz0yqo9CQPGbJLD1IpyBCowrDV9ZtWS408jnyEzzw=s900-c-k-c0xffffffff-no-rj-mo" group-title="News",India TV
-https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/playlist.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="IndiaTV(src07).in(m3u4u)" tvg-name="India TV" tvg-logo="https://yt3.ggpht.com/a/AATXAJz0yqo9CQPGbJLD1IpyBCowrDV9ZtWS408jnyEzzw=s900-c-k-c0xffffffff-no-rj-mo" group-title="News",India TV
+#SELFHEAL-URL https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NDTV24x7.us(m3u4u)" tvg-name="NDTV 24x7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/NDTV_247.svg/250px-NDTV_247.svg.png" group-title="News",NDTV 24x7
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
 
-#EXTINF:-1 tvg-id="News24(src07).in(m3u4u)" tvg-name="News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/News24_Logo.jpg/150px-News24_Logo.jpg" group-title="News",News 24
-https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live1/playlist.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="News24(src07).in(m3u4u)" tvg-name="News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/News24_Logo.jpg/150px-News24_Logo.jpg" group-title="News",News 24
+#SELFHEAL-URL https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TimesNow.us(m3u4u)" tvg-name="Times Now" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/aa/Times_Now_2010.png" group-title="News",Times Now
 http://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8

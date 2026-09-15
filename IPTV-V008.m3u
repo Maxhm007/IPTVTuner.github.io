@@ -165,16 +165,16 @@ http://103.55.144.46/hls/jalshamovies.m3u8
 http://tv.univisionlive.net:25461/live/rifat89/22216989/567.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ppJO2Ep.png" group-title="Indian Bangla", Star Jalsha HD
-http://stream.serverbd247.com/hls/serverbd247.com_starjalsha.m3u8
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ra2RzlQ.png" group-title="Indian Bangla", Sangeet Bangla
-https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/sangeetbangla-audio_208482_und=208000-video=877600.m3u8
+https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PW9hRDa.png" group-title="Indian Bangla", Sun Bangla
 http://208.86.19.13:81/903.stream/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e5Ldh7e.png" group-title="Indian Bangla", Zee Bangla HD
-http://103.109.56.116/live/skyfeed1004/index.m3u8
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M6GyIvI.png" group-title="Indian Bangla", Zee Bangla Cinema
 http://208.86.19.13:81/708.stream/index.m3u8
@@ -201,13 +201,13 @@ http://144.217.70.181:9587/hin2/MASTII/tracks-v1a1/mono.m3u8
 http://221.120.204.4/SONY-HD-LOCKLE/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ro7bedn.png" group-title="Hindi", Sony Max HD
-http://221.120.204.4/SONY-MAX-LOCKLE/tracks-v1a1/mono.m3u8
+https://cloudplay-sonyliv.pages.dev/max.m3u8
 
 #EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://static.epg.best/nl/StarGold.nl.png" group-title="Hindi",Star Gold HD
 http://103.179.246.243:8000/play/a012
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/YvGtRg7.png" group-title="Hindi", Star Gold 2
-http://144.217.70.181:9587/hin2/STARGOLD2/tracks-v1a1/mono.m3u8
+http://107.167.16.138/stargold2/index.m3u8?token=test
 
 #EXTINF:-1 tvg-logo="https://exchange4media.gumlet.io/news-photo/1520595397_Bt65eH_logo-white.jpg" group-title="Hindi",Star Gold Select HD
 http://103.179.246.243:8000/play/a014
@@ -219,16 +219,16 @@ http://103.179.246.243:8000/play/a00m
 http://144.217.70.181:9587/hin2/UTVACTION/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RjiBQP2.png" group-title="Hindi", Zee Action
-http://tv.alphamediazone.com:8089/thunderbd/90/index.m3u8
+http://107.167.16.138/zeeaction/index.m3u8?token=test
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ldXaLJK.png" group-title="Hindi", Zee Cinema HD
-http://103.179.246.243:8000/play/a00z
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi", Zee TV HD
-http://221.120.204.4/zee-tv-LOCKLE/tracks-v1a1/mono.m3u8
+http://41.205.93.154/ZEE-TV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQgPcyhcJebwJC7_8Tqej_kyuLFLdVfHk9X2IFKjg=s88-c-k-c0x00ffffff-no-rj" group-title="Hindi", Zoom
-http://103.166.253.222/hls/zoom.m3u8
+https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/69pCK1u.png" group-title="English", AXN
 http://wanicelife.com:8880/SFL143456/73U700Y1/71087
@@ -249,7 +249,7 @@ http://213.151.233.20:8000/dna-6129-tv-pc/hls/4001v102.m3u8
 http://185.180.221.194:8278/streams/d/Hbosignature/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nOiPsyr.png" group-title="English", HBO Hits
-https://raw.githubusercontent.com/amarnettv/amarnettv.github.io/master/channels/hbohits.m3u8
+http://tvsen7.aynascope.net/hbo2/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="MTV English" tvg-logo="https://i.imgur.com/FOiUOeW.png" group-title="English",MTV English
 http://wanicelife.com:8880/SFL143456/73U700Y1/71099

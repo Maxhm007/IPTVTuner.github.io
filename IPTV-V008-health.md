@@ -1,10 +1,10 @@
 # IPTV V008 Health
 
-- Updated: 2026-09-19T04:46:14+00:00
+- Updated: 2026-09-19T06:00:02+00:00
 - Total channels: 133
 - Active: 74
 - Inactive: 59
-- Active but uncertain from GitHub runner: 39
+- Active but uncertain from GitHub runner: 40
 - Checked this run: 133
 - Inactivated: 0
 - Reactivated: 0
@@ -18,11 +18,11 @@
 - Green TV — reason=http-404, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
-- T Sports — reason=manifest+segment, policy=actionable
+- T Sports — reason=http-404, policy=actionable
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable
 - Colors Bangla HD — reason=http-404, policy=actionable
-- Colors Bangla Cinema — reason=http-404, policy=actionable
+- Colors Bangla Cinema — reason=URLError, policy=actionable
 - Enter 10 Bangla — reason=http-404, policy=actionable
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable
@@ -44,7 +44,7 @@
 - Discovery SCI — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - National Geographic — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Nat Geo Wild (Hindi) — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
-- Travel XP — reason=http-404, policy=actionable
+- Travel XP — reason=URLError, policy=actionable
 - Cartoon Network — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney Jr — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney XD HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

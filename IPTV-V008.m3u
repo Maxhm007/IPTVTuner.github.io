@@ -23,8 +23,8 @@ https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="ChannelI.bd" tvg-logo="https://i.imgur.com/X0JJlOX.png" group-title="Bangladesh",Channel I
 #SELFHEAL-URL https://tvsen6.aynaott.com/channeli/index.m3u8
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="ChannelS.bd@SD" group-title="Bangladesh",Channel S
-#SELFHEAL-URL https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ChannelS.bd@SD" group-title="Bangladesh",Channel S
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DBCNews.bd@SD" group-title="Bangladesh",DBC News
 http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8

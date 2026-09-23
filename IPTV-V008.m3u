@@ -121,8 +121,8 @@ https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
 
 ########## SPORTS ##########
 
-#EXTINF:-1 tvg-id="TSports.bd@SD" group-title="Sports",T Sports
-https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="TSports.bd@SD" group-title="Sports",T Sports
+#SELFHEAL-URL https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
 
 #EXTINF:-1 tvg-id="RedBullTV.at@EUMENA" group-title="Sports",Red Bull TV
 https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
@@ -203,8 +203,8 @@ https://cloudplay-sonyliv.pages.dev/max.m3u8
 #EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://static.epg.best/nl/StarGold.nl.png" group-title="Hindi",Star Gold HD
 http://103.179.246.243:8000/play/a012
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/YvGtRg7.png" group-title="Hindi", Star Gold 2
-#SELFHEAL-URL http://107.167.16.138/stargold2/index.m3u8?token=test
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YvGtRg7.png" group-title="Hindi", Star Gold 2
+http://107.167.16.138/stargold2/index.m3u8?token=test
 
 #EXTINF:-1 tvg-logo="https://exchange4media.gumlet.io/news-photo/1520595397_Bt65eH_logo-white.jpg" group-title="Hindi",Star Gold Select HD
 http://103.179.246.243:8000/play/a014

@@ -38,11 +38,11 @@ https://tplay.live/out/bangladesh/ekhontv.index.m3u8
 #EXTINF:-1 tvg-id="EkusheyTV.bd@SD" group-title="Bangladesh",Ekushey TV
 https://ekusheyserver.com/etvlivesn.m3u8
 
-#EXTINF:-1 tvg-id="GaziTV.bd@SD" group-title="Bangladesh",Gazi TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="GaziTV.bd@SD" group-title="Bangladesh",Gazi TV
+#SELFHEAL-URL https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="GreenTV.bd@SD" group-title="Bangladesh",Green TV
-#SELFHEAL-URL https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="GreenTV.bd@SD" group-title="Bangladesh",Green TV
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="JamunaTV.bd" group-title="Bangladesh",Jamuna TV
 #SELFHEAL-URL https://tvsen6.aynaott.com/jamunatv/index.m3u8
@@ -221,8 +221,8 @@ http://107.167.16.138/zeeaction/index.m3u8?token=test
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ldXaLJK.png" group-title="Hindi", Zee Cinema HD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi", Zee TV HD
-#SELFHEAL-URL http://41.205.93.154/ZEE-TV/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi", Zee TV HD
+http://41.205.93.154/ZEE-TV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQgPcyhcJebwJC7_8Tqej_kyuLFLdVfHk9X2IFKjg=s88-c-k-c0x00ffffff-no-rj" group-title="Hindi", Zoom
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8

@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.maxhm007.xiptv"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.maxhm007.xiptv"
         minSdk = 23
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0.0"
 
@@ -36,4 +36,3 @@ dependencies {
     implementation("androidx.media3:media3-ui:1.9.4")
     testImplementation("junit:junit:4.13.2")
 }
-

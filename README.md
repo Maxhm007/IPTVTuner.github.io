@@ -40,7 +40,7 @@ The self-healing system:
 
 The `android-app` module is a native XIPTV client powered by AndroidX Media3 ExoPlayer. It reads the published playlist directly, provides a searchable channel list, and supports both HTTP and HTTPS HLS playback. Cleartext HTTP is enabled intentionally for legacy playlist sources; use only streams you are authorized to access.
 
-Build locally with JDK 17, Android SDK 37, and Gradle 9.6:
+Build locally with JDK 17, Android SDK 36, and Gradle 9.6:
 
 ```text
 gradle :android-app:testDebugUnitTest :android-app:assembleDebug

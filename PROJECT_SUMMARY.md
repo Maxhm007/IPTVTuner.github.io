@@ -15,5 +15,4 @@ IPTV Tuner maintains the published IPTV-V008 playlist and provides clients that 
 
 - The existing Python/GitHub Actions self-healing automation remains unchanged.
 - Android project source and hosted-runner build workflow are present.
-- Local APK compilation is unavailable until a JDK and Android SDK are installed; the repository workflow provides the build path without changing the local machine.
-
+- Local APK compilation is unavailable until a JDK and Android SDK are installed; the repository workflow provides the Android API 36 build path without changing the local machine.

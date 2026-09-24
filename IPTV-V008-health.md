@@ -1,6 +1,6 @@
 # IPTV V008 Health
 
-- Updated: 2026-09-23T22:22:55+00:00
+- Updated: 2026-09-24T00:01:37+00:00
 - Total channels: 133
 - Active: 75
 - Inactive: 58
@@ -14,7 +14,7 @@
 
 - ATN Islamic — reason=http-404, policy=actionable
 - Channel I — reason=http-404, policy=actionable
-- Gazi TV — reason=http-404, policy=actionable
+- Gazi TV — reason=manifest-ok, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
 - T Sports — reason=http-404, policy=actionable

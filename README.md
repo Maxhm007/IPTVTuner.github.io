@@ -36,6 +36,18 @@ The self-healing system:
 | `gh-pages` | Published `IPTV-V008.m3u` playlist |
 | `iptv-state` | Persistent channel health state and reports |
 
+## Android and Android TV App
+
+The `android-app` module is a native XIPTV client powered by AndroidX Media3 ExoPlayer. It reads the published playlist directly, provides a searchable channel list, and supports both HTTP and HTTPS HLS playback. Cleartext HTTP is enabled intentionally for legacy playlist sources; use only streams you are authorized to access.
+
+Build locally with JDK 17, Android SDK 37, and Gradle 9.6:
+
+```text
+gradle :android-app:testDebugUnitTest :android-app:assembleDebug
+```
+
+Alternatively, run the **Build Android APK** GitHub Actions workflow and download the `xiptv-debug-apk` artifact.
+
 ## Self-Healing Cycle
 
 Every scheduled run performs the following maintenance cycle:

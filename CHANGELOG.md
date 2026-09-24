@@ -6,5 +6,5 @@
 - Added direct HTTP and HTTPS HLS playback with Android cleartext networking enabled.
 - Added playlist parsing, channel filtering, responsive phone/TV layout, playback status, and lifecycle cleanup.
 - Added unit tests and an isolated GitHub Actions APK build workflow.
+- Updated the Android workflow to Node 24-compatible action releases after the initial setup action failed before compilation.
 - Preserved the existing IPTV self-healing workflow and playlist branches.
-

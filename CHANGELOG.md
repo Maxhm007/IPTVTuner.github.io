@@ -7,4 +7,5 @@
 - Added playlist parsing, channel filtering, responsive phone/TV layout, playback status, and lifecycle cleanup.
 - Added unit tests and an isolated GitHub Actions APK build workflow.
 - Updated the Android workflow to Node 24-compatible action releases after the initial setup action failed before compilation.
+- Verified GitHub Actions run `35954204621`: Android SDK setup, unit tests, debug compilation, and APK artifact upload all passed.
 - Preserved the existing IPTV self-healing workflow and playlist branches.

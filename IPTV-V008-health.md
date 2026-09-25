@@ -1,20 +1,19 @@
 # IPTV V008 Health
 
-- Updated: 2026-09-25T18:48:40+00:00
+- Updated: 2026-09-25T19:59:48+00:00
 - Total channels: 133
-- Active: 76
-- Inactive: 57
-- Active but uncertain from GitHub runner: 40
+- Active: 77
+- Inactive: 56
+- Active but uncertain from GitHub runner: 39
 - Checked this run: 133
 - Inactivated: 0
-- Reactivated: 0
+- Reactivated: 1
 - Replaced: 0
 
 ## Inactive channels
 
 - ATN Islamic — reason=http-404, policy=actionable
 - Channel I — reason=http-404, policy=actionable
-- Gazi TV — reason=manifest+segment, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
 - NASA TV — reason=manifest-ok, policy=actionable

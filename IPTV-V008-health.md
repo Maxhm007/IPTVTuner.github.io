@@ -1,28 +1,30 @@
 # IPTV V008 Health
 
-- Updated: 2026-09-26T06:43:39+00:00
+- Updated: 2026-09-26T09:35:55+00:00
 - Total channels: 133
-- Active: 77
-- Inactive: 56
-- Active but uncertain from GitHub runner: 47
+- Active: 75
+- Inactive: 58
+- Active but uncertain from GitHub runner: 40
 - Checked this run: 133
-- Inactivated: 0
+- Inactivated: 2
 - Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
 
 - ATN Islamic — reason=http-404, policy=actionable
-- Channel I — reason=URLError, policy=actionable
-- Jamuna TV — reason=URLError, policy=actionable
-- Mohona TV — reason=URLError, policy=actionable
+- Bangla Vision — reason=http-404, policy=actionable
+- Channel I — reason=http-404, policy=actionable
+- Jamuna TV — reason=http-404, policy=actionable
+- Mohona TV — reason=http-404, policy=actionable
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable
 - Colors Bangla HD — reason=http-404, policy=actionable
-- Colors Bangla Cinema — reason=URLError, policy=actionable
+- Colors Bangla Cinema — reason=http-404, policy=actionable
 - Enter 10 Bangla — reason=http-404, policy=actionable
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable
+- Zee TV HD — reason=http-404, policy=actionable
 - AXN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Cinemax HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Fox Life — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
@@ -41,7 +43,7 @@
 - Discovery SCI — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - National Geographic — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Nat Geo Wild (Hindi) — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
-- Travel XP — reason=URLError, policy=actionable
+- Travel XP — reason=http-404, policy=actionable
 - Cartoon Network — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney Jr — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney XD HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
@@ -50,7 +52,7 @@
 - Cheddar — reason=http-404, policy=actionable
 - India TV — reason=http-404, policy=actionable
 - News 24 — reason=http-404, policy=actionable
-- Times Now — reason=http-404, policy=actionable
+- Times Now — reason=http-403, policy=actionable
 - ESPN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Six — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Ten 1 4K — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

@@ -2,8 +2,8 @@
   "channels": {
     "id:9xjalwa.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://mumt03.tangotv.in/Dsly5z3H9XJALWA/index.m3u8",
       "name": "9X Jalwa",
       "pending_url": "",
@@ -14,8 +14,8 @@
     },
     "id:9xm.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://9xjio.wiseplayout.com/9XM/master.m3u8",
       "name": "9XM",
       "pending_url": "",
@@ -26,8 +26,8 @@
     },
     "id:aajtak.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
       "name": "Aaj Tak HD",
       "pending_url": "",
@@ -38,7 +38,7 @@
     },
     "id:aakashaath.in": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:37+00:00",
+      "last_checked": "2026-09-26T20:02:57+00:00",
       "name": "Akash Aath",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -48,8 +48,8 @@
     },
     "id:aastha.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8",
       "name": "Aastha",
       "pending_url": "",
@@ -60,8 +60,8 @@
     },
     "id:abpnews.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
       "name": "ABP News",
       "pending_url": "",
@@ -72,8 +72,8 @@
     },
     "id:aljazeera.qa": {
       "group": "News",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8",
       "name": "Al Jazeera English",
       "pending_url": "",
@@ -84,10 +84,10 @@
     },
     "id:anandatv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:29+00:00",
+      "last_checked": "2026-09-26T20:02:48+00:00",
       "last_failure": "2026-09-24T10:30:34+00:00",
       "last_reactivated": "2026-09-24T15:30:52+00:00",
-      "last_success": "2026-09-26T19:07:29+00:00",
+      "last_success": "2026-09-26T20:02:48+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
       "name": "Ananda TV",
       "pending_url": "",
@@ -99,7 +99,7 @@
     },
     "id:andtvhd.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "& Xplor 4K",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -109,7 +109,7 @@
     },
     "id:animalplanet.us": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Animal Planet HD",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -119,8 +119,8 @@
     },
     "id:atnbangla.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:29+00:00",
-      "last_success": "2026-09-26T19:07:29+00:00",
+      "last_checked": "2026-09-26T20:02:48+00:00",
+      "last_success": "2026-09-26T20:02:48+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/atnbangla/index.m3u8",
       "name": "ATN Bangla",
       "pending_url": "",
@@ -131,7 +131,7 @@
     },
     "id:b4ukadak(src07).in(m3u4u)": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "B4U Kadak",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -141,10 +141,10 @@
     },
     "id:banglavision.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:31+00:00",
+      "last_checked": "2026-09-26T20:02:49+00:00",
       "last_failure": "2026-09-26T09:35:32+00:00",
       "last_reactivated": "2026-09-26T13:52:43+00:00",
-      "last_success": "2026-09-26T19:07:31+00:00",
+      "last_success": "2026-09-26T20:02:49+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/banglavision/index.m3u8",
       "name": "Bangla Vision",
       "pending_url": "",
@@ -156,7 +156,7 @@
     },
     "id:bloomberg.us(m3u4u)": {
       "group": "News",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Bloomberg Asia",
       "pending_url": "",
       "probe_reason": "manifest-ok",
@@ -166,19 +166,19 @@
     },
     "id:boishakhitv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:31+00:00",
+      "last_checked": "2026-09-26T20:02:49+00:00",
       "last_success": "2026-09-26T19:07:31+00:00",
       "last_working_url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
       "name": "Boishakhi TV",
       "pending_url": "",
-      "probe_reason": "manifest+segment",
-      "probe_status": "healthy",
+      "probe_reason": "manifest-ok",
+      "probe_status": "reachable",
       "recovery_successes": 0,
       "status": "active"
     },
     "id:britasia(src07).in(m3u4u)": {
       "group": "Music",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Brit Asia TV",
       "pending_url": "",
       "probe_reason": "http-301",
@@ -188,7 +188,7 @@
     },
     "id:cartoonnetwork.us": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Cartoon Network",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -198,7 +198,7 @@
     },
     "id:cgtn.uk": {
       "group": "News",
-      "last_checked": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
       "name": "CGTN News",
       "pending_url": "",
       "probe_reason": "manifest-ok",
@@ -208,7 +208,7 @@
     },
     "id:channeli.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:31+00:00",
+      "last_checked": "2026-09-26T20:02:49+00:00",
       "name": "Channel I",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -218,10 +218,10 @@
     },
     "id:channels.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:33+00:00",
+      "last_checked": "2026-09-26T20:02:51+00:00",
       "last_failure": "2026-09-15T12:12:05+00:00",
       "last_reactivated": "2026-09-20T06:47:56+00:00",
-      "last_success": "2026-09-26T19:07:33+00:00",
+      "last_success": "2026-09-26T20:02:51+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
       "name": "Channel S",
       "pending_url": "",
@@ -233,7 +233,7 @@
     },
     "id:cheddarnews.us(m3u4u)": {
       "group": "News",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Cheddar",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -243,7 +243,7 @@
     },
     "id:cinemax.us": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Cinemax HD",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -253,8 +253,8 @@
     },
     "id:cna.sg": {
       "group": "News",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
       "name": "CNA HD",
       "pending_url": "",
@@ -265,7 +265,7 @@
     },
     "id:dbcnews.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:33+00:00",
+      "last_checked": "2026-09-26T20:02:51+00:00",
       "name": "DBC News",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -275,8 +275,8 @@
     },
     "id:deshitv.ca": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:33+00:00",
-      "last_success": "2026-09-26T19:07:33+00:00",
+      "last_checked": "2026-09-26T20:02:51+00:00",
+      "last_success": "2026-09-26T20:02:51+00:00",
       "last_working_url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
       "name": "Deshi TV",
       "pending_url": "",
@@ -287,7 +287,7 @@
     },
     "id:discoveryscience(src07).in(m3u4u)": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Discovery SCI",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -297,7 +297,7 @@
     },
     "id:disneyjunior.us": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Disney Jr",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -307,7 +307,7 @@
     },
     "id:disneyxd.us": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Disney XD HD",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -317,8 +317,8 @@
     },
     "id:durontotv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
       "name": "Duronto TV",
       "pending_url": "",
@@ -329,7 +329,7 @@
     },
     "id:ekhontv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:33+00:00",
+      "last_checked": "2026-09-26T20:02:51+00:00",
       "name": "Ekhon TV",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -339,8 +339,8 @@
     },
     "id:ekusheytv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:33+00:00",
-      "last_success": "2026-09-26T19:07:33+00:00",
+      "last_checked": "2026-09-26T20:02:51+00:00",
+      "last_success": "2026-09-26T20:02:51+00:00",
       "last_working_url": "https://ekusheyserver.com/etvlivesn.m3u8",
       "name": "Ekushey TV",
       "pending_url": "",
@@ -351,7 +351,7 @@
     },
     "id:espn.us": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "ESPN",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -361,10 +361,10 @@
     },
     "id:gazitv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:33+00:00",
+      "last_checked": "2026-09-26T20:02:51+00:00",
       "last_failure": "2026-09-25T15:57:45+00:00",
       "last_reactivated": "2026-09-25T19:59:28+00:00",
-      "last_success": "2026-09-26T19:07:33+00:00",
+      "last_success": "2026-09-26T20:02:51+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
       "name": "Gazi TV",
       "pending_url": "",
@@ -376,10 +376,10 @@
     },
     "id:greentv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:33+00:00",
+      "last_checked": "2026-09-26T20:02:51+00:00",
       "last_failure": "2026-09-16T12:03:35+00:00",
       "last_reactivated": "2026-09-23T11:12:51+00:00",
-      "last_success": "2026-09-26T19:07:33+00:00",
+      "last_success": "2026-09-26T20:02:51+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
       "name": "Green TV",
       "pending_url": "",
@@ -391,8 +391,8 @@
     },
     "id:indiatoday.in": {
       "group": "News",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
       "name": "India Today",
       "pending_url": "",
@@ -403,7 +403,7 @@
     },
     "id:indiatv(src07).in(m3u4u)": {
       "group": "News",
-      "last_checked": "2026-09-26T19:08:05+00:00",
+      "last_checked": "2026-09-26T20:03:14+00:00",
       "name": "India TV",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -413,7 +413,7 @@
     },
     "id:jamunatv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:33+00:00",
+      "last_checked": "2026-09-26T20:02:51+00:00",
       "name": "Jamuna TV",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -423,8 +423,8 @@
     },
     "id:maasrangatv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:34+00:00",
-      "last_success": "2026-09-26T19:07:34+00:00",
+      "last_checked": "2026-09-26T20:02:52+00:00",
+      "last_success": "2026-09-26T20:02:52+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
       "name": "Maasranga TV",
       "pending_url": "",
@@ -435,7 +435,7 @@
     },
     "id:mastiii.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "Mastiii",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -445,7 +445,7 @@
     },
     "id:mohonatv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:34+00:00",
+      "last_checked": "2026-09-26T20:02:52+00:00",
       "name": "Mohona TV",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -455,7 +455,7 @@
     },
     "id:mtvhdplus.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "MTV India",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -465,8 +465,8 @@
     },
     "id:mytv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
       "name": "My TV",
       "pending_url": "",
@@ -477,7 +477,7 @@
     },
     "id:nasa.us": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
       "name": "NASA TV",
       "pending_url": "",
       "probe_reason": "manifest-ok",
@@ -487,7 +487,7 @@
     },
     "id:natgeowild.us": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "National Geographic",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -497,7 +497,7 @@
     },
     "id:natgeowildhd.in": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Nat Geo Wild (Hindi)",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -507,8 +507,8 @@
     },
     "id:ndtv24x7.us(m3u4u)": {
       "group": "News",
-      "last_checked": "2026-09-26T19:08:06+00:00",
-      "last_success": "2026-09-26T19:08:06+00:00",
+      "last_checked": "2026-09-26T20:03:15+00:00",
+      "last_success": "2026-09-26T20:03:15+00:00",
       "last_working_url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
       "name": "NDTV 24x7",
       "pending_url": "",
@@ -519,7 +519,7 @@
     },
     "id:news24(src07).in(m3u4u)": {
       "group": "News",
-      "last_checked": "2026-09-26T19:08:06+00:00",
+      "last_checked": "2026-09-26T20:03:15+00:00",
       "name": "News 24",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -529,10 +529,10 @@
     },
     "id:nexustv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
       "last_failure": "2026-09-22T06:11:55+00:00",
       "last_reactivated": "2026-09-22T15:45:40+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
       "name": "Nexus TV",
       "pending_url": "",
@@ -544,8 +544,8 @@
     },
     "id:nhkworldjapan.jp": {
       "group": "News",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
       "name": "NHK World Japan",
       "pending_url": "",
@@ -556,7 +556,7 @@
     },
     "id:nickelodeon.us": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Nick HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -566,7 +566,7 @@
     },
     "id:nickjr.us": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "NICK Jr",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -576,7 +576,7 @@
     },
     "id:nicktoons.us": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Nicktoons",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -586,8 +586,8 @@
     },
     "id:ntv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
       "name": "NTV",
       "pending_url": "",
@@ -598,8 +598,8 @@
     },
     "id:pbskidsmountain.us": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8",
       "name": "PBS Kids Mountain",
       "pending_url": "",
@@ -610,8 +610,8 @@
     },
     "id:pbskidspacific.us": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8",
       "name": "PBS Kids Pacific",
       "pending_url": "",
@@ -622,10 +622,10 @@
     },
     "id:rajdhanitv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
       "last_failure": "2026-09-25T03:19:10+00:00",
       "last_reactivated": "2026-09-25T14:24:50+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
       "name": "Rajdhani TV",
       "pending_url": "",
@@ -637,8 +637,8 @@
     },
     "id:redbulltv.at": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8",
       "name": "Red Bull TV",
       "pending_url": "",
@@ -649,8 +649,8 @@
     },
     "id:rtv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:36+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
       "name": "RTV",
       "pending_url": "",
@@ -661,19 +661,19 @@
     },
     "id:rupashibanglatv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
       "last_success": "2026-09-24T23:54:27+00:00",
       "last_working_url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
       "name": "Rupashi Bangla TV",
       "pending_url": "",
-      "probe_reason": "URLError",
+      "probe_reason": "manifest-ok",
       "probe_status": "reachable",
       "recovery_successes": 0,
       "status": "active"
     },
     "id:showtime.us": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Showtime HD",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -683,7 +683,7 @@
     },
     "id:sonysix.in": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Sony Six",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -693,7 +693,7 @@
     },
     "id:sonyten1hd.in": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Sony Ten 1 4K",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -703,7 +703,7 @@
     },
     "id:sonyten2hd.in": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Sony Ten 2 4K",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -713,7 +713,7 @@
     },
     "id:stargoldhd.in": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "Star Gold HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -723,7 +723,7 @@
     },
     "id:starsports1.in": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Star Sports 1 4K",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -733,7 +733,7 @@
     },
     "id:starsports2hd.in": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Star Sports 2 4K",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -743,7 +743,7 @@
     },
     "id:starsportsselect1hd.in": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Star Sports Select 1 4K",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -753,7 +753,7 @@
     },
     "id:starsportsselecthd2.in": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Star Sports Select 2 4K",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -763,7 +763,7 @@
     },
     "id:syfy.us": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "SyFy",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -773,7 +773,7 @@
     },
     "id:timesnow.us(m3u4u)": {
       "group": "News",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "last_failure": "2026-09-15T16:21:04+00:00",
       "name": "Times Now",
       "pending_url": "",
@@ -784,7 +784,7 @@
     },
     "id:travelxp(src07).in(m3u4u)": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Travel XP",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -794,10 +794,10 @@
     },
     "id:tsports.bd": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
       "last_failure": "2026-09-25T08:55:31+00:00",
       "last_reactivated": "2026-09-25T14:24:52+00:00",
-      "last_success": "2026-09-26T19:07:36+00:00",
+      "last_success": "2026-09-26T20:02:54+00:00",
       "last_working_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
       "name": "T Sports",
       "pending_url": "",
@@ -809,7 +809,7 @@
     },
     "id:voktatv.bd": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:36+00:00",
+      "last_checked": "2026-09-26T20:02:54+00:00",
       "name": "Vokta TV",
       "pending_url": "",
       "probe_reason": "http-403",
@@ -819,7 +819,7 @@
     },
     "id:wwe.us": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "WWE Network",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -829,7 +829,7 @@
     },
     "name:bangladesh:asian": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:37+00:00",
+      "last_checked": "2026-09-26T20:02:57+00:00",
       "name": "Asian TV",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -839,7 +839,7 @@
     },
     "name:bangladesh:atn islamic": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:29+00:00",
+      "last_checked": "2026-09-26T20:02:48+00:00",
       "name": "ATN Islamic",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -849,7 +849,7 @@
     },
     "name:bangladesh:cnn bangla": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:37+00:00",
+      "last_checked": "2026-09-26T20:02:57+00:00",
       "name": "CNN Bangla",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -859,7 +859,7 @@
     },
     "name:bangladesh:jagonews24": {
       "group": "Bangladesh",
-      "last_checked": "2026-09-26T19:07:37+00:00",
+      "last_checked": "2026-09-26T20:02:57+00:00",
       "name": "JagoNews24 Tv",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -869,7 +869,7 @@
     },
     "name:english:al jazeera": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Al Jazeera HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -879,7 +879,7 @@
     },
     "name:english:axn": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "AXN",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -889,7 +889,7 @@
     },
     "name:english:bbc world news": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "BBC World News",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -899,7 +899,7 @@
     },
     "name:english:cnn": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "CNN HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -909,7 +909,7 @@
     },
     "name:english:fox life": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Fox Life",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -919,7 +919,7 @@
     },
     "name:english:hbo": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "HBO",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -929,7 +929,7 @@
     },
     "name:english:hbo hits": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "last_success": "2026-09-15T12:12:29+00:00",
       "last_working_url": "http://tvsen7.aynascope.net/hbo2/index.m3u8",
       "name": "HBO Hits",
@@ -941,7 +941,7 @@
     },
     "name:english:hbo plus": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "HBO+ Plus",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -951,7 +951,7 @@
     },
     "name:english:hbo signature": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "HBO Signature",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -961,7 +961,7 @@
     },
     "name:english:movies now": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Movies Now",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -971,7 +971,7 @@
     },
     "name:english:mtv english": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "MTV English",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -981,7 +981,7 @@
     },
     "name:english:sony pix": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Sony Pix HD",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -991,7 +991,7 @@
     },
     "name:english:star movies": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Star Movies",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1001,7 +1001,7 @@
     },
     "name:english:star world": {
       "group": "English",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Star World",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1011,7 +1011,7 @@
     },
     "name:hindi:color": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "Color HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1021,7 +1021,7 @@
     },
     "name:hindi:colors cineplex": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "Colors Cineplex HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1031,7 +1031,7 @@
     },
     "name:hindi:sony entertainment": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "Sony Entertainment HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1041,7 +1041,7 @@
     },
     "name:hindi:sony max": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "Sony Max HD",
       "pending_url": "",
       "probe_reason": "manifest-ok",
@@ -1051,10 +1051,10 @@
     },
     "name:hindi:star gold 2": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "last_failure": "2026-09-23T15:29:24+00:00",
       "last_reactivated": "2026-09-23T19:14:37+00:00",
-      "last_success": "2026-09-26T19:07:49+00:00",
+      "last_success": "2026-09-26T20:03:09+00:00",
       "last_working_url": "http://107.167.16.138/stargold2/index.m3u8?token=test",
       "name": "Star Gold 2",
       "pending_url": "",
@@ -1066,7 +1066,7 @@
     },
     "name:hindi:star gold select": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "Star Gold Select HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1076,7 +1076,7 @@
     },
     "name:hindi:star plus": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "Star Plus HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1086,7 +1086,7 @@
     },
     "name:hindi:utv action": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "name": "UTV Action",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1096,23 +1096,23 @@
     },
     "name:hindi:zee": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
       "last_failure": "2026-09-26T09:35:49+00:00",
       "last_reactivated": "2026-09-23T11:13:07+00:00",
       "last_success": "2026-09-26T06:43:21+00:00",
       "last_working_url": "http://41.205.93.154/ZEE-TV/index.m3u8",
       "name": "Zee TV HD",
       "pending_url": "",
-      "probe_reason": "URLError",
-      "probe_status": "uncertain",
+      "probe_reason": "http-404",
+      "probe_status": "dead",
       "recovery_successes": 0,
       "replacement_source": "original-url",
       "status": "inactive"
     },
     "name:hindi:zee action": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
-      "last_success": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
+      "last_success": "2026-09-26T20:03:09+00:00",
       "last_working_url": "http://107.167.16.138/zeeaction/index.m3u8?token=test",
       "name": "Zee Action",
       "pending_url": "",
@@ -1123,8 +1123,8 @@
     },
     "name:hindi:zee cinema": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:07:49+00:00",
-      "last_success": "2026-09-26T19:07:49+00:00",
+      "last_checked": "2026-09-26T20:03:09+00:00",
+      "last_success": "2026-09-26T20:03:09+00:00",
       "last_working_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8",
       "name": "Zee Cinema HD",
       "pending_url": "",
@@ -1135,8 +1135,8 @@
     },
     "name:hindi:zoom": {
       "group": "Hindi",
-      "last_checked": "2026-09-26T19:08:03+00:00",
-      "last_success": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
+      "last_success": "2026-09-26T20:03:12+00:00",
       "last_working_url": "https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8",
       "name": "Zoom",
       "pending_url": "",
@@ -1147,7 +1147,7 @@
     },
     "name:indian bangla:colors bangla": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:38+00:00",
+      "last_checked": "2026-09-26T20:02:58+00:00",
       "name": "Colors Bangla HD",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -1157,7 +1157,7 @@
     },
     "name:indian bangla:colors bangla cinema": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:45+00:00",
+      "last_checked": "2026-09-26T20:03:05+00:00",
       "name": "Colors Bangla Cinema",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -1167,7 +1167,7 @@
     },
     "name:indian bangla:enter 10 bangla": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:46+00:00",
+      "last_checked": "2026-09-26T20:03:06+00:00",
       "name": "Enter 10 Bangla",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -1177,7 +1177,7 @@
     },
     "name:indian bangla:jalsha movies": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:47+00:00",
+      "last_checked": "2026-09-26T20:03:07+00:00",
       "name": "Jalsha Movies",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1187,7 +1187,7 @@
     },
     "name:indian bangla:ruposhi bangla": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:47+00:00",
+      "last_checked": "2026-09-26T20:03:07+00:00",
       "name": "Ruposhi Bangla",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1197,8 +1197,8 @@
     },
     "name:indian bangla:sangeet bangla": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:47+00:00",
-      "last_success": "2026-09-26T19:07:47+00:00",
+      "last_checked": "2026-09-26T20:03:07+00:00",
+      "last_success": "2026-09-26T20:03:07+00:00",
       "last_working_url": "https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8",
       "name": "Sangeet Bangla",
       "pending_url": "",
@@ -1209,8 +1209,8 @@
     },
     "name:indian bangla:star jalsha": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:47+00:00",
-      "last_success": "2026-09-26T19:07:47+00:00",
+      "last_checked": "2026-09-26T20:03:07+00:00",
+      "last_success": "2026-09-26T20:03:07+00:00",
       "last_working_url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8",
       "name": "Star Jalsha HD",
       "pending_url": "",
@@ -1221,7 +1221,7 @@
     },
     "name:indian bangla:sun bangla": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:47+00:00",
+      "last_checked": "2026-09-26T20:03:07+00:00",
       "name": "Sun Bangla",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -1231,8 +1231,8 @@
     },
     "name:indian bangla:zee bangla": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:48+00:00",
-      "last_success": "2026-09-26T19:07:48+00:00",
+      "last_checked": "2026-09-26T20:03:08+00:00",
+      "last_success": "2026-09-26T20:03:08+00:00",
       "last_working_url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8",
       "name": "Zee Bangla HD",
       "pending_url": "",
@@ -1243,7 +1243,7 @@
     },
     "name:indian bangla:zee bangla cinema": {
       "group": "Indian Bangla",
-      "last_checked": "2026-09-26T19:07:48+00:00",
+      "last_checked": "2026-09-26T20:03:08+00:00",
       "name": "Zee Bangla Cinema",
       "pending_url": "",
       "probe_reason": "http-404",
@@ -1253,7 +1253,7 @@
     },
     "name:infotainment:discovery": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Discovery",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1263,7 +1263,7 @@
     },
     "name:infotainment:discovery asia": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "Discovery Asia",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1273,7 +1273,7 @@
     },
     "name:infotainment:history": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "History Tv HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1283,7 +1283,7 @@
     },
     "name:infotainment:my119 food ntwk": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "MY119:FOOD NTWK HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1293,7 +1293,7 @@
     },
     "name:infotainment:natgeo people": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "NatGeo People",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1303,7 +1303,7 @@
     },
     "name:infotainment:rt documentary": {
       "group": "Infotainment",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "RT Documentary",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1313,7 +1313,7 @@
     },
     "name:kids:my128 animax": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "MY128:ANIMAX",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1323,7 +1323,7 @@
     },
     "name:kids:sony yay bangla": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Sony Yay Bangla",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1333,7 +1333,7 @@
     },
     "name:kids:sony yay hindi": {
       "group": "Kids",
-      "last_checked": "2026-09-26T19:08:04+00:00",
+      "last_checked": "2026-09-26T20:03:13+00:00",
       "name": "Sony Yay Hindi",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1343,7 +1343,7 @@
     },
     "name:music:mtv yo": {
       "group": "Music",
-      "last_checked": "2026-09-26T19:08:03+00:00",
+      "last_checked": "2026-09-26T20:03:12+00:00",
       "name": "MTV YO! HD",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1353,7 +1353,7 @@
     },
     "name:sports:ptv sports": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "PTV Sports",
       "pending_url": "",
       "probe_reason": "URLError",
@@ -1363,7 +1363,7 @@
     },
     "name:sports:sony ten 3": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Sony Ten 3 4K",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1373,7 +1373,7 @@
     },
     "name:sports:super sports 1": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Super Sports 1",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1383,7 +1383,7 @@
     },
     "name:sports:super sports 2": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Super Sports 2",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1393,7 +1393,7 @@
     },
     "name:sports:super sports 3": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Super Sports 3",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1403,7 +1403,7 @@
     },
     "name:sports:super sports 4": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Super Sports 4",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1413,7 +1413,7 @@
     },
     "name:sports:super sports 5": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Super Sports 5",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1423,7 +1423,7 @@
     },
     "name:sports:super sports 6": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Super Sports 6",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1433,7 +1433,7 @@
     },
     "name:sports:super sports 7": {
       "group": "Sports",
-      "last_checked": "2026-09-26T19:08:08+00:00",
+      "last_checked": "2026-09-26T20:03:18+00:00",
       "name": "Super Sports 7",
       "pending_url": "",
       "probe_reason": "premium-awaiting-approved-free",
@@ -1442,7 +1442,7 @@
       "status": "inactive"
     }
   },
-  "last_run": "2026-09-26T19:08:08+00:00",
+  "last_run": "2026-09-26T20:03:18+00:00",
   "last_run_checked": 133,
   "total_channels": 133,
   "version": 4

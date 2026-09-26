@@ -1,6 +1,6 @@
 # IPTV V008 Health
 
-- Updated: 2026-09-26T01:43:22+00:00
+- Updated: 2026-09-26T04:53:48+00:00
 - Total channels: 133
 - Active: 77
 - Inactive: 56
@@ -19,7 +19,7 @@
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable
 - Colors Bangla HD — reason=http-404, policy=actionable
-- Colors Bangla Cinema — reason=http-404, policy=actionable
+- Colors Bangla Cinema — reason=URLError, policy=actionable
 - Enter 10 Bangla — reason=http-404, policy=actionable
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable
@@ -41,7 +41,7 @@
 - Discovery SCI — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - National Geographic — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Nat Geo Wild (Hindi) — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
-- Travel XP — reason=http-404, policy=actionable
+- Travel XP — reason=URLError, policy=actionable
 - Cartoon Network — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney Jr — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney XD HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

@@ -14,8 +14,8 @@ https://tvsen5.aynaott.com/atnbangla/index.m3u8
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-name="ATN Islamic" group-title="Bangladesh",ATN Islamic
 #SELFHEAL-URL https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnislamictv.stream/playlist.m3u8
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="BanglaVision.bd@SD" group-title="Bangladesh",Bangla Vision
-#SELFHEAL-URL https://tvsen5.aynaott.com/banglavision/index.m3u8
+#EXTINF:-1 tvg-id="BanglaVision.bd@SD" group-title="Bangladesh",Bangla Vision
+https://tvsen5.aynaott.com/banglavision/index.m3u8
 
 #EXTINF:-1 tvg-id="BoishakhiTV.bd@SD" group-title="Bangladesh",Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8

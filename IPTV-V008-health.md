@@ -1,10 +1,10 @@
 # IPTV V008 Health
 
-- Updated: 2026-09-26T04:53:48+00:00
+- Updated: 2026-09-26T06:43:39+00:00
 - Total channels: 133
 - Active: 77
 - Inactive: 56
-- Active but uncertain from GitHub runner: 39
+- Active but uncertain from GitHub runner: 47
 - Checked this run: 133
 - Inactivated: 0
 - Reactivated: 0
@@ -13,9 +13,9 @@
 ## Inactive channels
 
 - ATN Islamic — reason=http-404, policy=actionable
-- Channel I — reason=http-404, policy=actionable
-- Jamuna TV — reason=http-404, policy=actionable
-- Mohona TV — reason=http-404, policy=actionable
+- Channel I — reason=URLError, policy=actionable
+- Jamuna TV — reason=URLError, policy=actionable
+- Mohona TV — reason=URLError, policy=actionable
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable
 - Colors Bangla HD — reason=http-404, policy=actionable
@@ -50,7 +50,7 @@
 - Cheddar — reason=http-404, policy=actionable
 - India TV — reason=http-404, policy=actionable
 - News 24 — reason=http-404, policy=actionable
-- Times Now — reason=http-403, policy=actionable
+- Times Now — reason=http-404, policy=actionable
 - ESPN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Six — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Ten 1 4K — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

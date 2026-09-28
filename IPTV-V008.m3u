@@ -121,8 +121,8 @@ https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
 
 ########## SPORTS ##########
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="TSports.bd@SD" group-title="Sports",T Sports
-#SELFHEAL-URL https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
+#EXTINF:-1 tvg-id="TSports.bd@SD" group-title="Sports",T Sports
+https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
 
 #EXTINF:-1 tvg-id="RedBullTV.at@EUMENA" group-title="Sports",Red Bull TV
 https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
@@ -221,8 +221,8 @@ http://107.167.16.138/zeeaction/index.m3u8?token=test
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ldXaLJK.png" group-title="Hindi", Zee Cinema HD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi", Zee TV HD
-http://41.205.93.154/ZEE-TV/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/9SYqIRU.png" group-title="Hindi", Zee TV HD
+#SELFHEAL-URL http://41.205.93.154/ZEE-TV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQgPcyhcJebwJC7_8Tqej_kyuLFLdVfHk9X2IFKjg=s88-c-k-c0x00ffffff-no-rj" group-title="Hindi", Zoom
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8

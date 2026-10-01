@@ -1,14 +1,14 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-01T02:13:53+00:00
+- Updated: 2026-10-01T02:30:16+00:00
 - Total channels: 133
-- Active: 74
-- Inactive: 59
-- Active but uncertain from GitHub runner: 39
+- Active: 75
+- Inactive: 58
+- Active but uncertain from GitHub runner: 38
 - Checked this run: 133
 - Inactivated: 0
-- Reactivated: 0
-- Replaced: 0
+- Reactivated: 1
+- Replaced: 1
 
 ## Inactive channels
 
@@ -22,7 +22,6 @@
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable
 - Colors Bangla HD — reason=http-404, policy=actionable
-- Colors Bangla Cinema — reason=http-404, policy=actionable
 - Enter 10 Bangla — reason=http-404, policy=actionable
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable

@@ -47,8 +47,8 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="JamunaTV.bd" group-title="Bangladesh",Jamuna TV
 #SELFHEAL-URL https://tvsen6.aynaott.com/jamunatv/index.m3u8
 
-#EXTINF:-1 tvg-id="MaasrangaTV.bd@SD" group-title="Bangladesh",Maasranga TV
-https://tvsen5.aynaott.com/maasrangatv/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="MaasrangaTV.bd@SD" group-title="Bangladesh",Maasranga TV
+#SELFHEAL-URL https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="MohonaTV.bd" group-title="Bangladesh",Mohona TV
 #SELFHEAL-URL https://tvsen6.aynaott.com/mohonatv/index.m3u8
@@ -68,8 +68,8 @@ https://tvsen5.aynaott.com/RtvHD/index.m3u8
 #EXTINF:-1 tvg-id="RupashiBanglaTV.bd@SD" group-title="Bangladesh",Rupashi Bangla TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NexusTV.bd@SD" group-title="Bangladesh",Nexus TV
-https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="NexusTV.bd@SD" group-title="Bangladesh",Nexus TV
+#SELFHEAL-URL https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
 
 #EXTINF:-1 tvg-id="DurontoTV.bd@SD" group-title="Bangladesh",Duronto TV
 https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
@@ -197,8 +197,8 @@ http://144.217.70.181:9587/hin2/MASTII/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi", Sony Entertainment HD
 http://221.120.204.4/SONY-HD-LOCKLE/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ro7bedn.png" group-title="Hindi", Sony Max HD
-https://cloudplay-sonyliv.pages.dev/max.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/ro7bedn.png" group-title="Hindi", Sony Max HD
+#SELFHEAL-URL https://cloudplay-sonyliv.pages.dev/max.m3u8
 
 #EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://static.epg.best/nl/StarGold.nl.png" group-title="Hindi",Star Gold HD
 http://103.179.246.243:8000/play/a012

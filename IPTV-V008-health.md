@@ -1,10 +1,10 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-04T05:45:10+00:00
+- Updated: 2026-10-04T07:50:30+00:00
 - Total channels: 133
-- Active: 74
-- Inactive: 59
-- Active but uncertain from GitHub runner: 39
+- Active: 75
+- Inactive: 58
+- Active but uncertain from GitHub runner: 38
 - Checked this run: 133
 - Inactivated: 0
 - Reactivated: 1
@@ -22,7 +22,6 @@
 - Akash Aath — reason=http-404, policy=actionable
 - Colors Bangla HD — reason=http-404, policy=actionable
 - Enter 10 Bangla — reason=http-404, policy=actionable
-- Star Jalsha HD — reason=manifest+segment, policy=actionable
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable
 - Sony Max HD — reason=manifest-ok, policy=actionable

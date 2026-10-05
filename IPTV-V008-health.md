@@ -1,13 +1,13 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-05T00:27:47+00:00
+- Updated: 2026-10-05T04:38:18+00:00
 - Total channels: 133
-- Active: 75
-- Inactive: 58
-- Active but uncertain from GitHub runner: 38
+- Active: 74
+- Inactive: 59
+- Active but uncertain from GitHub runner: 37
 - Checked this run: 133
-- Inactivated: 0
-- Reactivated: 1
+- Inactivated: 1
+- Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
@@ -25,6 +25,7 @@
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable
 - Sony Max HD — reason=manifest-ok, policy=actionable
+- Zee TV HD — reason=http-404, policy=actionable
 - AXN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Cinemax HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Fox Life — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

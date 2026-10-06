@@ -146,8 +146,8 @@ http://iptvbd.jagobd.com:1931/live-orgin/jagonews24.stream/chunks.m3u8
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="aakashaath.in" tvg-name="Akash Aath" tvg-logo="https://starhd25.com/wp-content/uploads/2021/04/36_HP_Aakash-Aath-300x169-1.png" group-title="Indian Bangla",Akash Aath
 #SELFHEAL-URL http://208.86.19.13:81/902.stream/index.m3u8
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla HD
-#SELFHEAL-URL http://208.86.19.13:81/904.stream/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla HD
+http://103.151.60.162:2122/play/a02o/index.m3u8?hls
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HVZHZGl.png" group-title="Indian Bangla", Colors Bangla Cinema
 http://51.75.127.199:3141/colorsbanglacinema/index.m3u8
@@ -197,8 +197,8 @@ http://144.217.70.181:9587/hin2/MASTII/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi", Sony Entertainment HD
 http://221.120.204.4/SONY-HD-LOCKLE/tracks-v1a1/mono.m3u8
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/ro7bedn.png" group-title="Hindi", Sony Max HD
-#SELFHEAL-URL https://cloudplay-sonyliv.pages.dev/max.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ro7bedn.png" group-title="Hindi", Sony Max HD
+http://103.185.24.134:3001/SonyMAX/index.m3u8
 
 #EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://static.epg.best/nl/StarGold.nl.png" group-title="Hindi",Star Gold HD
 http://103.179.246.243:8000/play/a012

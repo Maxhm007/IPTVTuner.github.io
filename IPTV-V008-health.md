@@ -1,6 +1,6 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-06T15:07:08+00:00
+- Updated: 2026-10-06T20:00:46+00:00
 - Total channels: 133
 - Active: 75
 - Inactive: 58
@@ -16,7 +16,7 @@
 - Channel I — reason=http-404, policy=actionable
 - Channel S — reason=http-404, policy=actionable
 - DBC News — reason=http-404, policy=actionable
-- Green TV — reason=http-500, policy=actionable
+- Green TV — reason=http-404, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
 - T Sports — reason=http-404, policy=actionable

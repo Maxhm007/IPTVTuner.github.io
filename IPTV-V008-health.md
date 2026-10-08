@@ -1,13 +1,13 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-07T21:33:52+00:00
+- Updated: 2026-10-08T01:15:28+00:00
 - Total channels: 133
 - Active: 75
 - Inactive: 58
-- Active but uncertain from GitHub runner: 38
+- Active but uncertain from GitHub runner: 39
 - Checked this run: 133
-- Inactivated: 2
-- Reactivated: 1
+- Inactivated: 0
+- Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
@@ -15,7 +15,7 @@
 - ATN Islamic — reason=http-404, policy=actionable
 - Channel I — reason=http-404, policy=actionable
 - DBC News — reason=URLError, policy=actionable
-- Gazi TV — reason=http-404, policy=actionable
+- Gazi TV — reason=http-500, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
 - T Sports — reason=http-404, policy=actionable
@@ -24,7 +24,7 @@
 - Enter 10 Bangla — reason=http-404, policy=actionable
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable
-- Zee TV HD — reason=http-404, policy=actionable
+- Zee TV HD — reason=manifest-ok, policy=actionable
 - AXN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Cinemax HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Fox Life — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

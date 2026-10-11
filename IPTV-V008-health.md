@@ -1,13 +1,13 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-11T13:19:56+00:00
+- Updated: 2026-10-11T14:42:50+00:00
 - Total channels: 133
-- Active: 76
-- Inactive: 57
-- Active but uncertain from GitHub runner: 41
+- Active: 77
+- Inactive: 56
+- Active but uncertain from GitHub runner: 42
 - Checked this run: 133
 - Inactivated: 0
-- Reactivated: 0
+- Reactivated: 1
 - Replaced: 0
 
 ## Inactive channels
@@ -15,7 +15,6 @@
 - ATN Islamic — reason=http-404, policy=actionable
 - Channel I — reason=http-404, policy=actionable
 - DBC News — reason=URLError, policy=actionable
-- Green TV — reason=manifest+segment, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
 - T Sports — reason=http-404, policy=actionable

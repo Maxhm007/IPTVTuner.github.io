@@ -1,28 +1,22 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-14T15:23:12+00:00
+- Updated: 2026-10-14T19:30:48+00:00
 - Total channels: 133
-- Active: 71
-- Inactive: 62
-- Active but uncertain from GitHub runner: 41
+- Active: 77
+- Inactive: 56
+- Active but uncertain from GitHub runner: 42
 - Checked this run: 133
 - Inactivated: 0
-- Reactivated: 1
+- Reactivated: 6
 - Replaced: 0
 
 ## Inactive channels
 
 - ATN Islamic — reason=http-404, policy=actionable
-- Bangla Vision — reason=manifest+segment, policy=actionable
 - Channel I — reason=http-404, policy=actionable
 - DBC News — reason=URLError, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
-- Maasranga TV — reason=manifest+segment, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
-- NTV — reason=manifest+segment, policy=actionable
-- Rajdhani TV — reason=manifest+segment, policy=actionable
-- RTV — reason=manifest+segment, policy=actionable
-- Nexus TV — reason=manifest+segment, policy=actionable
 - T Sports — reason=http-404, policy=actionable
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable

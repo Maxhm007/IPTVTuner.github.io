@@ -14,8 +14,8 @@ https://tvsen5.aynaott.com/atnbangla/index.m3u8
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-name="ATN Islamic" group-title="Bangladesh",ATN Islamic
 #SELFHEAL-URL https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnislamictv.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BanglaVision.bd@SD" group-title="Bangladesh",Bangla Vision
-https://tvsen5.aynaott.com/banglavision/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="BanglaVision.bd@SD" group-title="Bangladesh",Bangla Vision
+#SELFHEAL-URL https://tvsen5.aynaott.com/banglavision/index.m3u8
 
 #EXTINF:-1 tvg-id="BoishakhiTV.bd@SD" group-title="Bangladesh",Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
@@ -47,8 +47,8 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="JamunaTV.bd" group-title="Bangladesh",Jamuna TV
 #SELFHEAL-URL https://tvsen6.aynaott.com/jamunatv/index.m3u8
 
-#EXTINF:-1 tvg-id="MaasrangaTV.bd@SD" group-title="Bangladesh",Maasranga TV
-https://tvsen5.aynaott.com/maasrangatv/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="MaasrangaTV.bd@SD" group-title="Bangladesh",Maasranga TV
+#SELFHEAL-URL https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="MohonaTV.bd" group-title="Bangladesh",Mohona TV
 #SELFHEAL-URL https://tvsen6.aynaott.com/mohonatv/index.m3u8
@@ -56,23 +56,23 @@ https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 #EXTINF:-1 tvg-id="MyTV.bd@SD" group-title="Bangladesh",My TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NTV.bd@SD" group-title="Bangladesh",NTV
-https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="NTV.bd@SD" group-title="Bangladesh",NTV
+#SELFHEAL-URL https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="RajdhaniTV.bd@SD" group-title="Bangladesh",Rajdhani TV
 #SELFHEAL-URL https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 
-#EXTINF:-1 tvg-id="RTV.bd@SD" group-title="Bangladesh",RTV
-https://tvsen5.aynaott.com/RtvHD/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="RTV.bd@SD" group-title="Bangladesh",RTV
+#SELFHEAL-URL https://tvsen5.aynaott.com/RtvHD/index.m3u8
 
 #EXTINF:-1 tvg-id="RupashiBanglaTV.bd@SD" group-title="Bangladesh",Rupashi Bangla TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NexusTV.bd@SD" group-title="Bangladesh",Nexus TV
-https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="NexusTV.bd@SD" group-title="Bangladesh",Nexus TV
+#SELFHEAL-URL https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
 
-#EXTINF:-1 tvg-id="DurontoTV.bd@SD" group-title="Bangladesh",Duronto TV
-https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="DurontoTV.bd@SD" group-title="Bangladesh",Duronto TV
+#SELFHEAL-URL https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
 
 #EXTINF:-1 tvg-id="VoktaTV.bd@SD" group-title="Bangladesh",Vokta TV
 https://vokta.raytahost.com/live/voktatv/index.m3u8

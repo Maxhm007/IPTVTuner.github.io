@@ -1,6 +1,6 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-14T22:31:18+00:00
+- Updated: 2026-10-15T00:45:18+00:00
 - Total channels: 133
 - Active: 77
 - Inactive: 56

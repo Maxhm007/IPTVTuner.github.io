@@ -1,6 +1,6 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-16T22:33:46+00:00
+- Updated: 2026-10-16T23:54:03+00:00
 - Total channels: 133
 - Active: 74
 - Inactive: 59
@@ -16,7 +16,7 @@
 - Channel I — reason=http-404, policy=actionable
 - Channel S — reason=http-404, policy=actionable
 - DBC News — reason=URLError, policy=actionable
-- Gazi TV — reason=http-404, policy=actionable
+- Gazi TV — reason=manifest-ok, policy=actionable
 - Green TV — reason=http-404, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable

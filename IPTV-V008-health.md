@@ -1,13 +1,13 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-17T12:03:28+00:00
+- Updated: 2026-10-17T12:57:32+00:00
 - Total channels: 133
 - Active: 74
 - Inactive: 59
-- Active but uncertain from GitHub runner: 43
+- Active but uncertain from GitHub runner: 41
 - Checked this run: 133
 - Inactivated: 0
-- Reactivated: 1
+- Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
@@ -22,7 +22,7 @@
 - T Sports — reason=http-404, policy=actionable
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable
-- Colors Bangla HD — reason=TimeoutError, policy=actionable
+- Colors Bangla HD — reason=URLError, policy=actionable
 - Enter 10 Bangla — reason=http-404, policy=actionable
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable

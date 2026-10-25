@@ -68,8 +68,8 @@ https://tvsen5.aynaott.com/RtvHD/index.m3u8
 #EXTINF:-1 tvg-id="RupashiBanglaTV.bd@SD" group-title="Bangladesh",Rupashi Bangla TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NexusTV.bd@SD" group-title="Bangladesh",Nexus TV
-https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="NexusTV.bd@SD" group-title="Bangladesh",Nexus TV
+#SELFHEAL-URL https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
 
 #EXTINF:-1 tvg-id="DurontoTV.bd@SD" group-title="Bangladesh",Duronto TV
 https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8

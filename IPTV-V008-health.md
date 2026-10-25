@@ -1,9 +1,9 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-25T09:48:21+00:00
+- Updated: 2026-10-25T11:56:48+00:00
 - Total channels: 133
-- Active: 76
-- Inactive: 57
+- Active: 77
+- Inactive: 56
 - Active but uncertain from GitHub runner: 41
 - Checked this run: 133
 - Inactivated: 0
@@ -15,7 +15,6 @@
 - ATN Islamic — reason=http-404, policy=actionable
 - Channel I — reason=http-404, policy=actionable
 - DBC News — reason=URLError, policy=actionable
-- Green TV — reason=manifest+segment, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
 - T Sports — reason=http-404, policy=actionable
@@ -42,7 +41,7 @@
 - Discovery SCI — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - National Geographic — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Nat Geo Wild (Hindi) — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
-- Travel XP — reason=URLError, policy=actionable
+- Travel XP — reason=http-404, policy=actionable
 - Cartoon Network — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney Jr — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney XD HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

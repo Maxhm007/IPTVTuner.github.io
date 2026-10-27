@@ -1,10 +1,10 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-27T12:47:56+00:00
+- Updated: 2026-10-27T18:16:42+00:00
 - Total channels: 133
 - Active: 76
 - Inactive: 57
-- Active but uncertain from GitHub runner: 41
+- Active but uncertain from GitHub runner: 42
 - Checked this run: 133
 - Inactivated: 0
 - Reactivated: 0
@@ -21,7 +21,7 @@
 - T Sports — reason=http-404, policy=actionable
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable
-- Enter 10 Bangla — reason=URLError, policy=actionable
+- Enter 10 Bangla — reason=http-404, policy=actionable
 - Sun Bangla — reason=http-404, policy=actionable
 - Zee Bangla Cinema — reason=http-404, policy=actionable
 - AXN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
@@ -51,7 +51,7 @@
 - Cheddar — reason=http-404, policy=actionable
 - India TV — reason=http-404, policy=actionable
 - News 24 — reason=http-404, policy=actionable
-- Times Now — reason=http-404, policy=actionable
+- Times Now — reason=http-403, policy=actionable
 - ESPN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Six — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Ten 1 4K — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

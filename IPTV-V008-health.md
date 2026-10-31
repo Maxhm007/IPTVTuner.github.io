@@ -1,19 +1,19 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-31T07:19:03+00:00
+- Updated: 2026-10-31T08:52:40+00:00
 - Total channels: 133
 - Active: 75
 - Inactive: 58
-- Active but uncertain from GitHub runner: 42
+- Active but uncertain from GitHub runner: 43
 - Checked this run: 133
-- Inactivated: 1
+- Inactivated: 0
 - Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
 
 - ATN Islamic — reason=http-404, policy=actionable
-- Bangla Vision — reason=http-404, policy=actionable
+- Bangla Vision — reason=manifest+segment, policy=actionable
 - Channel I — reason=http-404, policy=actionable
 - DBC News — reason=URLError, policy=actionable
 - Green TV — reason=http-404, policy=actionable
@@ -52,7 +52,7 @@
 - Cheddar — reason=http-404, policy=actionable
 - India TV — reason=http-404, policy=actionable
 - News 24 — reason=http-404, policy=actionable
-- Times Now — reason=http-403, policy=actionable
+- Times Now — reason=http-404, policy=actionable
 - ESPN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Six — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Ten 1 4K — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

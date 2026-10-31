@@ -1,18 +1,19 @@
 # IPTV V008 Health
 
-- Updated: 2026-10-31T02:31:10+00:00
+- Updated: 2026-10-31T07:19:03+00:00
 - Total channels: 133
-- Active: 76
-- Inactive: 57
-- Active but uncertain from GitHub runner: 43
+- Active: 75
+- Inactive: 58
+- Active but uncertain from GitHub runner: 42
 - Checked this run: 133
-- Inactivated: 0
+- Inactivated: 1
 - Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
 
 - ATN Islamic — reason=http-404, policy=actionable
+- Bangla Vision — reason=http-404, policy=actionable
 - Channel I — reason=http-404, policy=actionable
 - DBC News — reason=URLError, policy=actionable
 - Green TV — reason=http-404, policy=actionable

@@ -1,17 +1,18 @@
 # IPTV V008 Health
 
-- Updated: 2026-11-02T06:47:20+00:00
+- Updated: 2026-11-02T09:54:34+00:00
 - Total channels: 133
-- Active: 76
-- Inactive: 57
-- Active but uncertain from GitHub runner: 42
+- Active: 75
+- Inactive: 58
+- Active but uncertain from GitHub runner: 44
 - Checked this run: 133
-- Inactivated: 0
+- Inactivated: 1
 - Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
 
+- Ananda TV — reason=http-404, policy=actionable
 - ATN Islamic — reason=http-404, policy=actionable
 - Channel I — reason=http-404, policy=actionable
 - DBC News — reason=URLError, policy=actionable

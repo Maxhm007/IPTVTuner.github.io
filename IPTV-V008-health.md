@@ -1,6 +1,6 @@
 # IPTV V008 Health
 
-- Updated: 2026-11-06T12:43:25+00:00
+- Updated: 2026-11-06T14:59:34+00:00
 - Total channels: 133
 - Active: 76
 - Inactive: 57
@@ -17,7 +17,7 @@
 - DBC News — reason=URLError, policy=actionable
 - Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
-- Rupashi Bangla TV — reason=http-404, policy=actionable
+- Rupashi Bangla TV — reason=URLError, policy=actionable
 - T Sports — reason=http-404, policy=actionable
 - NASA TV — reason=manifest-ok, policy=actionable
 - Akash Aath — reason=http-404, policy=actionable

@@ -1,6 +1,6 @@
 # IPTV V008 Health
 
-- Updated: 2026-11-22T10:19:08+00:00
+- Updated: 2026-11-22T17:37:11+00:00
 - Total channels: 133
 - Active: 75
 - Inactive: 58
@@ -52,7 +52,7 @@
 - Cheddar — reason=http-404, policy=actionable
 - India TV — reason=http-404, policy=actionable
 - News 24 — reason=http-404, policy=actionable
-- Times Now — reason=http-404, policy=actionable
+- Times Now — reason=http-403, policy=actionable
 - ESPN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Six — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Sony Ten 1 4K — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

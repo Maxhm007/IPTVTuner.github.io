@@ -1,13 +1,13 @@
 # IPTV V008 Health
 
-- Updated: 2026-11-24T01:49:08+00:00
+- Updated: 2026-11-24T09:48:58+00:00
 - Total channels: 133
 - Active: 75
 - Inactive: 58
 - Active but uncertain from GitHub runner: 44
 - Checked this run: 133
 - Inactivated: 0
-- Reactivated: 1
+- Reactivated: 0
 - Replaced: 0
 
 ## Inactive channels
@@ -43,7 +43,7 @@
 - Discovery SCI — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - National Geographic — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Nat Geo Wild (Hindi) — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
-- Travel XP — reason=http-404, policy=actionable
+- Travel XP — reason=URLError, policy=actionable
 - Cartoon Network — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney Jr — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Disney XD HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

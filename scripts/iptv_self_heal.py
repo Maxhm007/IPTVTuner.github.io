@@ -10,7 +10,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import quote, urljoin, urlsplit, urlunsplit
 
 USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/4.2)"
 TIMEOUT = 7
@@ -334,7 +334,26 @@ def load_candidates():
     return candidates
 
 
-def find_replacement(entry, candidates, used_urls, pending=None):
+def public_url(url):
+    try:
+        parts = urlsplit(url)
+    except ValueError:
+        return None
+    if (parts.scheme not in {"http", "https"} or not parts.hostname
+            or parts.username is not None or credential_style(url)
+            or re.search(r"/(?:token|auth|key|password)/", parts.path, re.I)):
+        return None
+    safe_path = quote(parts.path, safe="/:%@!def create_issue(repo, channel):'*+,;=-._~")
+    return urlunsplit((parts.scheme, parts.netloc, safe_path, "", ""))
+
+
+def recorded_check(url, source, result):
+    safe_url = public_url(url)
+    return {"url": safe_url, "source": source, "result": result,
+            "redacted": safe_url is not None and safe_url != url}
+
+
+def find_replacement(entry, candidates, used_urls, pending=None, checks=None):
     trial = []
     if pending and pending != entry["url"] and not credential_style(pending):
         previous = next((c for c in candidates if c["url"] == pending and same_channel(entry, c)), None)
@@ -349,13 +368,16 @@ def find_replacement(entry, candidates, used_urls, pending=None):
     eligible = [c for c in trial if used_urls.get(c["url"], key) == key]
     for candidate in eligible[:MAX_REPLACEMENT_CANDIDATES]:
         url = candidate["url"]
-        status, _ = probe_stream(url, attempts=1)
-        print(f"  candidate {candidate.get('source', 'source')}: {status}")
+        status, reason = probe_stream(url, attempts=1)
+        verified = False
         if status == "healthy":
             verified, reason = verify_live_replacement(url)
-            print(f"  replacement verification: {reason}")
-            if verified:
-                return url, candidate.get("source", "unknown")
+        source = candidate.get("source", "unknown")
+        if checks is not None:
+            checks.append(recorded_check(url, source, reason))
+        print(f"  candidate {source}: {reason}")
+        if verified:
+            return url, source
     return None, None
 
 
@@ -473,11 +495,13 @@ def heal(playlist, state_dir=None):
             else:
                 original_status, original_reason = probe_stream(entry["url"], attempts=2)
                 rec["probe_status"] = original_status; rec["probe_reason"] = original_reason
+                checks = [recorded_check(entry["url"], "Current playlist", original_reason)]
+                rec["last_repair_checks"] = checks
                 if original_status == "healthy":
                     recovered_url = entry["url"]; recovered_source = "original-url"
                 else:
                     if candidates is None: candidates = load_candidates()
-                    recovered_url, recovered_source = find_replacement(entry, candidates, used_urls, rec.get("pending_url") or None)
+                    recovered_url, recovered_source = find_replacement(entry, candidates, used_urls, rec.get("pending_url") or None, checks)
 
             if recovered_url:
                 if rec.get("pending_url") == recovered_url:

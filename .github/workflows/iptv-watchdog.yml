@@ -32,7 +32,9 @@ jobs:
           python3 - <<'PY'
           import json
           import os
+          import time
           import urllib.request
+          from urllib.error import HTTPError, URLError
           from datetime import datetime, timedelta, timezone
 
           token = os.environ["GH_TOKEN"]
@@ -66,33 +68,50 @@ jobs:
           def timestamp(value):
               return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
-          now = datetime.now(timezone.utc)
-          recent = request("GET", f"{runs_url}?branch=main&per_page=30")["workflow_runs"]
-          active = [run for run in recent if run["status"] != "completed"]
-          if active:
-              overdue = []
-              for run in active:
-                  started = run.get("run_started_at") if run["status"] == "in_progress" else None
-                  age = now - timestamp(started or run["created_at"])
-                  print(f"Self Heal run #{run['run_number']} is {run['status']} ({age.total_seconds() / 60:.1f}m).")
-                  if age > active_run_limit:
-                      overdue.append(str(run["run_number"]))
-              if overdue:
-                  print(f"::error::Self Heal run(s) exceeded 35 minutes: {', '.join(overdue)}.")
-                  raise SystemExit(1)
-              print("Self Heal already has an active run. Skipping recovery dispatch.")
-              raise SystemExit(0)
+          def recovery_needed():
+              now = datetime.now(timezone.utc)
+              recent = request("GET", f"{runs_url}?branch=main&per_page=30")["workflow_runs"]
+              active = [run for run in recent if run["status"] != "completed"]
+              if active:
+                  overdue = []
+                  for run in active:
+                      started = run.get("run_started_at") if run["status"] == "in_progress" else None
+                      age = now - timestamp(started or run["created_at"])
+                      print(f"Self Heal run #{run['run_number']} is {run['status']} ({age.total_seconds() / 60:.1f}m).")
+                      if age > active_run_limit:
+                          overdue.append(str(run["run_number"]))
+                  if overdue:
+                      print(f"::error::Self Heal run(s) exceeded 35 minutes: {', '.join(overdue)}.")
+                      raise SystemExit(1)
+                  print("Self Heal already has an active run. Skipping recovery dispatch.")
+                  return False
 
-          successful = request("GET", f"{runs_url}?branch=main&status=success&per_page=10")["workflow_runs"]
-          if successful:
-              latest_success = max(successful, key=lambda run: timestamp(run["updated_at"]))
-              age = now - timestamp(latest_success["updated_at"])
-              print(f"Latest successful Self Heal run #{latest_success['run_number']} completed {age.total_seconds() / 60:.1f}m ago.")
-              if age <= freshness_limit:
-                  raise SystemExit(0)
+              successful = request("GET", f"{runs_url}?branch=main&status=success&per_page=10")["workflow_runs"]
+              if successful:
+                  latest_success = max(successful, key=lambda run: timestamp(run["updated_at"]))
+                  age = now - timestamp(latest_success["updated_at"])
+                  print(f"Latest successful Self Heal run #{latest_success['run_number']} completed {age.total_seconds() / 60:.1f}m ago.")
+                  if age <= freshness_limit:
+                      return False
+              return True
 
-          print("No fresh successful Self Heal run. Dispatching recovery.")
           dispatch_url = f"{api}/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
-          request("POST", dispatch_url, {"ref": "main"})
-          print("Recovery dispatch accepted.")
+          for attempt in range(1, 4):
+              if not recovery_needed():
+                  break
+              print(f"No fresh successful Self Heal run. Dispatching recovery (attempt {attempt}/3).")
+              try:
+                  request("POST", dispatch_url, {"ref": "main"})
+              except HTTPError as error:
+                  if error.code not in {500, 502, 503, 504} or attempt == 3:
+                      raise
+                  print(f"GitHub returned HTTP {error.code}. Rechecking runs before retrying.")
+              except (URLError, TimeoutError):
+                  if attempt == 3:
+                      raise
+                  print("The dispatch connection failed. Rechecking runs before retrying.")
+              else:
+                  print("Recovery dispatch accepted.")
+                  break
+              time.sleep(10 * attempt)
           PY

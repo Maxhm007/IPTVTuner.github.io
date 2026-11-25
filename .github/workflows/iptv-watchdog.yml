@@ -33,7 +33,7 @@ jobs:
           import json
           import os
           import urllib.request
-          from datetime import datetime, timezone
+          from datetime import datetime, timedelta, timezone
 
           token = os.environ["GH_TOKEN"]
           repo = os.environ["REPO"]
@@ -58,23 +58,41 @@ jobs:
                   raw = r.read()
                   return json.loads(raw.decode("utf-8")) if raw else None
 
-          runs_url = f"{api}/repos/{repo}/actions/workflows/{workflow_file}/runs?per_page=1"
-          data = request("GET", runs_url) or {}
-          runs = data.get("workflow_runs") or []
+          freshness_limit = timedelta(minutes=15)
+          # Allow for the 30-minute Self Heal job timeout and setup overhead.
+          active_run_limit = timedelta(minutes=35)
+          runs_url = f"{api}/repos/{repo}/actions/workflows/{workflow_file}/runs"
 
-          stale = True
-          if runs:
-              latest = runs[0]
-              created = datetime.fromisoformat(latest["created_at"].replace("Z", "+00:00"))
-              age_minutes = (datetime.now(timezone.utc) - created).total_seconds() / 60
-              print(f"Latest self-heal run #{latest['run_number']} event={latest['event']} status={latest['status']} age={age_minutes:.1f}m")
-              stale = age_minutes > 15
+          def timestamp(value):
+              return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
-          if not stale:
-              print("Self-heal is fresh; watchdog will not dispatch another run.")
-          else:
-              print("Self-heal is stale or missing; dispatching a recovery run.")
-              dispatch_url = f"{api}/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
-              request("POST", dispatch_url, {"ref": "main"})
-              print("Recovery dispatch accepted.")
+          now = datetime.now(timezone.utc)
+          recent = request("GET", f"{runs_url}?branch=main&per_page=30")["workflow_runs"]
+          active = [run for run in recent if run["status"] != "completed"]
+          if active:
+              overdue = []
+              for run in active:
+                  started = run.get("run_started_at") if run["status"] == "in_progress" else None
+                  age = now - timestamp(started or run["created_at"])
+                  print(f"Self Heal run #{run['run_number']} is {run['status']} ({age.total_seconds() / 60:.1f}m).")
+                  if age > active_run_limit:
+                      overdue.append(str(run["run_number"]))
+              if overdue:
+                  print(f"::error::Self Heal run(s) exceeded 35 minutes: {', '.join(overdue)}.")
+                  raise SystemExit(1)
+              print("Self Heal already has an active run. Skipping recovery dispatch.")
+              raise SystemExit(0)
+
+          successful = request("GET", f"{runs_url}?branch=main&status=success&per_page=10")["workflow_runs"]
+          if successful:
+              latest_success = max(successful, key=lambda run: timestamp(run["updated_at"]))
+              age = now - timestamp(latest_success["updated_at"])
+              print(f"Latest successful Self Heal run #{latest_success['run_number']} completed {age.total_seconds() / 60:.1f}m ago.")
+              if age <= freshness_limit:
+                  raise SystemExit(0)
+
+          print("No fresh successful Self Heal run. Dispatching recovery.")
+          dispatch_url = f"{api}/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
+          request("POST", dispatch_url, {"ref": "main"})
+          print("Recovery dispatch accepted.")
           PY

@@ -32,14 +32,10 @@ jobs:
         with:
           ref: gh-pages
           path: playlist
-          persist-credentials: false
-      - uses: actions/checkout@v7
-        with:
-          ref: iptv-state
-          path: health
+          fetch-depth: 0
           persist-credentials: false
       - name: Refresh README channel table
-        run: python3 scripts/iptv_channel_status.py README.md playlist/IPTV-V008.m3u health/IPTV-V008-health.json
+        run: python3 scripts/iptv_channel_status.py README.md playlist/IPTV-V008.m3u
       - name: Commit changes
         run: |
           if git diff --quiet -- README.md; then

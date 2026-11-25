@@ -13,7 +13,7 @@ Live playlist:
 <!-- CHANNEL-STATUS:START -->
 ## Channel Status
 
-**Total: 133 | Active: 75 | Inactive: 58**
+**Total: 133 | Active: 76 | Inactive: 57**
 
 Active means enabled in the playlist. Last updated shows when the current stream URL was added or changed in the playlist, in Dhaka time.
 
@@ -129,7 +129,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 108 | BBC World News | English | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 109 | CNN HD | English | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 110 | Cheddar | News | 🟢 Active | 26 Nov 2026, 12:11 AM |
-| 111 | India TV | News | 🔴 Inactive | 15 Sep 2026, 05:40 PM |
+| 111 | India TV | News | 🟢 Active | 26 Nov 2026, 12:30 AM |
 | 112 | NDTV 24x7 | News | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 113 | News 24 | News | 🔴 Inactive | 15 Sep 2026, 05:40 PM |
 | 114 | Times Now | News | 🔴 Inactive | 15 Sep 2026, 05:40 PM |

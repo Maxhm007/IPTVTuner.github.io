@@ -1,9 +1,9 @@
 # IPTV V008 Health
 
-- Updated: 2026-11-25T17:54:16+00:00
+- Updated: 2026-11-25T22:41:05+00:00
 - Total channels: 133
-- Active: 74
-- Inactive: 59
+- Active: 76
+- Inactive: 57
 - Active but uncertain from GitHub runner: 43
 - Checked this run: 133
 - Inactivated: 0
@@ -50,8 +50,6 @@
 - Disney XD HD — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - Nicktoons — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
 - NICK Jr — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free
-- Cheddar — reason=http-404, policy=actionable
-- India TV — reason=http-404, policy=actionable
 - News 24 — reason=http-404, policy=actionable
 - Times Now — reason=http-403, policy=actionable
 - ESPN — reason=premium-awaiting-approved-free, policy=premium-awaiting-approved-free

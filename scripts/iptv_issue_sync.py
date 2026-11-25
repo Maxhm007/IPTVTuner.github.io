@@ -10,6 +10,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from iptv_self_heal import catalog_key, parse_playlist, public_url
+
 API = "https://api.github.com"
 PREFIX = "[IPTV Inactive]"
 MARKER_PREFIX = "<!-- iptv-inactive-key:"
@@ -17,6 +19,7 @@ ATTR_RE = re.compile(r'(tvg-id|tvg-name|group-title)="([^"]*)"')
 INACTIVE_INFO = "#SELFHEAL-INACTIVE "
 INACTIVE_URL = "#SELFHEAL-URL "
 CREATE_DELAY = 0.35
+SEARCH_MARKER = "<!-- iptv-repair-search -->"
 
 RESTRICTED = (
     "hbo", "cinemax", "showtime", "disney channel", "disney jr", "disney xd",
@@ -146,6 +149,39 @@ def list_open_tracking_issues(repo):
     return tracked
 
 
+def update_search_comment(repo, issue, record):
+    checks = record.get("last_repair_checks")
+    if not checks:
+        return
+    lines = [SEARCH_MARKER, "### Latest stream search", ""]
+    for check in checks:
+        url = public_url(check["url"] or "")
+        link = f"<{url}>" if url else "Link withheld"
+        if url and check.get("redacted"):
+            link += " (query or fragment omitted)"
+        lines.append(f"- **{check['source']}** — {link}: `{check['result']}`")
+    if len(checks) == 1 and not record.get("pending_url"):
+        lines.append("- No replacement URL was eligible for testing.")
+    successes = record.get("recovery_successes", 0)
+    if successes:
+        lines.append(f"- Recovery confirmation: {successes}/2 runs passed. The playlist URL is unchanged.")
+    body = "\n".join(lines)
+    path = f"/repos/{repo}/issues/{issue['number']}/comments"
+    page = 1
+    while True:
+        comments = request("GET", f"{path}?per_page=100&page={page}") or []
+        for comment in comments:
+            if comment.get("user", {}).get("login") == "github-actions[bot]" and (comment.get("body") or "").startswith(SEARCH_MARKER):
+                if comment["body"] != body:
+                    request("PATCH", f"/repos/{repo}/issues/comments/{comment['id']}", {"body": body})
+                return
+        if len(comments) < 100:
+            break
+        page += 1
+    request("POST", path, {"body": body})
+    time.sleep(CREATE_DELAY)
+
+
 def create_issue(repo, channel):
     title = f"{PREFIX} {channel['name']}"
     body = (
@@ -154,7 +190,7 @@ def create_issue(repo, channel):
         f"- **Channel:** {channel['name']}\n"
         f"- **Group:** {channel['group'] or 'Unknown'}\n"
         f"- **TVG ID:** {channel['tvg_id'] or 'None'}\n"
-        f"- **Last failed URL:** `{channel['url'] or 'Unknown'}`\n\n"
+        f"- **Last failed URL:** `{public_url(channel['url']) or 'Withheld or unknown'}`\n\n"
         "The healer checks the original stream and exact verified replacement sources every run. "
         "This issue will close automatically when a verified working stream makes the channel active again."
     )
@@ -190,6 +226,12 @@ def main():
 
     inactive = parse_inactive(playlist)
     existing = list_open_tracking_issues(repo)
+    records = {}
+    if len(sys.argv) > 2:
+        state = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))["channels"]
+        for entry in parse_playlist(Path(playlist).read_text(encoding="utf-8")):
+            key = inactive_key(entry.get("name") or entry["display"], entry.get("group"), entry.get("tvg_id"))
+            records.setdefault(key, state.get(catalog_key(entry), {}))
     opened = 0
     closed = 0
     active_tracking_keys = set(inactive.keys())
@@ -225,6 +267,17 @@ def main():
                 print(f"warning: GitHub issue rate limit reached after opening {opened}; remaining channels will continue next run")
                 break
             print(f"warning: could not open issue for {channel['name']}: {e}")
+
+    for key, channel in inactive.items():
+        tracked = open_logical.get(channel["logical_key"])
+        issue = existing.get(key) or (tracked[1] if tracked else None)
+        if issue:
+            try:
+                update_search_comment(repo, issue, records.get(key, {}))
+            except Exception as exc:
+                print(f"warning: could not post search results to issue #{issue['number']}: {exc}")
+                if is_rate_limit_error(exc):
+                    break
 
     for key, issue in list(existing.items()):
         if key in active_tracking_keys:

@@ -347,8 +347,8 @@ https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist_1280x720_30
 #EXTINF:-1 tvg-id="CheddarNews.us(m3u4u)" tvg-name="Cheddar" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Cheddar_2019.png/220px-Cheddar_2019.png" group-title="News",Cheddar
 https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="IndiaTV(src07).in(m3u4u)" tvg-name="India TV" tvg-logo="https://yt3.ggpht.com/a/AATXAJz0yqo9CQPGbJLD1IpyBCowrDV9ZtWS408jnyEzzw=s900-c-k-c0xffffffff-no-rj-mo" group-title="News",India TV
-#SELFHEAL-URL https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="IndiaTV(src07).in(m3u4u)" tvg-name="India TV" tvg-logo="https://yt3.ggpht.com/a/AATXAJz0yqo9CQPGbJLD1IpyBCowrDV9ZtWS408jnyEzzw=s900-c-k-c0xffffffff-no-rj-mo" group-title="News",India TV
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
 
 #EXTINF:-1 tvg-id="NDTV24x7.us(m3u4u)" tvg-name="NDTV 24x7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/NDTV_247.svg/250px-NDTV_247.svg.png" group-title="News",NDTV 24x7
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8

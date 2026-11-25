@@ -344,8 +344,8 @@ http://wanicelife.com:8880/SFL143456/73U700Y1/71062
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Jy3Vr9F.png" group-title="English",CNN HD
 https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist_1280x720_3000k.m3u8
 
-#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="CheddarNews.us(m3u4u)" tvg-name="Cheddar" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Cheddar_2019.png/220px-Cheddar_2019.png" group-title="News",Cheddar
-#SELFHEAL-URL https://live.chdrstatic.com/cheddar/index.m3u8
+#EXTINF:-1 tvg-id="CheddarNews.us(m3u4u)" tvg-name="Cheddar" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Cheddar_2019.png/220px-Cheddar_2019.png" group-title="News",Cheddar
+https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="IndiaTV(src07).in(m3u4u)" tvg-name="India TV" tvg-logo="https://yt3.ggpht.com/a/AATXAJz0yqo9CQPGbJLD1IpyBCowrDV9ZtWS408jnyEzzw=s900-c-k-c0xffffffff-no-rj-mo" group-title="News",India TV
 #SELFHEAL-URL https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/playlist.m3u8

@@ -3,7 +3,8 @@ name: Publish IPTV to GitHub Pages
 on:
   workflow_dispatch:
   push:
-    branches: [gh-pages]
+    branches: [main]
+    paths: [.github/workflows/iptv-pages.yml]
   workflow_run:
     workflows: ["IPTV Self Heal"]
     branches: [main]
@@ -28,7 +29,7 @@ jobs:
         with:
           ref: gh-pages
           persist-credentials: false
-      - name: Compare playlist with the live site
+      - name: Compare site revision and playlist with the live site
         id: playlist
         env:
           EVENT_NAME: ${{ github.event_name }}
@@ -37,12 +38,17 @@ jobs:
           playlist=IPTV-V008.m3u
           grep -q '^#EXTM3U' "$playlist"
           live_url=https://maxhm007.github.io/IPTVTuner.github.io/IPTV-V008.m3u
+          site_revision=$(git rev-parse HEAD)
+          revision_url=https://maxhm007.github.io/IPTVTuner.github.io/site-revision.txt
           if [[ "$EVENT_NAME" == workflow_run ]] &&
+            live_revision=$(curl -fsSL --max-time 20 "$revision_url?check=$GITHUB_RUN_ID") &&
+            [[ "$live_revision" == "$site_revision" ]] &&
             curl -fsSL --max-time 20 "$live_url?check=$GITHUB_RUN_ID" -o "$RUNNER_TEMP/live-playlist.m3u" &&
             cmp -s "$playlist" "$RUNNER_TEMP/live-playlist.m3u"; then
-            echo "The live playlist already matches gh-pages."
+            echo "The live site revision and playlist already match gh-pages."
             exit 0
           fi
+          echo "$site_revision" > site-revision.txt
           echo "sha=$(sha256sum "$playlist" | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
       - uses: actions/jekyll-build-pages@v1
         if: steps.playlist.outputs.sha != ''

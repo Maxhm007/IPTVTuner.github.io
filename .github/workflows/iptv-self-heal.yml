@@ -22,7 +22,7 @@ permissions:
 
 concurrency:
   group: iptv-self-heal
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   heal:
@@ -30,20 +30,20 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout automation code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: main
           path: toolrepo
 
       - name: Checkout gh-pages playlist
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: gh-pages
           path: site
           fetch-depth: 0
 
       - name: Checkout persistent healer state
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: iptv-state
           path: state

@@ -1,0 +1,52 @@
+name: Refresh IPTV channel list
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/iptv-channel-status.yml
+      - scripts/iptv_channel_status.py
+  workflow_run:
+    workflows: ["IPTV Self Heal"]
+    branches: [main]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-channel-status
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_repository.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/checkout@v7
+        with:
+          ref: gh-pages
+          path: playlist
+          persist-credentials: false
+      - uses: actions/checkout@v7
+        with:
+          ref: iptv-state
+          path: health
+          persist-credentials: false
+      - name: Refresh README channel table
+        run: python3 scripts/iptv_channel_status.py README.md playlist/IPTV-V008.m3u health/IPTV-V008-health.json
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- README.md; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Refresh IPTV channel status"
+          git push origin HEAD:main

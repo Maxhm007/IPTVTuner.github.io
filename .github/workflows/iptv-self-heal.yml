@@ -52,6 +52,14 @@ jobs:
       - name: Remove duplicate channels
         run: python3 toolrepo/scripts/iptv_dedupe.py site/IPTV-V008.m3u
 
+      - name: Ensure FFmpeg is available for replacement verification
+        run: |
+          if ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          ffmpeg -version
+
       - name: Check streams and update health state
         run: python3 toolrepo/scripts/iptv_self_heal_runner.py site/IPTV-V008.m3u state
 

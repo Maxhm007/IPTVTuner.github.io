@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import re
+import socket
 import sys
 import time
 import urllib.error
@@ -16,6 +17,8 @@ SOURCE_TIMEOUT = 12
 CHECK_WORKERS = 8
 RECOVERY_SUCCESSES_REQUIRED = 2
 MAX_REPLACEMENT_CANDIDATES = 3
+UNCERTAIN_CHECKS_BEFORE_SEARCH = 3
+MAX_BACKGROUND_SEARCHES = 6
 
 SOURCES = [
     ("iptv-org/bd", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/bd.m3u", 10),
@@ -142,6 +145,17 @@ def first_uri_after(text, tag):
     return None
 
 
+def network_failure_reason(error):
+    if isinstance(error, urllib.error.HTTPError):
+        return f"http-{error.code}"
+    cause = error.reason if isinstance(error, urllib.error.URLError) else error
+    if isinstance(cause, socket.gaierror):
+        return "dns-failure"
+    if isinstance(cause, TimeoutError):
+        return "timeout"
+    return type(cause).__name__
+
+
 def probe_manifest_once(url):
     try:
         text, final_url = fetch_text(url)
@@ -153,7 +167,7 @@ def probe_manifest_once(url):
             return "dead", f"http-{exc.code}", None, None
         return "uncertain", f"http-{exc.code}", None, None
     except (urllib.error.URLError, TimeoutError, OSError) as exc:
-        return "uncertain", type(exc).__name__, None, None
+        return "uncertain", network_failure_reason(exc), None, None
     except Exception as exc:
         return "uncertain", type(exc).__name__, None, None
 
@@ -164,22 +178,23 @@ def validate_segment(text, base_url):
         if variant:
             text, base_url = fetch_text(urljoin(base_url, variant))
             if "#EXTM3U" not in text.lstrip()[:2048]:
-                return False
+                return False, "variant-not-hls"
         segment = first_uri_after(text, "#EXTINF")
         if not segment and "#EXT-X-TARGETDURATION" in text:
             segment = next((x.strip() for x in text.splitlines() if x.strip() and not x.strip().startswith("#")), None)
         if not segment:
-            return False
+            return False, "segment-missing"
         raw, _ = request_bytes(urljoin(base_url, segment), max_bytes=2048, range_request=True)
-        return bool(raw)
-    except Exception:
-        return False
+        return bool(raw), "manifest+segment" if raw else "segment-empty"
+    except Exception as exc:
+        return False, f"segment-{network_failure_reason(exc)}"
 
 
 def probe_stream(url, attempts=2):
     dead_votes = 0
     last_reason = "unknown"
     best = "uncertain"
+    segment_reason = None
     for attempt in range(attempts):
         status, reason, text, base = probe_manifest_once(url)
         last_reason = reason
@@ -187,13 +202,14 @@ def probe_stream(url, attempts=2):
             dead_votes += 1
         elif status == "reachable":
             best = "reachable"
-            if validate_segment(text, base):
-                return "healthy", "manifest+segment"
+            valid, segment_reason = validate_segment(text, base)
+            if valid:
+                return "healthy", segment_reason
         if attempt + 1 < attempts:
             time.sleep(0.3)
     if dead_votes == attempts:
         return "dead", last_reason
-    return best, last_reason
+    return best, segment_reason or last_reason
 
 
 def parse_playlist(text):
@@ -271,21 +287,21 @@ def load_candidates():
 
 def find_replacement(entry, candidates, used_urls, pending=None):
     trial = []
-    if pending and pending != entry["url"]:
-        trial.append({"url": pending, "source": "pending-recovery", "source_rank": 0})
+    if pending and pending != entry["url"] and not credential_style(pending):
+        previous = next((c for c in candidates if c["url"] == pending and same_channel(entry, c)), None)
+        trial.append(previous or {"url": pending, "source": "pending-recovery"})
     matches = [c for c in candidates if c["url"] != entry["url"] and same_channel(entry, c) and not credential_style(c["url"])]
     matches.sort(key=lambda c: (c.get("source_rank", 99), not c["url"].startswith("https://")))
     seen = {x["url"] for x in trial}
     for candidate in matches:
         if candidate["url"] not in seen:
             trial.append(candidate); seen.add(candidate["url"])
-    for candidate in trial[:MAX_REPLACEMENT_CANDIDATES]:
+    key = catalog_key(entry)
+    eligible = [c for c in trial if used_urls.get(c["url"], key) == key]
+    for candidate in eligible[:MAX_REPLACEMENT_CANDIDATES]:
         url = candidate["url"]
-        owner = used_urls.get(url)
-        if owner and owner != catalog_key(entry):
-            continue
         status, _ = probe_stream(url, attempts=1)
-        print(f"  candidate {candidate.get('source', 'source')}: {status} {url}")
+        print(f"  candidate {candidate.get('source', 'source')}: {status}")
         if status == "healthy":
             return url, candidate.get("source", "unknown")
     return None, None
@@ -356,6 +372,18 @@ def heal(playlist, state_dir=None):
             try: health[i] = future.result()
             except Exception as exc: health[i] = ("uncertain", type(exc).__name__)
 
+    # Rotate the background budget so a large outage cannot monopolize a run.
+    background = []
+    for idx, (status, _) in health.items():
+        entry = entries[idx]
+        _, rec = state_for(state, entry)
+        streak = rec.get("uncertain_checks", 0) if rec.get("checked_url") == entry["url"] else 0
+        if (status in {"uncertain", "reachable"}
+                and streak + 1 >= UNCERTAIN_CHECKS_BEFORE_SEARCH
+                and approved_free_url(entry, approved) != entry["url"]):
+            background.append((rec.get("last_background_search", ""), idx))
+    background_indexes = {idx for _, idx in sorted(background)[:MAX_BACKGROUND_SEARCHES]}
+
     candidates = None
     stats = {"checked": len(entries), "inactivated": 0, "reactivated": 0, "replaced": 0}
 
@@ -414,11 +442,38 @@ def heal(playlist, state_dir=None):
 
         status, reason = health.get(idx, ("uncertain", "missing-result"))
         rec["probe_status"] = status; rec["probe_reason"] = reason
+        if rec.get("checked_url") != entry["url"]:
+            rec.update({"checked_url": entry["url"], "uncertain_checks": 0,
+                        "pending_url": "", "recovery_successes": 0})
         if status == "healthy":
             rec.update({"status":"active", "last_working_url":entry["url"], "last_success":now_iso()})
+            rec.update({"uncertain_checks": 0, "pending_url": "", "recovery_successes": 0})
             print(f"[{idx+1}/{len(entries)}] OK {entry['display']}")
         elif status in {"uncertain", "reachable"}:
             rec["status"] = "active"
+            rec["uncertain_checks"] = rec.get("uncertain_checks", 0) + 1
+            if idx in background_indexes:
+                rec["last_background_search"] = now_iso()
+                if candidates is None:
+                    candidates = load_candidates()
+                url, source = find_replacement(entry, candidates, used_urls, rec.get("pending_url"))
+                if url:
+                    streak = rec["recovery_successes"] + 1 if rec["pending_url"] == url else 1
+                    rec.update({"pending_url": url, "recovery_successes": streak,
+                                "replacement_source": source})
+                    if streak >= RECOVERY_SUCCESSES_REQUIRED:
+                        original = replace_block(original, entry, entry["info"], url)
+                        rec.update({"checked_url": url, "uncertain_checks": 0,
+                                    "pending_url": "", "recovery_successes": 0,
+                                    "probe_status": "healthy", "probe_reason": "verified-replacement",
+                                    "previous_url": entry["url"], "last_working_url": url,
+                                    "last_success": now_iso()})
+                        used_urls[url] = key
+                        stats["replaced"] += 1
+                        print(f"[{idx+1}/{len(entries)}] REPLACED {entry['display']} via {source}")
+                        continue
+                else:
+                    rec.update({"pending_url": "", "recovery_successes": 0})
             print(f"[{idx+1}/{len(entries)}] UNCERTAIN {entry['display']}: {reason}; kept active")
         else:
             original = replace_block(original, entry, INACTIVE_INFO + entry["info"], INACTIVE_URL + entry["url"])

@@ -17,8 +17,8 @@ https://tvsen5.aynaott.com/atnbangla/index.m3u8
 #EXTINF:-1 tvg-id="BanglaVision.bd@SD" group-title="Bangladesh",Bangla Vision
 https://tvsen5.aynaott.com/banglavision/index.m3u8
 
-#EXTINF:-1 tvg-id="BoishakhiTV.bd@SD" group-title="Bangladesh",Boishakhi TV
-https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="BoishakhiTV.bd@SD" group-title="Bangladesh",Boishakhi TV
+#SELFHEAL-URL https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="ChannelI.bd" tvg-logo="https://i.imgur.com/X0JJlOX.png" group-title="Bangladesh",Channel I
 #SELFHEAL-URL https://tvsen6.aynaott.com/channeli/index.m3u8

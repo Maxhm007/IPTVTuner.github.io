@@ -241,7 +241,8 @@ def verify_live_replacement(url):
         result = subprocess.run(
             ["ffmpeg", "-nostdin", "-v", "error", "-xerror",
              "-protocol_whitelist", "http,https,tcp,tls,crypto",
-             "-rw_timeout", "7000000", "-i", media_url,
+             "-rw_timeout", "7000000", "-analyzeduration", "1000000",
+             "-probesize", "262144", "-live_start_index", "-5", "-i", media_url,
              "-map", "0:v:0", "-t", "2", "-progress", "pipe:1", "-f", "null", "-"],
             capture_output=True, text=True, timeout=25, check=False,
         )

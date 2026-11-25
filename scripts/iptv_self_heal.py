@@ -2,6 +2,7 @@
 import json
 import re
 import socket
+import subprocess
 import sys
 import time
 import urllib.error
@@ -9,7 +10,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 USER_AGENT = "Mozilla/5.0 (IPTVTuner-SelfHeal/4.2)"
 TIMEOUT = 7
@@ -19,6 +20,7 @@ RECOVERY_SUCCESSES_REQUIRED = 2
 MAX_REPLACEMENT_CANDIDATES = 3
 UNCERTAIN_CHECKS_BEFORE_SEARCH = 3
 MAX_BACKGROUND_SEARCHES = 6
+REPLACEMENT_VERIFICATION_VERSION = 1
 
 SOURCES = [
     ("iptv-org/bd", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/bd.m3u", 10),
@@ -212,6 +214,52 @@ def probe_stream(url, attempts=2):
     return best, segment_reason or last_reason
 
 
+def media_snapshot(text):
+    if not text.lstrip().startswith("#EXTM3U") or "#EXT-X-ENDLIST" in text:
+        return None
+    target = re.search(r"^#EXT-X-TARGETDURATION:(\d+)\s*$", text, re.MULTILINE)
+    sequence = re.search(r"^#EXT-X-MEDIA-SEQUENCE:(\d+)\s*$", text, re.MULTILINE)
+    segments = [line.strip() for line in text.splitlines()
+                if line.strip() and not line.lstrip().startswith("#")]
+    if not target or not segments or not 1 <= int(target[1]) <= 20:
+        return None
+    return int(target[1]), int(sequence[1]) if sequence else 0, urlsplit(segments[-1]).path
+
+
+def verify_live_replacement(url):
+    """Require decodable video and a media playlist that advances."""
+    try:
+        text, media_url = fetch_text(url)
+        variant = first_uri_after(text, "#EXT-X-STREAM-INF")
+        if variant:
+            text, media_url = fetch_text(urljoin(media_url, variant))
+        before = media_snapshot(text)
+        if before is None:
+            return False, "invalid-or-ended-media-playlist"
+
+        started = time.monotonic()
+        result = subprocess.run(
+            ["ffmpeg", "-nostdin", "-v", "error", "-xerror",
+             "-protocol_whitelist", "http,https,tcp,tls,crypto",
+             "-rw_timeout", "7000000", "-i", media_url,
+             "-map", "0:v:0", "-t", "2", "-progress", "pipe:1", "-f", "null", "-"],
+            capture_output=True, text=True, timeout=25, check=False,
+        )
+        frames = re.findall(r"^frame=\s*(\d+)\s*$", result.stdout, re.MULTILINE)
+        if result.returncode != 0 or not frames or int(frames[-1]) == 0:
+            return False, "video-decode-failed"
+        time.sleep(max(0, before[0] - (time.monotonic() - started)))
+        refreshed, _ = fetch_text(media_url)
+        after = media_snapshot(refreshed)
+        if after and (after[1] > before[1] or after[2] != before[2]):
+            return True, "decoded-video-and-advancing-playlist"
+        return False, "media-playlist-did-not-advance"
+    except subprocess.TimeoutExpired:
+        return False, "video-decode-timeout"
+    except (urllib.error.URLError, OSError, ValueError) as exc:
+        return False, network_failure_reason(exc)
+
+
 def parse_playlist(text):
     lines = text.splitlines()
     out = []
@@ -303,7 +351,10 @@ def find_replacement(entry, candidates, used_urls, pending=None):
         status, _ = probe_stream(url, attempts=1)
         print(f"  candidate {candidate.get('source', 'source')}: {status}")
         if status == "healthy":
-            return url, candidate.get("source", "unknown")
+            verified, reason = verify_live_replacement(url)
+            print(f"  replacement verification: {reason}")
+            if verified:
+                return url, candidate.get("source", "unknown")
     return None, None
 
 
@@ -327,6 +378,9 @@ def state_for(state, entry):
     rec.setdefault("name", entry["display"]); rec.setdefault("group", entry.get("group", ""))
     rec.setdefault("status", "inactive" if entry["inactive"] else "active")
     rec.setdefault("recovery_successes", 0); rec.setdefault("pending_url", "")
+    if rec.get("replacement_verification_version") != REPLACEMENT_VERIFICATION_VERSION:
+        rec.update({"pending_url": "", "recovery_successes": 0,
+                    "replacement_verification_version": REPLACEMENT_VERIFICATION_VERSION})
     return key, rec
 
 
@@ -411,7 +465,10 @@ def heal(playlist, state_dir=None):
                     status, reason = probe_stream(candidate, attempts=2)
                     rec["probe_status"] = status; rec["probe_reason"] = reason
                     if status == "healthy":
-                        recovered_url = candidate; recovered_source = "approved-free"
+                        verified, reason = verify_live_replacement(candidate)
+                        rec["probe_reason"] = reason
+                        if verified:
+                            recovered_url = candidate; recovered_source = "approved-free"
             else:
                 original_status, original_reason = probe_stream(entry["url"], attempts=2)
                 rec["probe_status"] = original_status; rec["probe_reason"] = original_reason

@@ -1,0 +1,86 @@
+name: Publish IPTV to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [gh-pages]
+  workflow_run:
+    workflows: ["IPTV Self Heal"]
+    branches: [main]
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: iptv-pages-publish
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      playlist_sha: ${{ steps.playlist.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: gh-pages
+          persist-credentials: false
+      - name: Compare playlist with the live site
+        id: playlist
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          playlist=IPTV-V008.m3u
+          grep -q '^#EXTM3U' "$playlist"
+          live_url=https://maxhm007.github.io/IPTVTuner.github.io/IPTV-V008.m3u
+          if [[ "$EVENT_NAME" == workflow_run ]] &&
+            curl -fsSL --max-time 20 "$live_url?check=$GITHUB_RUN_ID" -o "$RUNNER_TEMP/live-playlist.m3u" &&
+            cmp -s "$playlist" "$RUNNER_TEMP/live-playlist.m3u"; then
+            echo "The live playlist already matches gh-pages."
+            exit 0
+          fi
+          echo "sha=$(sha256sum "$playlist" | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+      - uses: actions/jekyll-build-pages@v1
+        if: steps.playlist.outputs.sha != ''
+        with:
+          source: ./
+          destination: ./_site
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.playlist.outputs.sha != ''
+        with:
+          path: ./_site
+  deploy:
+    if: needs.build.outputs.playlist_sha != ''
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify the published playlist
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_SHA: ${{ needs.build.outputs.playlist_sha }}
+        run: |
+          set -euo pipefail
+          for attempt in {1..12}; do
+            if curl -fsSL --max-time 15 "${PAGE_URL%/}/IPTV-V008.m3u?verify=$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT-$attempt" -o "$RUNNER_TEMP/live-playlist.m3u" &&
+              echo "$EXPECTED_SHA  $RUNNER_TEMP/live-playlist.m3u" | sha256sum --check --status; then
+              echo "The live playlist matches the deployed playlist."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::The live playlist did not match the deployed playlist."
+          exit 1

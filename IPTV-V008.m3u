@@ -198,7 +198,7 @@ http://144.217.70.181:9587/hin2/MASTII/tracks-v1a1/mono.m3u8
 http://221.120.204.4/SONY-HD-LOCKLE/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ro7bedn.png" group-title="Hindi", Sony Max HD
-http://103.185.24.134:3001/SonyMAX/index.m3u8
+https://drk6xq0vhn.gpcdn.net/hls/set_max_m4fb8dz2wp6kr9s_720/index.m3u8
 
 #EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://static.epg.best/nl/StarGold.nl.png" group-title="Hindi",Star Gold HD
 http://103.179.246.243:8000/play/a012

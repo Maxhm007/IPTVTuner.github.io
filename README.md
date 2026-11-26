@@ -65,7 +65,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 44 | Colors Bangla HD | Indian Bangla | 🟢 Active | 06 Oct 2026, 07:51 AM |
 | 45 | Colors Bangla Cinema | Indian Bangla | 🟢 Active | 01 Oct 2026, 08:30 AM |
 | 46 | Enter 10 Bangla | Indian Bangla | 🔴 Inactive | 15 Sep 2026, 05:40 PM |
-| 47 | Jalsha Movies | Indian Bangla | 🟢 Active | 15 Sep 2026, 05:40 PM |
+| 47 | Jalsha Movies | Indian Bangla | 🟢 Active | 26 Nov 2026, 08:03 PM |
 | 48 | Ruposhi Bangla | Indian Bangla | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 49 | Star Jalsha HD | Indian Bangla | 🟢 Active | 15 Sep 2026, 05:49 PM |
 | 50 | Sangeet Bangla | Indian Bangla | 🟢 Active | 15 Sep 2026, 05:49 PM |

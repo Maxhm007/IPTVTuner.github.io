@@ -183,7 +183,7 @@ http://tv.alphamediazone.com:8089/thunderbd/74/index.m3u8
 http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4BBrXbC.png" group-title="Hindi", Colors Cineplex HD
-http://103.179.246.243:8000/play/a04h
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4BBrXbC.png" group-title="Hindi", Color HD
 http://221.120.204.4:8080/colours-hd-LOCKLE/index.m3u8

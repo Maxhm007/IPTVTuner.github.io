@@ -156,7 +156,7 @@ http://51.75.127.199:3141/colorsbanglacinema/index.m3u8
 #SELFHEAL-URL https://236s.short.gy/DreamTV/Enter10.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2PQfcOh.png" group-title="Indian Bangla", Jalsha Movies
-http://103.55.144.46/hls/jalshamovies.m3u8
+https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg" group-title="Indian Bangla",Ruposhi Bangla
 http://tv.univisionlive.net:25461/live/rifat89/22216989/567.m3u8

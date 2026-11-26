@@ -74,7 +74,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 53 | Zee Bangla Cinema | Indian Bangla | 🔴 Inactive | 15 Sep 2026, 05:40 PM |
 | 54 | & Xplor 4K | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 55 | B4U Kadak | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
-| 56 | Colors Cineplex HD | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
+| 56 | Colors Cineplex HD | Hindi | 🟢 Active | 26 Nov 2026, 09:48 PM |
 | 57 | Color HD | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 58 | MTV India | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 59 | Mastiii | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |

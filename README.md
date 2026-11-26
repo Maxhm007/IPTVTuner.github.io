@@ -13,7 +13,7 @@ Live playlist:
 <!-- CHANNEL-STATUS:START -->
 ## Channel Status
 
-**Total: 133 | Active: 76 | Inactive: 57**
+**Total: 133 | Active: 77 | Inactive: 56**
 
 Active means enabled in the playlist. Last updated shows when the current stream URL was added or changed in the playlist, in Dhaka time.
 
@@ -26,7 +26,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 5 | Boishakhi TV | Bangladesh | 🔴 Inactive | 15 Sep 2026, 05:06 PM |
 | 6 | Channel I | Bangladesh | 🔴 Inactive | 15 Sep 2026, 05:25 PM |
 | 7 | Channel S | Bangladesh | 🟢 Active | 15 Sep 2026, 05:25 PM |
-| 8 | DBC News | Bangladesh | 🔴 Inactive | 15 Sep 2026, 05:25 PM |
+| 8 | DBC News | Bangladesh | 🟢 Active | 26 Nov 2026, 09:41 PM |
 | 9 | Deshi TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
 | 10 | Ekhon TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:25 PM |
 | 11 | Ekushey TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |

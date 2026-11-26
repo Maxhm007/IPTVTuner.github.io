@@ -79,7 +79,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 58 | MTV India | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 59 | Mastiii | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 60 | Sony Entertainment HD | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
-| 61 | Sony Max HD | Hindi | 🟢 Active | 06 Oct 2026, 07:51 AM |
+| 61 | Sony Max HD | Hindi | 🟢 Active | 26 Nov 2026, 09:50 PM |
 | 62 | Star Gold HD | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 63 | Star Gold 2 | Hindi | 🟢 Active | 15 Sep 2026, 05:49 PM |
 | 64 | Star Gold Select HD | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |

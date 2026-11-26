@@ -57,6 +57,7 @@ RESTRICTED = (
     "fox life", "syfy",
 )
 
+CHANNEL_FALLBACKS_PATH = Path(__file__).resolve().parent.parent / "config" / "iptv-channel-fallbacks.json"
 APPROVED_FREE_PATH = Path(__file__).resolve().parent.parent / "config" / "iptv-approved-free.json"
 
 
@@ -353,12 +354,28 @@ def recorded_check(url, source, result):
             "redacted": safe_url is not None and safe_url != url}
 
 
-def find_replacement(entry, candidates, used_urls, pending=None, checks=None):
+def load_channel_fallbacks():
+    if not CHANNEL_FALLBACKS_PATH.exists():
+        return {}
+    data = json.loads(CHANNEL_FALLBACKS_PATH.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError("Channel fallbacks must be an object keyed by channel ID.")
+    for key, urls in data.items():
+        if (not isinstance(urls, list)
+                or any(not isinstance(url, str) or public_url(url) != url for url in urls)):
+            raise ValueError(f"Channel fallback {key} must list public stream URLs.")
+    return data
+
+
+def find_replacement(entry, candidates, used_urls, pending=None, checks=None, *, fallback_urls=()):
     trial = []
     if pending and pending != entry["url"] and not credential_style(pending):
         previous = next((c for c in candidates if c["url"] == pending and same_channel(entry, c)), None)
-        trial.append(previous or {"url": pending, "source": "pending-recovery"})
+        source = "channel-fallback" if pending in fallback_urls else "pending-recovery"
+        trial.append(previous or {"url": pending, "source": source})
     matches = [c for c in candidates if c["url"] != entry["url"] and same_channel(entry, c) and not credential_style(c["url"])]
+    matches.extend({"url": url, "source": "channel-fallback", "source_rank": 0}
+                   for url in fallback_urls if url != entry["url"])
     matches.sort(key=lambda c: (c.get("source_rank", 99), not c["url"].startswith("https://")))
     seen = {x["url"] for x in trial}
     for candidate in matches:
@@ -435,6 +452,7 @@ def heal(playlist, state_dir=None):
     entries = parse_playlist(original)
     state = load_state(state_path)
     approved = load_approved_free()
+    fallbacks = load_channel_fallbacks()
     valid_keys = {catalog_key(e) for e in entries}
     state["channels"] = {k:v for k,v in state["channels"].items() if k in valid_keys}
     used_urls = {}
@@ -501,7 +519,10 @@ def heal(playlist, state_dir=None):
                     recovered_url = entry["url"]; recovered_source = "original-url"
                 else:
                     if candidates is None: candidates = load_candidates()
-                    recovered_url, recovered_source = find_replacement(entry, candidates, used_urls, rec.get("pending_url") or None, checks)
+                    recovered_url, recovered_source = find_replacement(
+                        entry, candidates, used_urls, rec.get("pending_url") or None, checks,
+                        fallback_urls=fallbacks.get(key, ()),
+                    )
 
             if recovered_url:
                 if rec.get("pending_url") == recovered_url:
@@ -538,7 +559,10 @@ def heal(playlist, state_dir=None):
                 rec["last_background_search"] = now_iso()
                 if candidates is None:
                     candidates = load_candidates()
-                url, source = find_replacement(entry, candidates, used_urls, rec.get("pending_url"))
+                url, source = find_replacement(
+                    entry, candidates, used_urls, rec.get("pending_url"),
+                    fallback_urls=fallbacks.get(key, ()),
+                )
                 if url:
                     streak = rec["recovery_successes"] + 1 if rec["pending_url"] == url else 1
                     rec.update({"pending_url": url, "recovery_successes": streak,

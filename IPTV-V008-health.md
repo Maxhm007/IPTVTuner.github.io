@@ -1,14 +1,14 @@
 # IPTV V008 Health
 
-- Updated: 2026-11-26T15:50:28+00:00
+- Updated: 2026-11-26T22:54:44+00:00
 - Total channels: 133
-- Active: 77
-- Inactive: 56
+- Active: 78
+- Inactive: 55
 - Active but uncertain from GitHub runner: 40
 - Checked this run: 133
 - Inactivated: 0
 - Reactivated: 0
-- Replaced: 1
+- Replaced: 0
 
 ## Inactive channels
 
@@ -16,7 +16,6 @@
 - Boishakhi TV — reason=http-404, policy=actionable
 - Channel I — reason=http-404, policy=actionable
 - Green TV — reason=http-404, policy=actionable
-- Jamuna TV — reason=http-404, policy=actionable
 - Mohona TV — reason=http-404, policy=actionable
 - Rupashi Bangla TV — reason=timeout, policy=actionable
 - T Sports — reason=http-404, policy=actionable

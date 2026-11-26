@@ -15,6 +15,7 @@ on:
       - "scripts/iptv_issue_sync.py"
       - "scripts/iptv_dedupe.py"
       - "config/iptv-approved-free.json"
+      - "config/iptv-channel-fallbacks.json"
 
 permissions:
   contents: write

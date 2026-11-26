@@ -13,7 +13,7 @@ Live playlist:
 <!-- CHANNEL-STATUS:START -->
 ## Channel Status
 
-**Total: 133 | Active: 77 | Inactive: 56**
+**Total: 133 | Active: 78 | Inactive: 55**
 
 Active means enabled in the playlist. Last updated shows when the current stream URL was added or changed in the playlist, in Dhaka time.
 
@@ -32,7 +32,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 11 | Ekushey TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
 | 12 | Gazi TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
 | 13 | Green TV | Bangladesh | 🔴 Inactive | 15 Sep 2026, 05:06 PM |
-| 14 | Jamuna TV | Bangladesh | 🔴 Inactive | 15 Sep 2026, 05:25 PM |
+| 14 | Jamuna TV | Bangladesh | 🟢 Active | 27 Nov 2026, 12:40 AM |
 | 15 | Maasranga TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
 | 16 | Mohona TV | Bangladesh | 🔴 Inactive | 15 Sep 2026, 05:04 PM |
 | 17 | My TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |

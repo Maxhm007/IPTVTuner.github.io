@@ -77,7 +77,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 56 | Colors Cineplex HD | Hindi | 🟢 Active | 26 Nov 2026, 09:48 PM |
 | 57 | Color HD | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 58 | MTV India | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
-| 59 | Mastiii | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
+| 59 | Mastiii | Hindi | 🟢 Active | 28 Nov 2026, 12:18 AM |
 | 60 | Sony Entertainment HD | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 61 | Sony Max HD | Hindi | 🟢 Active | 26 Nov 2026, 09:50 PM |
 | 62 | Star Gold HD | Hindi | 🟢 Active | 15 Sep 2026, 05:40 PM |

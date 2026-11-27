@@ -45,8 +45,8 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 24 | Vokta TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:25 PM |
 | 25 | Aaj Tak HD | Hindi | 🟢 Active | 15 Sep 2026, 05:04 PM |
 | 26 | ABP News | Hindi | 🟢 Active | 15 Sep 2026, 05:06 PM |
-| 27 | 9XM | Hindi | 🟢 Active | 15 Sep 2026, 05:06 PM |
-| 28 | 9X Jalwa | Hindi | 🟢 Active | 15 Sep 2026, 05:06 PM |
+| 27 | 9XM | Hindi | 🟢 Active | 27 Nov 2026, 02:19 PM |
+| 28 | 9X Jalwa | Hindi | 🟢 Active | 27 Nov 2026, 02:19 PM |
 | 29 | Aastha | Hindi | 🟢 Active | 15 Sep 2026, 05:06 PM |
 | 30 | Al Jazeera English | News | 🟢 Active | 15 Sep 2026, 05:06 PM |
 | 31 | India Today | News | 🟢 Active | 15 Sep 2026, 05:04 PM |

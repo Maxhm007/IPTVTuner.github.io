@@ -192,7 +192,7 @@ http://221.120.204.4:8080/colours-hd-LOCKLE/index.m3u8
 http://103.179.246.243:8000/play/a05q
 
 #EXTINF:-1 tvg-id="mastiii.in" tvg-name="Mastiii" tvg-logo="https://dl.dropbox.com/s/84fvyl636nv9o20/mastiii.jpg" group-title="Hindi",Mastiii
-http://144.217.70.181:9587/hin2/MASTII/tracks-v1a1/mono.m3u8
+https://mumbai-edge.smartplaytv.in/MastiMusic/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oTt7D3K.png" group-title="Hindi", Sony Entertainment HD
 http://221.120.204.4/SONY-HD-LOCKLE/tracks-v1a1/mono.m3u8

@@ -124,10 +124,10 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 103 | NICK Jr | Kids | 🔴 Inactive | 15 Sep 2026, 05:40 PM |
 | 104 | Sony Yay Bangla | Kids | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 105 | Sony Yay Hindi | Kids | 🟢 Active | 15 Sep 2026, 05:40 PM |
-| 106 | Al Jazeera HD | English | 🟢 Active | 15 Sep 2026, 05:40 PM |
+| 106 | Al Jazeera HD | English | 🟢 Active | 27 Nov 2026, 10:47 AM |
 | 107 | Bloomberg Asia | News | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 108 | BBC World News | English | 🟢 Active | 15 Sep 2026, 05:40 PM |
-| 109 | CNN HD | English | 🟢 Active | 15 Sep 2026, 05:40 PM |
+| 109 | CNN HD | English | 🟢 Active | 27 Nov 2026, 10:47 AM |
 | 110 | Cheddar | News | 🟢 Active | 26 Nov 2026, 12:11 AM |
 | 111 | India TV | News | 🟢 Active | 26 Nov 2026, 12:30 AM |
 | 112 | NDTV 24x7 | News | 🟢 Active | 15 Sep 2026, 05:40 PM |

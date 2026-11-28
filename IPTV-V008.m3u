@@ -62,8 +62,8 @@ https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 tvg-id="RajdhaniTV.bd@SD" group-title="Bangladesh",Rajdhani TV
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 
-#EXTINF:-1 tvg-id="RTV.bd@SD" group-title="Bangladesh",RTV
-https://tvsen5.aynaott.com/RtvHD/index.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="RTV.bd@SD" group-title="Bangladesh",RTV
+#SELFHEAL-URL https://tvsen5.aynaott.com/RtvHD/index.m3u8
 
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-id="RupashiBanglaTV.bd@SD" group-title="Bangladesh",Rupashi Bangla TV
 #SELFHEAL-URL https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
@@ -155,8 +155,8 @@ http://51.75.127.199:3141/colorsbanglacinema/index.m3u8
 #SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/Tp3Kead.png" group-title="Indian Bangla", Enter 10 Bangla
 #SELFHEAL-URL https://236s.short.gy/DreamTV/Enter10.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/2PQfcOh.png" group-title="Indian Bangla", Jalsha Movies
-https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8
+#SELFHEAL-INACTIVE #EXTINF:-1 tvg-logo="https://i.imgur.com/2PQfcOh.png" group-title="Indian Bangla", Jalsha Movies
+#SELFHEAL-URL https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg" group-title="Indian Bangla",Ruposhi Bangla
 http://tv.univisionlive.net:25461/live/rifat89/22216989/567.m3u8

@@ -13,7 +13,7 @@ Live playlist:
 <!-- CHANNEL-STATUS:START -->
 ## Channel Status
 
-**Total: 133 | Active: 78 | Inactive: 55**
+**Total: 133 | Active: 76 | Inactive: 57**
 
 Active means enabled in the playlist. Last updated shows when the current stream URL was added or changed in the playlist, in Dhaka time.
 
@@ -38,7 +38,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 17 | My TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
 | 18 | NTV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:04 PM |
 | 19 | Rajdhani TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
-| 20 | RTV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
+| 20 | RTV | Bangladesh | 🔴 Inactive | 15 Sep 2026, 05:06 PM |
 | 21 | Rupashi Bangla TV | Bangladesh | 🔴 Inactive | 15 Sep 2026, 05:25 PM |
 | 22 | Nexus TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
 | 23 | Duronto TV | Bangladesh | 🟢 Active | 15 Sep 2026, 05:06 PM |
@@ -65,7 +65,7 @@ Active means enabled in the playlist. Last updated shows when the current stream
 | 44 | Colors Bangla HD | Indian Bangla | 🟢 Active | 06 Oct 2026, 07:51 AM |
 | 45 | Colors Bangla Cinema | Indian Bangla | 🟢 Active | 01 Oct 2026, 08:30 AM |
 | 46 | Enter 10 Bangla | Indian Bangla | 🔴 Inactive | 15 Sep 2026, 05:40 PM |
-| 47 | Jalsha Movies | Indian Bangla | 🟢 Active | 26 Nov 2026, 08:03 PM |
+| 47 | Jalsha Movies | Indian Bangla | 🔴 Inactive | 26 Nov 2026, 08:03 PM |
 | 48 | Ruposhi Bangla | Indian Bangla | 🟢 Active | 15 Sep 2026, 05:40 PM |
 | 49 | Star Jalsha HD | Indian Bangla | 🟢 Active | 15 Sep 2026, 05:49 PM |
 | 50 | Sangeet Bangla | Indian Bangla | 🟢 Active | 15 Sep 2026, 05:49 PM |
